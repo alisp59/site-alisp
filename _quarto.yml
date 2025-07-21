@@ -1,0 +1,97 @@
+project:
+  type: website
+  output-dir: _site
+  resources: "_config/**"
+
+execute:
+  freeze: auto
+
+lang: fr
+
+filters: 
+  - fontawesome
+
+website:
+  title: "{{< var alisp >}}"
+  description: "Site officiel de l'ALISP"
+  favicon: _config/img/sym.png
+  navbar:
+    background: primary
+    foreground: light
+    logo: _config/img/sym.png
+    title: false
+    left:
+      - text: "ALISP"
+        href: index.qmd
+      - text: "Internat"
+        menu:
+          - text: "Santé Publique"
+            href: internat/santepub.qmd
+          - text: "Maquette DES / Portfolio"
+            href: internat/maquette.qmd
+          - text: "Trombinoscope"
+            href: internat/trombi.qmd
+          - text: "L'internat à Lille"
+            href: internat/lille.qmd
+      - text: "Événements"
+        menu:
+          - text: "Apéros-infos"
+            href: evenements/apero.qmd
+          - text: "Événements CLISP"
+            href: evenements/clisp.qmd
+          - text: "Newsletter"
+            href: https://clisp.fr/newsletters/
+      - text: "Ressources"
+        href: ressources/ressources.qmd
+      - text: "Aide méthodologique"
+        href: aide/aide.qmd
+      - text: "Qui sommes-nous ?"
+        menu:
+          - text: "Bureau"
+            href: bureau/bureau.qmd
+          - text: "Statuts"
+            href: bureau/statuts.qmd
+          - text: "Nous contacter"
+            href: bureau/contact.qmd
+    right:
+      - text: "{{< iconify bi envelope size=1.1em title='mail' >}}"
+        href: mailto:contact@alisp.fr
+      - text: "{{< iconify fa6-brands instagram size=1.1em title='Instagram' >}}"
+        href: https://www.instagram.com/alisp_59/?hl=en
+      - text: "{{< iconify fa6-brands x-twitter size=1.1em title='X' >}}"
+        href: https://x.com/alisp59000?lang=fr
+      - text: "{{< iconify fa6-brands facebook-f size=1.1em title='Facebook' >}}"
+        href: https://www.facebook.com/SPubLille
+      - text: "{{< iconify fa6-brands linkedin-in size=1.1em title='LinkedIn' >}}"
+        href: https://www.linkedin.com/company/107447153/
+  page-footer:
+    left: |
+      <span>{{< fa brands creative-commons >}} {{< var year >}} ALISP</span><br>
+      <span>[{{< fa brands creative-commons >}} {{< fa brands creative-commons-by >}} CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)</span> 
+    center: |
+      {{< var alisp >}} <br>
+      [{{< iconify bi envelope size=1.1em title='mail' >}} contact@alisp.fr](mailto:contact@alisp.fr)<br>
+    right: |
+      <span>Made with {{< iconify fa6-brands r-project >}} and [{{< iconify simple-icons quarto >}}](https://quarto.org/)</span><br>
+      <span>Source : [{{< iconify fa6-brands github >}} GitHub](https://github.com)</span>
+
+format:
+  html:
+    toc: true
+    toc-depth: 1
+    smooth-scroll: true
+    title-block-banner: true
+    colorlinks: true
+    code-link: true
+    code-fold: true
+    callout-appearance: simple
+    html-table-processing: none
+    default-image_extension: svg
+    footnotes-hover: true
+    theme: _config/style.scss
+    grid:
+      sidebar-width: 0px
+      body-width: 900px
+      margin-width: 400px
+    
+lightbox: true

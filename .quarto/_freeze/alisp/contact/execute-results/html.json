@@ -1,0 +1,17 @@
+{
+  "hash": "794e59d9a4004e0566775f859db2ad4d",
+  "result": {
+    "engine": "knitr",
+    "markdown": "---\ntitle: \"Informations de contact de l'ALISP\"\n---\n\n# Contact général\n\nPour toute information générale, suggestion ou question :\n\n\n::: {.cell}\n\n:::\n\n\n::: {.callout-tip}\n# Email principal\n**contact@alisp.fr**\n\nN'hésitez pas à nous écrire pour :\n- Informations sur l'association\n- Suggestions d'amélioration du site\n- Propositions d'événements\n- Questions diverses\n:::\n\n# Contacts spécialisés\n\n## Offres d'emploi\nVous souhaitez diffuser une offre d'emploi auprès de nos membres ?\n- **Email** : emploi@alisp.fr\n- Les offres sont relayées via notre newsletter et nos réseaux\n\n## Aide méthodologique\nPour toute demande d'aide sur vos projets de recherche :\n- **Formulaire dédié** : [Déposer une demande](../aide-methodologique.qmd)\n- **Email direct** : aide.methodologique@alisp.fr\n\n## Partenariats\nPour proposer un partenariat ou une collaboration :\n- **Email** : partenariats@alisp.fr\n\n# Bureau de l'association\n\n- **Président** : president@alisp.fr\n- **Secrétaire** : secretaire@alisp.fr  \n- **Trésorier** : tresorier@alisp.fr\n- **Webmaster** : webmaster@alisp.fr\n\n# Rappel important\n\n::: {.callout-warning}\n## Demandes d'aide statistique\nSi vous souhaitez une aide méthodologique ou statistique, merci de remplir notre [formulaire de demande](../aide-methodologique.qmd) pour nous permettre de mieux comprendre vos besoins et vous accompagner efficacement.\n:::\n\n# Réseaux sociaux\n\nSuivez-nous sur :\n- **LinkedIn** : [Page ALISP](lien-linkedin)\n- **Twitter** : [@ALISP_Lille](lien-twitter)\n\n# Adresse postale\n\n```r\nALISP\n[Adresse à compléter]\n59000 Lille\nFrance\n```\n",
+    "supporting": [
+      "contact_files"
+    ],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}

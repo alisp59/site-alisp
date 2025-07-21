@@ -1,0 +1,14 @@
+---
+title: "Ressources en ligne"
+description: "Livres, sites, vidéos et bases de données pour la santé publique"
+editor_options: 
+  chunk_output_type: console
+---
+
+{{< include ../_config/setup.qmd >}}
+
+```{r}
+str <- text |> filter(rowname == 1)
+```
+
+`r knit(text = paste0(str$value))`

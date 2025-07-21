@@ -1,0 +1,13 @@
+---
+title: "Informations de contact de l'ALISP"
+editor_options: 
+  chunk_output_type: console
+---
+
+{{< include ../_config/setup.qmd >}}
+
+```{r}
+str <- text |> filter(rowname == 9)
+```
+
+`r knit(text = paste0(str$value))`

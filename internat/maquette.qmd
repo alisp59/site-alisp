@@ -1,0 +1,14 @@
+---
+title: "Maquette DES et Portfolio"
+description: "Informations sur la maquette du DES de santé publique et le portfolio"
+editor_options: 
+  chunk_output_type: console
+---
+
+{{< include ../_config/setup.qmd >}}
+
+```{r}
+str <- text |> filter(rowname == 3)
+```
+
+`r knit(text = paste0(str$value))`

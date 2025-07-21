@@ -1,0 +1,15 @@
+{
+  "hash": "bf9dd6249f999ab39dd9f7a9d0335213",
+  "result": {
+    "engine": "knitr",
+    "markdown": "---\ntitle: Trombinoscope\ndescription: Promotion 2023-2024\ndate: 2023-12-11\npublished-title: \"dernière mise à jour\"\nengine: knitr\nfreeze: false\nfile: \"trombinoscope_2023-2024_v2023-12-11.pdf\"\ngrid:\n  sidebar-width: 0px\n  body-width: 1000px\n  margin-width: 0px\n---\n\n\n::: {.cell}\n<style type=\"text/css\">\n\n.embed-container {\n\n    position: relative;\n    padding-bottom: 136%;\n    max-width: 100%;\n    \n    iframe, object, embed {\n    \n        position: absolute;\n        width: 100%;\n        height: 100%;\n    \n    }\n    \n}\n</style>\n:::\n\n\n```{=html}\n<p class=\"text-center\">\n  <a class=\"btn btn-primary btn-lg\" href=\"trombinoscope_2023-2024_v2023-12-11.pdf\" target=\"_blank\">\n    <i class=\"fa-solid fa-download\"></i>&ensp;PDF\n  </a>\n</p>\n\n<div class=\"embed-container\">\n  <iframe src=\"trombinoscope_2023-2024_v2023-12-11.pdf\" style=\"border: 0.5px\"></iframe>\n</div>\n```\n",
+    "supporting": [],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}

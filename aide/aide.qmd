@@ -1,0 +1,14 @@
+---
+title: "Déposez votre demande d'aide pour vos projets de recherche"
+editor_options: 
+  chunk_output_type: console
+---
+
+{{< include ../_config/setup.qmd >}}
+
+```{r}
+str <- text |> filter(rowname == 7)
+```
+
+`r knit(text = paste0(str$value))`
+

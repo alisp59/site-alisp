@@ -1,0 +1,14 @@
+---
+title: "Apéros-infos"
+description: "Rencontres conviviales entre internes et futurs internes"
+editor_options: 
+  chunk_output_type: console
+---
+
+{{< include ../_config/setup.qmd >}}
+
+```{r}
+str <- text |> filter(rowname == 5)
+```
+
+`r knit(text = paste0(str$value))`

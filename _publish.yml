@@ -1,0 +1,4 @@
+- source: project
+  quarto-pub:
+    - id: b1292385-6611-40e7-a760-62a119158736
+      url: https://hebstr.quarto.pub/alisp
