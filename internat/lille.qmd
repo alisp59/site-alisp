@@ -1,14 +1,9 @@
 ---
+sec: internat-lille
 title: "L'Internat à Lille"
 description: "Informations pratiques sur l'internat de santé publique à Lille"
-editor_options: 
-  chunk_output_type: console
 ---
 
-{{< include ../_config/setup.qmd >}}
+{{< include ../_setup.qmd >}}
 
-```{r}
-str <- text |> filter(rowname == 4)
-```
-
-`r knit(text = paste0(str$value))`
+`r knit_section()`

@@ -1,14 +1,19 @@
 ---
+sec: internat-maquette
 title: "Maquette DES et Portfolio"
 description: "Informations sur la maquette du DES de santé publique et le portfolio"
-editor_options: 
-  chunk_output_type: console
+file: https://clisp.fr/wp-content/uploads/2019/12/Maquette-oficielle-du-DES-publi%C3%A9e-au-JO.pdf
+freeze: false
 ---
 
-{{< include ../_config/setup.qmd >}}
+{{< include ../_setup.qmd >}}
 
-```{r}
-str <- text |> filter(rowname == 3)
+`r auto_callout(str = "test pour voir")`
+
+`r knit_section()`
+
+```{=html}
+<div class="embed-container">
+  <iframe src="`r rmarkdown::metadata$file`"></iframe>
+</div>
 ```
-
-`r knit(text = paste0(str$value))`

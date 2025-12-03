@@ -1,68 +1,44 @@
 {
-  "alisp/bureau.qmd": {
-    "bureau.html": "e8701b96"
-  },
-  "alisp/statuts.qmd": {
-    "statuts.html": "862e0a6a"
-  },
-  "alisp/contact.qmd": {
-    "contact.html": "21f2e993"
-  },
-  "internat/maquette-des.qmd": {
-    "maquette-des.html": "06ae2e05"
-  },
-  "internat/lille.qmd": {
-    "lille.html": "2d4ee2d9"
-  },
-  "internat/sante-publique.qmd": {
-    "sante-publique.html": "43138618"
-  },
-  "evenements/aperos-infos.qmd": {
-    "aperos-infos.html": "3b7f8e2b"
-  },
-  "evenements/clisp.qmd": {
-    "clisp.html": "d4797e9e"
-  },
-  "ressources/index.qmd": {
-    "index.html": "e72890f6"
-  },
-  "aide-methodologique.qmd": {
-    "aide-methodologique.html": "75275f22"
-  },
-  "index.qmd": {
-    "index.html": "a2074833"
-  },
-  "trombino/index.qmd": {
-    "index.html": "96b277cf"
-  },
-  "ressources.qmd": {
-    "ressources.html": "36f11977"
-  },
-  "aide/aide.qmd": {
-    "aide.html": "882ce4b1"
-  },
   "bureau/bureau.qmd": {
-    "bureau.html": "8547f2c1"
-  },
-  "bureau/statuts.qmd": {
-    "statuts.html": "40cc45a6"
+    "bureau.html": "21359fb8"
   },
   "bureau/contact.qmd": {
-    "contact.html": "6c464e3a"
+    "contact.html": "ca1d0615"
   },
   "internat/maquette.qmd": {
-    "maquette.html": "d8a88e31"
+    "maquette.html": "337bf0e1"
+  },
+  "internat/lille.qmd": {
+    "lille.html": "49e69076"
   },
   "internat/trombi.qmd": {
-    "trombi.html": "fbb22d34"
+    "trombi.html": "74f493b4"
   },
   "internat/santepub.qmd": {
-    "santepub.html": "ccbc3a36"
+    "santepub.html": "bc0e9123"
   },
   "evenements/apero.qmd": {
-    "apero.html": "312e5a7a"
+    "apero.html": "336b70f6"
+  },
+  "evenements/clisp.qmd": {
+    "clisp.html": "612d9a68"
+  },
+  "aide/aide.qmd": {
+    "aide.html": "4d1caa11"
   },
   "ressources/ressources.qmd": {
-    "ressources.html": "64a405f0"
+    "ressources.html": "86d2e584"
+  },
+  "index.qmd": {
+    "index.html": "39e0a952"
+  },
+  "blog/test/index.qmd": {
+    "index.html": "23707e49"
+  },
+  "blog/index.qmd": {
+    "index.html": "2e56eca9"
+  },
+  "blog/test2/index.qmd": {
+    "index.html": "cd92d398"
   }
 }

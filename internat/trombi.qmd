@@ -2,42 +2,21 @@
 title: Trombinoscope
 description: Promotion 2023-2024
 date: 2023-12-11
-published-title: "dernière mise à jour"
+file: "trombinoscope_2023-2024_v2023-12-11.pdf"
 engine: knitr
 freeze: false
-file: "trombinoscope_2023-2024_v2023-12-11.pdf"
 grid:
   sidebar-width: 0px
   body-width: 1000px
   margin-width: 0px
 ---
 
-```{css echo=FALSE}
-.embed-container {
+{{< include ../_setup.qmd >}}
 
-    position: relative;
-    padding-bottom: 136%;
-    max-width: 100%;
-    
-    iframe, object, embed {
-    
-        position: absolute;
-        width: 100%;
-        height: 100%;
-    
-    }
-    
-}
-```
+`r auto_callout()`
 
 ```{=html}
-<p class="text-center">
-  <a class="btn btn-primary btn-lg" href="`r rmarkdown::metadata$file`" target="_blank">
-    <i class="fa-solid fa-download"></i>&ensp;PDF
-  </a>
-</p>
-
 <div class="embed-container">
-  <iframe src="`r rmarkdown::metadata$file`" style="border: 0.5px"></iframe>
+  <iframe src="`r rmarkdown::metadata$file`"></iframe>
 </div>
 ```

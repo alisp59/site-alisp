@@ -1,0 +1,29 @@
+---
+title: Blog de l'ALISP
+description: >
+  Un paragraphe de description.
+listing:
+  contents:
+    - "**/*.qmd"
+    - "**/*.md"
+  sort: "date desc"
+  type: default
+  categories: true
+  sort-ui: true
+  filter-ui: true
+  fields:
+    - date
+    - title
+    - reading-time
+    - image
+    - description
+    - categories
+  feed:
+    categories: []
+  image-align: left
+page-layout: full
+title-block-banner: true
+comments: false
+---
+
+Eventuellent un autre paragraphe

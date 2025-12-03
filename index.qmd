@@ -1,156 +1,58 @@
 ---
-title: "Bienvenue sur notre site"
-
-description: |
-  L'**A**ssociation **L**illoise des **I**nternes de **S**anté **P**ublique
-  vous accueille sur son site officiel
-  
-format:
-  html:
-    toc: false
-    grid:
-      sidebar-width: 0px
-      body-width: 1300px
-      margin-width: 0px
-      
-editor_options: 
-  chunk_output_type: console
+sec: index
+toc: false
+page-layout: full
 ---
 
-{{< include _config/setup.qmd >}}
+{{< include _setup.qmd >}}
 
-```{r}
-#| fig-align: center
-#| fig-alt: "Logo de l'ALISP"
-
-include_graphics("_config/img/logo-alisp.png")
+```{=html}
+<div class="site-hero column-screen">
+  <div class="site-intro">
+    <h2 class="site-title">Bienvenue</h2>
+    <div class="social-icon-links" aria-hidden="true">
+      `r social_icon(id = "mail", icon = "envelope", fa = "fa")`
+      `r social_icon(id = "insta", icon = "instagram")`
+      `r social_icon(id = "twitter", icon = "x-twitter")`
+      `r social_icon(id = "facebook", icon = "facebook-f")`
+      `r social_icon(id = "linkedin", icon = "linkedin-in")`
+    </div>
+  </div>
+</div>
 ```
 
-```{css}
+::: {.column-screen}
+![](_img/lille_cut.png)
+:::
+
+::: {.logo-alisp}
+![](_img/logo-alisp.png)
+:::
+
+```{css, index-title-css}
 #title-block-header {
-  
-    .quarto-title-banner {
-      
-        padding: 5rem 5rem;
-        
-        .quarto-title {
-            margin: 0;
-        }
-        
-        h1.title {
-            padding: 0;
-            font-size: 2.5rem;
-        }
-        
-        .description {
-            padding-top: 1rem;
-            font-size: 1.3rem;
-        }
-        
+
+  .quarto-title-banner {
+
+    padding: 8rem;
+
+    .quarto-title {
+        margin: 0;
     }
-    
+
+    h1.title {
+        padding: 0;
+        font-size: 5rem;
+    }
+
+    .description {
+        padding-top: 1rem;
+        font-size: 2rem;
+    }
+
+  }
+
 }
 ```
 
-
-::: {.grid}
-
-::: {.g-col-6}
-
-## Dernières actualités
-
-::: {.callout-note}
-## Prochains événements
-Les informations sur les prochains événements seront mises à jour régulièrement.
-:::
-
-## Posts récents du CLISP
-
-::: {.callout-important}
-Ce module est en cours de développement. Revenez bientôt pour consulter les actualités du CLISP !
-:::
-
-```{r}
-#| echo: false
-#| warning: false
-
-# Code pour afficher les derniers posts (à adapter selon vos besoins)
-# Vous pouvez intégrer ici un flux RSS ou une API pour récupérer les derniers posts
-```
-
-:::
-
-::: {.g-col-6}
-
-## Calendrier du CLISP
-
-::: {.callout-important}
-Le calendrier sera bientôt intégré ici via Google Calendar ou un autre outil.
-:::
-
-```{r}
-#| echo: false
-#| warning: false
-
-# Code pour afficher le calendrier (à intégrer selon vos besoins)
-# Vous pouvez utiliser un widget de calendrier ou intégrer Google Calendar
-```
-
-:::
-
-:::
-
-## Liens rapides
-
-::: grid
-
-::: {.g-col-4}
-### 🎓 Internat
-Découvrez l'internat de santé publique, la maquette DES et les opportunités à Lille.
-
-[En savoir plus](internat/santepub.qmd){.btn .btn-primary}
-:::
-
-::: {.g-col-4}
-### 🎉 Événements
-Apéros-infos, événements CLISP et actualités de la communauté.
-
-[Voir les événements](evenements/apero.qmd){.btn .btn-primary}
-:::
-
-::: {.g-col-4}
-### 📚 Ressources
-Livres, sites d'apprentissage, vidéos et bases de données ouvertes.
-
-[Accéder aux ressources](ressources/ressources.qmd){.btn .btn-primary}
-:::
-
-:::
-
-::: {.grid}
-
-::: {.g-col-6}
-
-## Besoin d'aide ?
-
-::: {.callout-tip}
-## Aide méthodologique
-Vous avez besoin d'aide pour un projet de recherche ou une analyse statistique ? 
-
-[Déposer une demande](aide/aide.qmd){.btn .btn-outline-primary}
-:::
-
-:::
-
-::: {.g-col-6}
-
-## À propos de l'ALISP
-
-L'Association Lilloise des Internes de Santé Publique accompagne les internes dans leur formation et leur développement professionnel. Nous organisons des événements, partageons des ressources et facilitons les échanges au sein de notre communauté.
-
-[Découvrir l'association](bureau/bureau.qmd){.btn .btn-outline-secondary}
-
-:::
-
-:::
-
+`r knit_section()`

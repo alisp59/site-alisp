@@ -1,13 +1,9 @@
 ---
+sec: event-clisp
 title: "Événements du CLISP"
 description: "Événements organisés par le Collectif des Internes de Santé Publique"
 ---
 
-{{< include ../_config/setup.qmd >}}
+{{< include ../_setup.qmd >}}
 
-```{r}
-str <- text |> filter(rowname == 6)
-```
-
-`r knit(text = paste0(str$value))`
-
+`r knit_section()`

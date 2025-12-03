@@ -1,14 +1,9 @@
 ---
-title: "Déposez votre demande d'aide pour vos projets de recherche"
-editor_options: 
-  chunk_output_type: console
+sec: aide
+title: Aide méthodologique
+description: "Déposez votre demande d'aide pour vos projets de recherche"
 ---
 
-{{< include ../_config/setup.qmd >}}
+{{< include ../_setup.qmd >}}
 
-```{r}
-str <- text |> filter(rowname == 7)
-```
-
-`r knit(text = paste0(str$value))`
-
+`r knit_section()`

@@ -1,3 +1,24 @@
 alisp: ALISP - Association Lilloise des Internes de Santé Publique
 
 year: 2025
+
+links:
+  mail:
+    text: "{{< iconify bi envelope size=1.1em title='contact@alisp.fr' >}}"
+    href: mailto:contact@alisp.fr
+  insta:
+    text: "{{< iconify fa6-brands instagram size=1.1em title='Instagram' >}}"
+    href: https://www.instagram.com/alisp_59/?hl=en
+  twitter:
+    text: "{{< iconify fa6-brands x-twitter size=1.1em title='X' >}}"
+    href: https://x.com/alisp59000?lang=fr
+  facebook:
+    text: "{{< iconify fa6-brands facebook-f size=1.1em title='Facebook' >}}"
+    href: https://www.facebook.com/SPubLille
+  linkedin:
+    text: "{{< iconify fa6-brands linkedin-in size=1.1em title='LinkedIn' >}}"
+    href: https://www.linkedin.com/company/107447153/
+
+repo:
+  text: "Voir la source"
+  href: https://codeberg.org/hebstr/site_alisp/src/branch/main/

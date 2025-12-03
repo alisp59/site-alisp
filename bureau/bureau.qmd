@@ -1,14 +1,9 @@
 ---
+sec: bureau
 title: "Bureau de l'ALISP"
-editor_options: 
-  chunk_output_type: console
+toc: false
 ---
 
-{{< include ../_config/setup.qmd >}}
+{{< include ../_setup.qmd >}}
 
-```{r}
-str <- text |> filter(rowname == 8)
-```
-
-`r knit(text = paste0(str$value))`
-
+`r knit_section()`
