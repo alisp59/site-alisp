@@ -30,6 +30,8 @@ read_html("https://tinyurl.com/588vkvc6") |>
   map(str_replace_all, .str$char) |>
   map(~ knit(text = str_split_1(., "\\\\n")))
 
+# readRDS(here::here("_backup", "2025_11_30_19_04_52_712088.rds"))
+
 knit_section <- \() sections[[rmarkdown::metadata$sec]]
 
 auto_callout <- \(type = "warning", str = "") {
