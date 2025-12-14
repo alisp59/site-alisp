@@ -13,9 +13,15 @@ website:
   title: "{{< var alisp >}}"
   description: "Site officiel de l'ALISP"
   favicon: _img/sym.png
+  announcement:
+    icon: calendar-check
+    dismissable: true
+    content: "**SITE EN CONSTRUCTION !**"
+    type: info
+    position: below-navbar
   navbar:
     background: primary
-    pinned: false
+    pinned: true
     logo: _img/sym.png
     title: false
     right:
@@ -39,6 +45,8 @@ website:
             href: evenements/apero.qmd
           - text: "Événements CLISP"
             href: evenements/clisp.qmd
+      - text: Guide
+        href: guide/index.qmd
       - text: Blog
         href: blog/index.qmd
       - text: "Ressources"
@@ -61,6 +69,13 @@ website:
       # - text: " "
       # - text: "│"
       # - text: " "
+  sidebar:
+      style: "docked"
+      background: $primary-back
+      contents:
+        - guide/index.qmd
+        - guide/01-lille.qmd
+        - guide/02-structure.qmd
   page-footer:
     foreground: darken($primary, 20%)
     left: |
