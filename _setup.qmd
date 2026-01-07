@@ -17,20 +17,20 @@ library(knitr)
 )
 
 sections <-
-# read_html("https://tinyurl.com/588vkvc6") |>
-#   html_elements(".docs-material") |>
-#   html_text2() |>
-#   pluck(1) |>
-#   as_tibble() |>
-#   mutate(value = str_split(value, .str$split)) |>
-#   unnest(value) |>
-#   filter(str_starts(value, "#")) |>
-#   map(~ . |> as.list() |> set_names(str_extract, .str$sec)) |>
-#   pluck(1) |>
-#   map(str_replace_all, .str$char) |>
-#   map(~ knit(text = str_split_1(., "\\\\n")))
+read_html("https://tinyurl.com/588vkvc6") |>
+  html_elements(".docs-material") |>
+  html_text2() |>
+  pluck(1) |>
+  as_tibble() |>
+  mutate(value = str_split(value, .str$split)) |>
+  unnest(value) |>
+  filter(str_starts(value, "#")) |>
+  map(~ . |> as.list() |> set_names(str_extract, .str$sec)) |>
+  pluck(1) |>
+  map(str_replace_all, .str$char) |>
+  map(~ knit(text = str_split_1(., "\\\\n")))
 
-readRDS(here::here("_backup", "2025_11_30_19_04_52_712088.rds"))
+# readRDS(here::here("_backup", "2025_11_30_19_04_52_712088.rds"))
 
 knit_section <- \() sections[[rmarkdown::metadata$sec]]
 

@@ -1,15 +1,14 @@
 ---
-title: Titre
-author: Auteur
+title: Apéro-Info
+author: XXX
 date: 2025-11-01
 slug: test-blog-2
 categories:
-  - catérgorie A
-  - catérgorie C
+  - catégorie A
+  - catégorie C
 description: Description
-image: ../../_img/sym-red-nobg.png
+image: ../../_img/guide.png
 source_link: https://codeberg.org/hebstr/site_alisp/src/branch/main/
-keywords: mots-clés
 ---
 
 # Excepteur in incididunt

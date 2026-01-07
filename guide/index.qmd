@@ -1,5 +1,6 @@
 ---
 title: Guide de l'interne
+date: today
 ---
 
 # Test

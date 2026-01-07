@@ -4,8 +4,8 @@ author: Auteur
 date: 2025-10-01
 slug: test-blog-1
 categories:
-  - catérgorie A
-  - catérgorie B
+  - catégorie A
+  - catégorie B
 description: Description
 image: ../../_img/sym-red-nobg.png
 source_link: https://codeberg.org/hebstr/site_alisp/src/branch/main/

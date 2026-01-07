@@ -1,5 +1,6 @@
 ---
 title: "Découvrir la vie à Lille"
+date: 2025-01-01
 ---
 
 Lille, métropole européenne dynamique, se distingue par son énergie étudiante, son ambiance chaleureuse et son riche patrimoine.
@@ -17,9 +18,10 @@ C'est un environnement équilibré, stimulant et attractif, idéal pour s'épano
 Il n’existe pas d’internat physique pour l’accueil et le logement des internes associé au CHU de Lille. Vous êtes invités à trouver un logement personnel lors de votre internat. Nous vous conseillons de vous y prendre le plus tôt possible car la demande de logements est très forte.
 
 Il existe dans la subdivision trois internats-logements :
-au CH de Cambrai/Valenciennes (à voir s’il existe encore ou si possible d’y accéder)
-au CH de Boulogne-sur-Mer
-au CH de Dunkerque (pareil que cambrai valenciennes)
+
+- au CH de Cambrai/Valenciennes (à voir s’il existe encore ou si possible d’y accéder)
+- au CH de Boulogne-sur-Mer
+- au CH de Dunkerque (pareil que cambrai valenciennes)
 
 # Se déplacer
 
@@ -35,7 +37,10 @@ La ville de Lille est relativement plate et donc adaptée pour les déplacements
 
 L’ensemble de la métropole ainsi que de nombreuses villes alentours sont accessibles par les transports en commun : bus, métro ou tramway. Le site Ilevia regroupe les informations sur l’ensemble des services (incluant également le V’Lille).
 
-Carte n°1. Réseau de transport de Lille et ses alentours
+```{r}
+#| fig-cap: Réseau de transport de Lille et ses alentours
+knitr::include_graphics("../_img/guide_transport.png")
+```
 
 Une prise en charge partielle des frais de transport en commun par le CHU est possible mais il est nécessaire de le demander avant le 05 du mois en cours à l’adresse mail du pagrh de rattachement du bâtiment (bureau PAGRH dans chaque bâtiment/pôle).
 

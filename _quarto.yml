@@ -1,6 +1,9 @@
 project:
   type: website
 
+execute:
+  freeze: auto
+
 lang: fr
 
 filters:
@@ -30,9 +33,9 @@ website:
             href: internat/maquette.qmd
           - text: "Trombinoscope"
             href: internat/trombi.qmd
-      - text: Guide
+      - text: Guide de l'interne
         href: guide/index.qmd
-      - text: Blog
+      - text: Actualités
         href: blog/index.qmd
       - text: "Ressources"
         href: ressources/ressources.qmd

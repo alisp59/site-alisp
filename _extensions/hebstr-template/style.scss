@@ -315,10 +315,12 @@ div.csl-right-inline {
     margin-top: 1rem;
     .quarto-title-meta-heading {
       color: $primary;
+      font-weight: bold !important;
     }
   }
   .block-title {
-      color: $primary;
+    color: $primary;
+    font-weight: bold !important;
   }
 }
 

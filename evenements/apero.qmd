@@ -1,9 +1,0 @@
----
-sec: event-apero
-title: "Apéros-infos"
-description: "Rencontres conviviales entre internes et futurs internes"
----
-
-{{< include ../_setup.qmd >}}
-
-`r knit_section()`

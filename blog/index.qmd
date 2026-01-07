@@ -1,7 +1,7 @@
 ---
-title: Blog de l'ALISP
+title: Actualités de l'ALISP
 description: >
-  Un paragraphe de description.
+  un paragraphe de description (ou pas)
 listing:
   contents:
     - "**/*.qmd"

@@ -1,9 +1,0 @@
----
-sec: event-clisp
-title: "Événements du CLISP"
-description: "Événements organisés par le Collectif des Internes de Santé Publique"
----
-
-{{< include ../_setup.qmd >}}
-
-`r knit_section()`
