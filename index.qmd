@@ -33,7 +33,14 @@ page-layout: full
 ![](_img/lille_cut.png)
 :::
 
-`r knit_section()`
+# Page d'accueil
+
+::: callout-caution
+# propositions
+je réfléchis à mettre ici une sorte de carrousel avec articles "blog" + autres actualités qu'on voudrait mettre en avant
+:::
+
+\
 
 ::: {.column-screen}
 ```{=html}

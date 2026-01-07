@@ -11,14 +11,9 @@ format:
 
 website:
   title: "{{< var alisp >}}"
+  site-url: https://www.example.org/
   description: "Site officiel de l'ALiSP"
   favicon: _img/sym-red-nobg.png
-  # announcement:
-  #   icon: calendar-check
-  #   dismissable: true
-  #   content: "**SITE EN CONSTRUCTION !**"
-  #   type: warning
-  #   position: below-navbar
   navbar:
     background: primary
     pinned: true
@@ -54,10 +49,10 @@ website:
       <span>{{< fa brands creative-commons >}}&nbsp;{{< var year >}} ALiSP</span><br>
       <span>{{< fa brands creative-commons >}}&nbsp;{{< fa brands creative-commons-by >}} [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)</span>
     center: |
-      [{{< var links.mail.text >}}]({{< var links.mail.href >}})&nbsp;&nbsp;&nbsp;
-      [{{< var links.insta.text >}}]({{< var links.insta.href >}})&nbsp;&nbsp;&nbsp;
-      [{{< var links.twitter.text >}}]({{< var links.twitter.href >}})&nbsp;&nbsp;&nbsp;
-      [{{< var links.facebook.text >}}]({{< var links.facebook.href >}})&nbsp;&nbsp;&nbsp;
+      [{{< var links.mail.text >}}]({{< var links.mail.href >}})
+      [{{< var links.insta.text >}}]({{< var links.insta.href >}})
+      [{{< var links.twitter.text >}}]({{< var links.twitter.href >}})
+      [{{< var links.facebook.text >}}]({{< var links.facebook.href >}})
       [{{< var links.linkedin.text >}}]({{< var links.linkedin.href >}})
       <br>{{< var alisp >}}
     right: |

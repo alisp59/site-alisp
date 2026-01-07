@@ -12,9 +12,6 @@ source_link: https://codeberg.org/hebstr/site_alisp/src/branch/main/
 keywords: mots-clés
 ---
 
-[tidyverse]: https://tidyverse.org
-[ggweekly]: https://github.com/gadenbuie/ggweekly
-
 # Excepteur in incididunt
 
 Occaecat ut irure anim in eu in est labore elit. Lorem labore aliquip aute reprehenderit ea est labore voluptate eiusmod. Nulla culpa cillum irure non proident culpa nostrud nisi duis. Et dolore reprehenderit nostrud do magna elit duis deserunt tempor. Ut nulla ut consequat aute velit officia sit non cupidatat.

@@ -18,8 +18,7 @@ listing:
     - image
     - description
     - categories
-  feed:
-    categories: []
+  feed: true
   image-align: left
 page-layout: full
 title-block-banner: true
