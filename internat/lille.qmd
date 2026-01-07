@@ -2,8 +2,43 @@
 sec: internat-lille
 title: "L'Internat à Lille"
 description: "Informations pratiques sur l'internat de santé publique à Lille"
+page-layout: full
+toc: false
 ---
 
 {{< include ../_setup.qmd >}}
 
+::: {.page-content}
+
+::: {.page-main}
 `r knit_section()`
+:::
+
+::: {.page-sidebar}
+### Agenda (pour test)
+```{=html}
+<iframe
+  src="https://calendar.google.com/calendar/embed?src=example"
+  height="500"
+  loading="lazy">
+</iframe>
+```
+```{=html}
+<a href="https://example.com" target="_blank" rel="noopener noreferrer">
+  <img
+    src="../_img/apero-info.png"
+    alt="Apéro info"
+    loading="lazy">
+</a>
+```
+### encore un truc
+```{=html}
+<iframe
+  src="https://example.com"
+  height="500"
+  loading="lazy">
+</iframe>
+```
+:::
+
+:::

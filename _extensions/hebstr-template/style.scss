@@ -1,0 +1,357 @@
+/*-- scss:defaults --*/
+
+$primary: #dd0000ff !default;
+$primary-back: lighten($primary, 52%) !default;
+$secondary: #0099FF !default;
+$secondary-back: #F0FAFF !default;
+$body-back: #FFF5F5 !default;
+
+$neutral: #5E5E5E !default;
+$neutral-light: #999 !default;
+$chapter-number-color: #6d7a86 !default;
+$line-color: #DEE2E6 !default;
+$background-color: #f8f9fa !default;
+
+$callout-icon-scale: -10%;
+$callout-note-color: #0099FF !default;
+$callout-tip-color: #3fb618 !default;
+$callout-caution-color: #f0ad4e !default;
+$callout-warning-color: #ff6a00ff !default;
+$callout-important-color: #FF0000 !default;
+
+$font-family-body: "Luciole";
+$font-family-monospace: "Fira Code";
+$font-size-root: 1.2rem !default;
+
+$grid-sidebar-width: 0px !default;
+$grid-body-width: 900px !default;
+$grid-margin-width: 400px !default;
+
+:root {
+  --primary-back: #{$primary-back};
+  --callout-icon-scale: #{$callout-icon-scale};
+  --callout-note-color: #{$callout-note-color};
+  --callout-tip-color: #{$callout-tip-color};
+  --callout-caution-color: #{$callout-caution-color};
+  --callout-warning-color: #{$callout-warning-color};
+  --callout-important-color: #{$callout-important-color};
+}
+
+/*-- scss:rules --*/
+
+body {
+  background-color: $body-back;
+  color: darken($primary, 20%);
+  font-family: $font-family-body;
+  text-align: justify !important;
+}
+
+.cb1 {
+  font-weight: bold;
+  color: $primary;
+}
+
+.cb2 {
+  font-weight: bold;
+  color: $secondary;
+}
+
+.nb {
+  font-weight: bold;
+  color: $neutral-light;
+}
+
+.nc {
+  background-color: $background-color;
+  color: $neutral;
+}
+
+.str {
+  background-color: $background-color;
+  color: #20794D;
+}
+
+.aa-Autocomplete .aa-Form {
+  border-color: lighten($primary, 45%);
+}
+
+.MJX-TEX {
+  margin: 1rem;
+}
+
+h2#toc-title {
+  font-size: 0.9rem;
+  font-weight: bold;
+  padding-bottom: 0.3rem;
+}
+
+#title-block-header {
+  font-size: 1.2rem;
+}
+
+.quarto-title {
+  margin-bottom: 1rem;
+}
+
+div#quarto-margin-sidebar {
+  text-align: left;
+  padding-left: 1rem;
+  /*border-left: 1px solid $line-color;
+  background-color: lighten($primary, 48%);*/
+}
+
+.sidebar-title {
+  color: $primary;
+  font-weight: bold;
+  font-size: 1.1rem;
+  line-height: 1.6rem;
+}
+
+#quarto-sidebar {
+  scrollbar-width: thin;
+}
+
+#quarto-sidebar .sidebar-item-section > .sidebar-item-container:first-child a {
+  font-weight: bold;
+  color: $primary;
+}
+
+div.sidebar-item-container {
+  padding: 0.2rem;
+}
+
+div.sidebar-item-container .active {
+  color: $primary;
+  font-weight: bold;
+}
+
+.sidebar nav[role=doc-toc] > ul {
+  margin-bottom: 2rem;
+}
+
+.sidebar nav[role=doc-toc] > ul a {
+  border-left: 1px solid lighten($primary, 45%);
+}
+
+.sidebar nav[role=doc-toc] > ul li a {
+  padding-top: 0.6rem;
+}
+
+.sidebar nav[role=doc-toc] ul > li > a.active,
+.sidebar nav[role=doc-toc] ul > li > ul > li > a.active {
+  font-weight: bold;
+  border-left-width: 3px;
+}
+
+.blockquote {
+  color: $neutral;
+}
+
+h1, h2, h3 {
+  color: $primary;
+}
+
+h2, h3, h4, h5 {
+  margin-top: 1.5em;
+  margin-bottom: 1rem;
+}
+
+h1, h2, h3, h4, h5 {
+  /*border-bottom: 1px solid $line-color;*/
+  padding-bottom: 0.3rem;
+  text-align: left;
+}
+
+h1 {
+  font-size: 1.8rem;
+  padding-top: 1rem;
+}
+
+h2 {
+  padding-top: 1rem;
+  margin-left: 0.5rem;
+  font-size: 1.4rem;
+  font-weight: bold;
+}
+
+h3 {
+  margin-left: 1rem;
+  font-size: 1.2rem;
+  font-weight: normal;
+}
+
+h4 {
+  margin-left: 2rem;
+  font-size: 1.1rem;
+}
+
+h5 {
+  margin-top: 1.5em;
+  margin-left: 2.5rem;
+  font-size: 1rem;
+}
+
+.tab-content section:first-of-type h2 {
+  margin-top: 0;
+}
+
+.chapter-number {
+  color: $chapter-number-color;
+}
+
+.nav-link.active .header-section-number {
+  color: $chapter-number-color;
+}
+
+.sidebar-item .chapter-number {
+  color: $chapter-number-color;
+}
+
+.quarto-section-identifier {
+  font-weight: normal;
+  color: $neutral;
+}
+
+div[data-code-filename] summary {
+  font-family: $font-family-monospace !important;
+  font-weight: 500;
+}
+
+div.sourceCode {
+  background-color: $background-color;
+}
+
+code.sourceCode, pre code {
+  font-family: $font-family-monospace !important;
+  font-size: 0.9rem;
+  font-weight: 500;
+}
+
+pre code {
+  color: $neutral;
+}
+
+code {
+  color: $primary;
+}
+
+code span.do {
+  font-style: inherit;
+}
+
+code span.op {
+  color: $neutral;
+}
+
+code a:any-link {
+  text-decoration: underline;
+  text-decoration-color: $line-color;
+}
+
+div.gslide-description .gslide-desc {
+  font-size: 1rem;
+}
+
+.quarto-float-caption {
+  font-size: 0.95rem;
+  font-weight: bold;
+  line-height: 1.5;
+  color: #111;
+}
+
+.quarto-float-subcaption {
+  font-weight: normal;
+  font-size: .85rem;
+  color: $neutral;
+}
+
+figure.quarto-float-fig {
+  padding-bottom: 1em;
+}
+
+figure.quarto-float-tbl figcaption.quarto-float-caption-top {
+  margin-top: 2em;
+  margin-bottom: 0.15rem;
+  text-align: left;
+}
+
+.gslide-desc {
+  font-weight: bold;
+}
+
+figure .quarto-layout-row figure figcaption {
+  font-style: normal;
+}
+
+div.csl-right-inline {
+  padding-left: 0;
+  padding-bottom: 0.5em;
+}
+
+#title-block-header {
+
+  .quarto-title-banner {
+
+    padding: 2.5rem 2.5rem;
+    background-color: $primary-back;
+
+    .quarto-title {
+      margin: 0;
+    }
+
+    h1.title {
+      color: $primary;
+      padding: 0;
+      font-size: 2.5rem;
+    }
+
+    .description {
+      color: $primary;
+      padding-top: 1rem;
+      font-size: 1.3rem;
+    }
+
+  }
+
+}
+
+.navbar {
+  border-bottom: 3px solid var(--primary-back);
+}
+
+.navbar-logo {
+  max-height: 60px;
+  width: auto;
+  padding: 0.25rem 0;
+}
+
+.navbar-container {
+  font-size: 1.25rem;
+  padding: 0.5rem 0;
+}
+
+.nav-footer {
+  background-color: $body-back;
+  line-height: 1.5rem;
+  font-size: 1.05rem;
+  border-top: 4px solid var(--primary-back);
+  padding-top: 0.8rem;
+}
+
+.nav-footer-center iconify-icon {
+  font-size: 1.1rem;
+}
+
+a.anchorjs-link {
+  visibility: hidden;
+}
+
+iframe {
+  padding: 0.2rem;
+  background-color: #fff;
+  border: none;
+  border-radius: 8px;
+  border: 1px solid var(--primary-back);
+  box-shadow: 0 2px 4px var(--primary-back);
+  max-width: 100%;
+}

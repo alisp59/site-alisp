@@ -11,26 +11,22 @@ format:
 
 website:
   title: "{{< var alisp >}}"
-  description: "Site officiel de l'ALISP"
-  favicon: _img/sym.png
-  announcement:
-    icon: calendar-check
-    dismissable: true
-    content: "**SITE EN CONSTRUCTION !**"
-    type: info
-    position: below-navbar
+  description: "Site officiel de l'ALiSP"
+  favicon: _img/sym-red-nobg.png
+  # announcement:
+  #   icon: calendar-check
+  #   dismissable: true
+  #   content: "**SITE EN CONSTRUCTION !**"
+  #   type: warning
+  #   position: below-navbar
   navbar:
     background: primary
     pinned: true
-    logo: _img/sym.png
+    logo: _img/logo-navbar.png
     title: false
     right:
-      - text: "L'asso"
-        menu:
-          - text: "Bureau"
-            href: bureau/bureau.qmd
-          - text: "Nous contacter"
-            href: bureau/contact.qmd
+      - text: "Bureau"
+        href: bureau/bureau.qmd
       - text: "L'internat"
         menu:
           - text: "La santé publique à Lille"
@@ -39,47 +35,23 @@ website:
             href: internat/maquette.qmd
           - text: "Trombinoscope"
             href: internat/trombi.qmd
-      - text: "Actualités"
-        menu:
-          - text: "Apéros-infos"
-            href: evenements/apero.qmd
-          - text: "Événements CLISP"
-            href: evenements/clisp.qmd
       - text: Guide
         href: guide/index.qmd
       - text: Blog
         href: blog/index.qmd
       - text: "Ressources"
         href: ressources/ressources.qmd
-      - text: "Aide méthodo"
+      - text: "Aide méthodologique"
         href: aide/aide.qmd
-      # - text: " "
-      # - text: "│"
-      # - text: " "
-      # - text: "{{< var links.mail.text >}}"
-      #   href: "{{< var links.mail.href >}}"
-      # - text: "{{< var links.insta.text >}}"
-      #   href: "{{< var links.insta.href >}}"
-      # - text: "{{< var links.twitter.text >}}"
-      #   href: "{{< var links.twitter.href >}}"
-      # - text: "{{< var links.facebook.text >}}"
-      #   href: "{{< var links.facebook.href >}}"
-      # - text: "{{< var links.linkedin.text >}}"
-      #   href: "{{< var links.linkedin.href >}}"
-      # - text: " "
-      # - text: "│"
-      # - text: " "
   sidebar:
-      style: "docked"
+    - id: guide
+      style: "floating"
       background: $primary-back
-      contents:
-        - guide/index.qmd
-        - guide/01-lille.qmd
-        - guide/02-structure.qmd
+      contents: guide
   page-footer:
     foreground: darken($primary, 20%)
     left: |
-      <span>{{< fa brands creative-commons >}}&nbsp;{{< var year >}} ALISP</span><br>
+      <span>{{< fa brands creative-commons >}}&nbsp;{{< var year >}} ALiSP</span><br>
       <span>{{< fa brands creative-commons >}}&nbsp;{{< fa brands creative-commons-by >}} [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)</span>
     center: |
       [{{< var links.mail.text >}}]({{< var links.mail.href >}})&nbsp;&nbsp;&nbsp;

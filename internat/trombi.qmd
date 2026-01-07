@@ -7,13 +7,10 @@ engine: knitr
 freeze: false
 grid:
   sidebar-width: 0px
-  body-width: 1000px
   margin-width: 0px
 ---
 
 {{< include ../_setup.qmd >}}
-
-`r auto_callout()`
 
 ```{=html}
 <div class="embed-container">

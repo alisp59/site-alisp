@@ -7,7 +7,7 @@ categories:
   - catérgorie A
   - catérgorie B
 description: Description
-image: ../../_img/logo-alisp.png
+image: ../../_img/sym-red-nobg.png
 source_link: https://codeberg.org/hebstr/site_alisp/src/branch/main/
 keywords: mots-clés
 ---

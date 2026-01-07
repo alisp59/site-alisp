@@ -8,14 +8,22 @@ page-layout: full
 
 ```{=html}
 <div class="site-hero column-screen">
-  <div class="site-intro">
-    <h2 class="site-title">Bienvenue</h2>
+  <div class="site-logo-word">
+    <img src="_img/word-homepage.png" alt="Logo ALISP">
+  </div>
+  <div class="site-logo-lille">
+    <img src="_img/sym-red-nobg.png" alt="Logo ALISP">
+  </div>
+  <div class="site-logo-alisp-social">
+    <div class="site-logo-alisp">
+      <img src="_img/logo-homepage.png" alt="Logo ALISP">
+    </div>
     <div class="social-icon-links" aria-hidden="true">
       `r social_icon(id = "mail", icon = "envelope", fa = "fa")`
       `r social_icon(id = "insta", icon = "instagram")`
       `r social_icon(id = "twitter", icon = "x-twitter")`
-      `r social_icon(id = "facebook", icon = "facebook-f")`
-      `r social_icon(id = "linkedin", icon = "linkedin-in")`
+      `r social_icon(id = "facebook", icon = "facebook")`
+      `r social_icon(id = "linkedin", icon = "linkedin")`
     </div>
   </div>
 </div>
@@ -25,34 +33,14 @@ page-layout: full
 ![](_img/lille_cut.png)
 :::
 
-::: {.logo-alisp}
-![](_img/logo-alisp.png)
-:::
-
-```{css, index-title-css}
-#title-block-header {
-
-  .quarto-title-banner {
-
-    padding: 8rem;
-
-    .quarto-title {
-        margin: 0;
-    }
-
-    h1.title {
-        padding: 0;
-        font-size: 5rem;
-    }
-
-    .description {
-        padding-top: 1rem;
-        font-size: 2rem;
-    }
-
-  }
-
-}
-```
-
 `r knit_section()`
+
+::: {.column-screen}
+```{=html}
+<iframe
+  src="https://tinyurl.com/4bzthh8k"
+  width="100%"
+  height="450">
+</iframe>
+```
+:::

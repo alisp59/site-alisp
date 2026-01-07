@@ -30,7 +30,7 @@ ul.task-list li input[type="checkbox"] {
 <script src="../site_libs/quarto-search/fuse.min.js"></script>
 <script src="../site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="../">
-<link href="../_img/sym.png" rel="icon" type="image/png">
+<link href="../_img/sym-red-nobg.png" rel="icon" type="image/png">
 <script src="../site_libs/quarto-listing/list.min.js"></script>
 <script src="../site_libs/quarto-listing/quarto-listing.js"></script>
 <script src="../site_libs/quarto-html/quarto.js" type="module"></script>
@@ -43,7 +43,7 @@ ul.task-list li input[type="checkbox"] {
 <link href="../site_libs/quarto-html/quarto-syntax-highlighting-b524e5e10053bf5bea4dd5b3071a8bf3.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap-02e2faf40a352b0157ba538b8355e18f.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-9ff9278cd149faf11dd7e76ae32f5329.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <link href="../site_libs/quarto-contrib/fontawesome6-1.2.0/all.min.css" rel="stylesheet">
 <link href="../site_libs/quarto-contrib/fontawesome6-1.2.0/latex-fontsize.css" rel="stylesheet">
 <script src="../site_libs/quarto-contrib/iconify-3.0.0/iconify-icon.min.js"></script>
@@ -135,12 +135,14 @@ window.Quarto = {
 };
 </script>
 
-<link rel="stylesheet" href="../site_libs/quarto-contrib/quarto-project/hebstr-template/resources/fonts.css">
-<link rel="stylesheet" href="../site_libs/quarto-contrib/quarto-project/hebstr-template/resources/container.css">
 <link rel="stylesheet" href="../site_libs/quarto-contrib/quarto-project/hebstr-template/resources/index.css">
+<link rel="stylesheet" href="../site_libs/quarto-contrib/quarto-project/hebstr-template/resources/column.scss">
+<link rel="stylesheet" href="../site_libs/quarto-contrib/quarto-project/hebstr-template/resources/callout.scss">
+<link rel="stylesheet" href="../site_libs/quarto-contrib/quarto-project/hebstr-template/resources/container.css">
+<link rel="stylesheet" href="../site_libs/quarto-contrib/quarto-project/hebstr-template/resources/fonts.css">
 </head>
 
-<body class="nav-sidebar docked nav-fixed quarto-light">
+<body class="nav-fixed quarto-light">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top quarto-banner">
@@ -148,8 +150,8 @@ window.Quarto = {
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
     <a href="../index.html" class="navbar-brand navbar-brand-logo">
-    <img src="../_img/sym.png" alt="" class="navbar-logo light-content">
-    <img src="../_img/sym.png" alt="" class="navbar-logo dark-content">
+    <img src="../_img/logo-navbar.png" alt="" class="navbar-logo light-content">
+    <img src="../_img/logo-navbar.png" alt="" class="navbar-logo dark-content">
     </a>
   </div>
             <div id="quarto-search" class="" title="Recherche"></div>
@@ -158,21 +160,10 @@ window.Quarto = {
 </button>
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
-  <li class="nav-item dropdown ">
-    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-lasso" role="link" data-bs-toggle="dropdown" aria-expanded="false">
- <span class="menu-text">L’asso</span>
-    </a>
-    <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="nav-menu-lasso">    
-        <li>
-    <a class="dropdown-item" href="../bureau/bureau.html">
- <span class="dropdown-text">Bureau</span></a>
+  <li class="nav-item">
+    <a class="nav-link" href="../bureau/bureau.html"> 
+<span class="menu-text">Bureau</span></a>
   </li>  
-        <li>
-    <a class="dropdown-item" href="../bureau/contact.html">
- <span class="dropdown-text">Nous contacter</span></a>
-  </li>  
-    </ul>
-  </li>
   <li class="nav-item dropdown ">
     <a class="nav-link dropdown-toggle" href="#" id="nav-menu-linternat" role="link" data-bs-toggle="dropdown" aria-expanded="false">
  <span class="menu-text">L’internat</span>
@@ -192,27 +183,12 @@ window.Quarto = {
   </li>  
     </ul>
   </li>
-  <li class="nav-item dropdown ">
-    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-actualités" role="link" data-bs-toggle="dropdown" aria-expanded="false">
- <span class="menu-text">Actualités</span>
-    </a>
-    <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="nav-menu-actualités">    
-        <li>
-    <a class="dropdown-item" href="../evenements/apero.html">
- <span class="dropdown-text">Apéros-infos</span></a>
-  </li>  
-        <li>
-    <a class="dropdown-item" href="../evenements/clisp.html">
- <span class="dropdown-text">Événements CLISP</span></a>
-  </li>  
-    </ul>
-  </li>
   <li class="nav-item">
-    <a class="nav-link active" href="../guide/index.html" aria-current="page"> 
+    <a class="nav-link" href="../guide/index.html"> 
 <span class="menu-text">Guide</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../blog/index.html"> 
+    <a class="nav-link active" href="../blog/index.html" aria-current="page"> 
 <span class="menu-text">Blog</span></a>
   </li>  
   <li class="nav-item">
@@ -229,24 +205,11 @@ window.Quarto = {
 </div>
       </div> <!-- /container-fluid -->
     </nav>
-  <nav class="quarto-secondary-nav">
-    <div class="container-fluid d-flex">
-      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Basculer la barre latérale" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
-        <i class="bi bi-layout-text-sidebar-reverse"></i>
-      </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item">Blog de l’ALISP</li></ol></nav>
-        <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Basculer la barre latérale" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
-        </a>
-    </div>
-  </nav>
-  <div id="quarto-announcement" data-announcement-id="e80e12b3b89eccde138e507b7bbe7337" class="alert alert-info hidden"><i class="bi bi-calendar-check quarto-announcement-icon"></i><div class="quarto-announcement-content">
-<p><strong>SITE EN CONSTRUCTION !</strong></p>
-</div><i class="bi bi-x-lg quarto-announcement-action"></i></div>
 </header>
 <!-- content -->
 <header id="title-block-header" class="quarto-title-block default page-columns page-full">
   <div class="quarto-title-banner page-columns page-full">
-    <div class="quarto-title column-body">
+    <div class="quarto-title column-page-left">
       <h1 class="title">Blog de l’ALISP</h1>
                   <div>
         <div class="description">
@@ -257,7 +220,7 @@ window.Quarto = {
   </div>
     
   
-  <div class="quarto-title-meta column-body">
+  <div class="quarto-title-meta column-page-left">
 
       
     
@@ -267,36 +230,11 @@ window.Quarto = {
   
   </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
 <!-- sidebar -->
-  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation docked overflow-auto">
-    <div class="sidebar-menu-container"> 
-    <ul class="list-unstyled mt-1">
-        <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../guide/index.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Guide de l’interne</span></a>
-  </div>
-</li>
-        <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../guide/01-lille.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Découvrir la vie à Lille</span></a>
-  </div>
-</li>
-        <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../guide/02-structure.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Encadrants et structures partenaires</span></a>
-  </div>
-</li>
-    </ul>
-    </div>
-</nav>
-<div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
     <h5 class="quarto-listing-category-title">Catégories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">Tous <span class="quarto-category-count">(2)</span></div><div class="category" data-category="Y2F0JUMzJUE5cmdvcmllJTIwQQ==">catérgorie A <span class="quarto-category-count">(2)</span></div><div class="category" data-category="Y2F0JUMzJUE5cmdvcmllJTIwQg==">catérgorie B <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Y2F0JUMzJUE5cmdvcmllJTIwQw==">catérgorie C <span class="quarto-category-count">(1)</span></div></div></div>
 <!-- main -->
-<main class="content quarto-banner-title-block column-body" id="quarto-document-content">
+<main class="content quarto-banner-title-block column-page-left" id="quarto-document-content">
 
 
 
@@ -331,10 +269,10 @@ window.Quarto = {
     </div>
 </div>
 <div class="list quarto-listing-default">
-<div class="quarto-post image-left" data-index="0" data-categories="Y2F0JUMzJUE5cmdvcmllJTIwQSUyQ2NhdCVDMyVBOXJnb3JpZSUyMEM=" data-listing-date-sort="1761951600000" data-listing-file-modified-sort="1764714988411" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="155">
+<div class="quarto-post image-left" data-index="0" data-categories="Y2F0JUMzJUE5cmdvcmllJTIwQSUyQ2NhdCVDMyVBOXJnb3JpZSUyMEM=" data-listing-date-sort="1761951600000" data-listing-file-modified-sort="1767205959954" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="155">
 <div class="thumbnail"><a href="../blog/test2/index.html" class="no-external">
 
-<img loading="lazy" src="../_img/logo-alisp.png" class="thumbnail-image">
+<img loading="lazy" src="../_img/sym-red-nobg.png" class="thumbnail-image">
 
 </a></div>
 <div class="body">
@@ -361,10 +299,10 @@ window.Quarto = {
 </a>
 </div>
 </div>
-<div class="quarto-post image-left" data-index="1" data-categories="Y2F0JUMzJUE5cmdvcmllJTIwQSUyQ2NhdCVDMyVBOXJnb3JpZSUyMEI=" data-listing-date-sort="1759269600000" data-listing-file-modified-sort="1764714975951" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="153">
+<div class="quarto-post image-left" data-index="1" data-categories="Y2F0JUMzJUE5cmdvcmllJTIwQSUyQ2NhdCVDMyVBOXJnb3JpZSUyMEI=" data-listing-date-sort="1759269600000" data-listing-file-modified-sort="1767205950268" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="153">
 <div class="thumbnail"><a href="../blog/test/index.html" class="no-external">
 
-<img loading="lazy" src="../_img/logo-alisp.png" class="thumbnail-image">
+<img loading="lazy" src="../_img/sym-red-nobg.png" class="thumbnail-image">
 
 </a></div>
 <div class="body">
@@ -798,10 +736,10 @@ window.Quarto = {
 <footer class="footer">
   <div class="nav-footer">
     <div class="nav-footer-left">
-<p><span><i class="fa-brands fa-creative-commons" aria-label="creative-commons"></i>&nbsp;2025 ALISP</span><br> <span><i class="fa-brands fa-creative-commons" aria-label="creative-commons"></i>&nbsp;<i class="fa-brands fa-creative-commons-by" aria-label="creative-commons-by"></i> <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a></span></p>
+<p><span><i class="fa-brands fa-creative-commons" aria-label="creative-commons"></i>&nbsp;2025 ALiSP</span><br> <span><i class="fa-brands fa-creative-commons" aria-label="creative-commons"></i>&nbsp;<i class="fa-brands fa-creative-commons-by" aria-label="creative-commons-by"></i> <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a></span></p>
 </div>   
     <div class="nav-footer-center">
-<p><a href="mailto:contact@alisp.fr"><iconify-icon role="img" inline="" icon="bi:envelope" aria-label="Icon envelope from bi Iconify.design set." title="contact@alisp.fr"></iconify-icon></a>&nbsp;&nbsp;&nbsp; <a href="https://www.instagram.com/alisp_59/?hl=en"><iconify-icon role="img" inline="" icon="fa6-brands:instagram" aria-label="Icon instagram from fa6-brands Iconify.design set." title="Instagram"></iconify-icon></a>&nbsp;&nbsp;&nbsp; <a href="https://x.com/alisp59000?lang=fr"><iconify-icon role="img" inline="" icon="fa6-brands:x-twitter" aria-label="Icon x-twitter from fa6-brands Iconify.design set." title="X"></iconify-icon></a>&nbsp;&nbsp;&nbsp; <a href="https://www.facebook.com/SPubLille"><iconify-icon role="img" inline="" icon="fa6-brands:facebook-f" aria-label="Icon facebook-f from fa6-brands Iconify.design set." title="Facebook"></iconify-icon></a>&nbsp;&nbsp;&nbsp; <a href="https://www.linkedin.com/company/107447153/"><iconify-icon role="img" inline="" icon="fa6-brands:linkedin-in" aria-label="Icon linkedin-in from fa6-brands Iconify.design set." title="LinkedIn"></iconify-icon></a> <br>ALISP - Association Lilloise des Internes de Santé Publique</p>
+<p><a href="mailto:contact@alisp.fr"><iconify-icon role="img" inline="" icon="fa:envelope" aria-label="Icon envelope from fa Iconify.design set." title="contact@alisp.fr"></iconify-icon></a>&nbsp;&nbsp;&nbsp; <a href="https://www.instagram.com/alisp_59/?hl=en"><iconify-icon role="img" inline="" icon="fa6-brands:instagram" aria-label="Icon instagram from fa6-brands Iconify.design set." title="Instagram"></iconify-icon></a>&nbsp;&nbsp;&nbsp; <a href="https://x.com/alisp59000?lang=fr"><iconify-icon role="img" inline="" icon="fa6-brands:x-twitter" aria-label="Icon x-twitter from fa6-brands Iconify.design set." title="X"></iconify-icon></a>&nbsp;&nbsp;&nbsp; <a href="https://www.facebook.com/SPubLille"><iconify-icon role="img" inline="" icon="fa6-brands:facebook" aria-label="Icon facebook from fa6-brands Iconify.design set." title="Facebook"></iconify-icon></a>&nbsp;&nbsp;&nbsp; <a href="https://www.linkedin.com/company/107447153/"><iconify-icon role="img" inline="" icon="fa6-brands:linkedin" aria-label="Icon linkedin from fa6-brands Iconify.design set." title="LinkedIn"></iconify-icon></a> <br>ALiSP - Association Lilloise des Internes de Santé Publique</p>
 </div>
     <div class="nav-footer-right">
 <p><span>Site conçu avec <iconify-icon role="img" inline="" icon="fa6-brands:r-project" aria-label="Icon r-project from fa6-brands Iconify.design set." title="R"></iconify-icon> et <a href="https://quarto.org/"><iconify-icon role="img" inline="" icon="simple-icons:quarto" aria-label="Icon quarto from simple-icons Iconify.design set." title="https://quarto.org/"></iconify-icon></a></span><br> <span><a href="https://codeberg.org/hebstr/site_alisp/src/branch/main/">Voir la source</a></span></p>

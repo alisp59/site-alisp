@@ -1,56 +1,50 @@
 {
   "bureau/bureau.qmd": {
-    "bureau.html": "1208ab97"
+    "bureau.html": "9bdb5575"
   },
   "bureau/contact.qmd": {
-    "contact.html": "494d7bc1"
-  },
-  "guide/page_2.qmd": {
-    "page_2.html": "6f56f808"
-  },
-  "guide/page_1.qmd": {
-    "page_1.html": "1cd2362c"
-  },
-  "guide/index.qmd": {
-    "index.html": "87183376"
-  },
-  "internat/maquette.qmd": {
-    "maquette.html": "8e158e9e"
-  },
-  "internat/lille.qmd": {
-    "lille.html": "4246e67f"
-  },
-  "internat/trombi.qmd": {
-    "trombi.html": "20c275f7"
-  },
-  "evenements/apero.qmd": {
-    "apero.html": "da385956"
-  },
-  "evenements/clisp.qmd": {
-    "clisp.html": "0704bf01"
-  },
-  "aide/aide.qmd": {
-    "aide.html": "3910940f"
-  },
-  "ressources/ressources.qmd": {
-    "ressources.html": "1b7210ce"
-  },
-  "blog/test/index.qmd": {
-    "index.html": "95be4e6f"
-  },
-  "blog/test2/index.qmd": {
-    "index.html": "cf657e9b"
-  },
-  "blog/index.qmd": {
-    "index.html": "3d0878ec"
-  },
-  "index.qmd": {
-    "index.html": "e4bd658a"
+    "contact.html": "6800c45f"
   },
   "guide/01-lille.qmd": {
-    "01-lille.html": "2456e8f8"
+    "01-lille.html": "5e0c74e4"
   },
   "guide/02-structure.qmd": {
-    "02-structure.html": "37843ba7"
+    "02-structure.html": "cd858681"
+  },
+  "guide/index.qmd": {
+    "index.html": "67d8959c"
+  },
+  "internat/maquette.qmd": {
+    "maquette.html": "9893e24c"
+  },
+  "internat/lille.qmd": {
+    "lille.html": "129f6185"
+  },
+  "internat/trombi.qmd": {
+    "trombi.html": "e57d0132"
+  },
+  "evenements/apero.qmd": {
+    "apero.html": "3bb5a238"
+  },
+  "evenements/clisp.qmd": {
+    "clisp.html": "1707a6ce"
+  },
+  "aide/aide.qmd": {
+    "aide.html": "95f937c7"
+  },
+  "ressources/ressources.qmd": {
+    "ressources.html": "be97d96f"
+  },
+  "blog/test/index.qmd": {
+    "index.html": "1a17cf5d"
+  },
+  "blog/test2/index.qmd": {
+    "index.html": "c0ff2395"
+  },
+  "blog/index.qmd": {
+    "index.html": "4b4a1351"
+  },
+  "index.qmd": {
+    "index.html": "ede7ed33"
   }
 }
