@@ -1,96 +1,82 @@
-div.callout.callout {
-  border-top-color: #F0F0F0;
-  border-right-color: #F0F0F0;
-  border-bottom-color: #F0F0F0;
-}
-
-div.callout-title-container {
-  font-size: 1rem;
-  margin-top: 0.4rem;
-  margin-bottom: 0.8rem;
-  padding-right: 1.3rem;
-}
-
-div.callout-body {
-  padding-right: 1.3rem;
+.callout {
+  border-radius: 5px;
+  background-color: #fff;
+  .callout-title-container {
+    font-size: 1rem;
+    margin-top: 0.4rem;
+    margin-bottom: 0.8rem;
+    padding-right: 1.3rem;
+  }
+  .callout-body {
+    padding-right: 1.3rem;
+  }
 }
 
 .callout:not(.no-icon).callout-titled.callout-style-simple .callout-body {
   padding-left: 1.75rem;
 }
 
-div.callout-note.callout {
+.callout.callout-style-simple {
+  .callout-icon::before,
+  .callout-toggle::before {
+    height: 1.2rem;
+    width: 1.2rem;
+    background-size: 1.2rem;
+    margin-top: 0.3rem;
+  }
+}
+
+div.callout.callout-note {
   border: 2px solid color-mix(in srgb, var(--callout-note-color), white 40%);
-  border-left: 5px solid color-mix(in srgb, var(--callout-note-color), white 10%);
-  border-radius: 5px;
-  background-color: #fff;
+  border-left: 5px solid var(--callout-note-color);
+  .callout-header {
+    color: var(--callout-note-color);
+  }
+  .callout-body {
+    color: color-mix(in srgb, var(--callout-note-color), black 20%);
+  }
 }
 
-div.callout-note.callout-titled .callout-header {
-  color: var(--callout-note-color);
-}
-
-div.callout-note.callout .callout-body {
-  color: color-mix(in srgb, var(--callout-note-color), black 20%);
-}
-
-div.callout-important.callout {
+div.callout.callout-important {
   border: 2px solid color-mix(in srgb, var(--callout-important-color), white 30%);
   border-left: 5px solid var(--callout-important-color);
-  border-radius: 5px;
-  background-color: #fff;
+  .callout-header {
+    color: var(--callout-important-color);
+  }
+  .callout-body {
+    color: color-mix(in srgb, var(--callout-important-color), black 10%);
+  }
 }
 
-div.callout-important.callout-titled .callout-header {
-  color: color-mix(in srgb, var(--callout-important-color), black 10%);
+div.callout.callout-tip {
+  border: 2px solid color-mix(in srgb, var(--callout-tip-color), white 60%);
+  border-left: 5px solid var(--callout-tip-color);
+  .callout-header {
+    color: var(--callout-tip-color);
+  }
+  .callout-body {
+    color: color-mix(in srgb, var(--callout-tip-color), black 10%);
+  }
 }
 
-div.callout-important.callout .callout-body {
-  color: color-mix(in srgb, var(--callout-important-color), black 10%);
+div.callout.callout-caution {
+  border: 2px solid color-mix(in srgb, var(--callout-caution-color), white 25%);
+  border-left: 5px solid var(--callout-caution-color);
+  .callout-header {
+    color: color-mix(in srgb, var(--callout-caution-color), black 10%);
+  }
+  .callout-body {
+    color: color-mix(in srgb, var(--callout-caution-color), black 30%);
+  }
 }
 
-div.callout-tip.callout {
-  border: 2px solid lighten($callout-tip-color, 60%);
-  border-left: 5px solid lighten($callout-tip-color, 5%);
-  border-radius: 5px;
-  background-color: #fff;
-}
-
-div.callout-tip.callout-titled .callout-header {
-  color: $callout-tip-color;
-}
-
-div.callout-tip.callout .callout-body {
-  color: darken($callout-tip-color, 10%);
-}
-
-div.callout-caution.callout {
-  background-color: lighten($callout-caution-color, 33%);
-}
-
-div.callout-caution.callout-titled .callout-header {
-  color: darken($callout-caution-color, 20%);
-}
-
-div.callout-warning.callout {
-  border: 2px solid lighten($callout-warning-color, 25%);
-  border-left: 5px solid $callout-warning-color;
-  border-radius: 5px;
-  background-color: #fff;
-}
-
-div.callout-warning.callout-titled .callout-header {
-  color: darken($callout-warning-color, 5%);
-}
-
-div.callout-warning.callout .callout-body {
-  color: darken($callout-warning-color, 30%);
-}
-
-.callout.callout-style-simple .callout-icon::before,
-.callout.callout-style-simple .callout-toggle::before {
-  height: 1.2rem;
-  width: 1.2rem;
-  background-size: 1.2rem;
-  margin-top: 0.3rem;
+div.callout.callout-warning {
+  border: 2px solid color-mix(in srgb, var(--callout-warning-color), white 25%);
+  border-left: 5px solid var(--callout-warning-color);
+  .callout-header {
+    color: var(--callout-warning-color);
+  }
+  .callout-body {
+    color: color-mix(in srgb, var(--callout-warning-color), black 30%);
+  }
 }

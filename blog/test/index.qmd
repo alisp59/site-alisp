@@ -1,20 +1,20 @@
 ---
-title: Titre
-author: Auteur
+title: Apéro-Info
+author: XXX
 date: 2025-10-01
 slug: test-blog-1
 categories:
-  - catégorie A
   - catégorie B
 description: Description
-image: ../../_img/sym-red-nobg.png
+image: ../../_img/guide_transport.png
 source_link: https://codeberg.org/hebstr/site_alisp/src/branch/main/
-keywords: mots-clés
 ---
 
 # Excepteur in incididunt
 
 Occaecat ut irure anim in eu in est labore elit. Lorem labore aliquip aute reprehenderit ea est labore voluptate eiusmod. Nulla culpa cillum irure non proident culpa nostrud nisi duis. Et dolore reprehenderit nostrud do magna elit duis deserunt tempor. Ut nulla ut consequat aute velit officia sit non cupidatat.
+
+![](../../_img/apero-info.png)
 
 # Ex magna ad
 

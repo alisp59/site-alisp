@@ -35,7 +35,7 @@ page-layout: full
 
 # Page d'accueil
 
-::: callout-caution
+::: callout-warning
 # propositions
 je réfléchis à mettre ici une sorte de carrousel avec articles "blog" + autres actualités qu'on voudrait mettre en avant
 :::

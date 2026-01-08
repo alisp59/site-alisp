@@ -1,5 +1,5 @@
 ---
-title: Apéro-Info
+title: Titre
 author: XXX
 date: 2025-11-01
 slug: test-blog-2

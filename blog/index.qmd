@@ -25,4 +25,6 @@ title-block-banner: true
 comments: false
 ---
 
-Eventuellent un autre paragraphe
+::: callout-warning
+# Eventuellent un autre paragraphe
+:::
