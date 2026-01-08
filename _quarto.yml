@@ -18,14 +18,13 @@ website:
   description: "Site officiel de l'ALiSP"
   favicon: _img/sym-red-nobg.png
   navbar:
-    background: primary
     pinned: true
     logo: _img/logo-navbar.png
     title: false
     right:
       - text: "Bureau"
         href: bureau/bureau.qmd
-      - text: "L'internat"
+      - text: "Subdivision"
         menu:
           - text: "La santé publique à Lille"
             href: internat/lille.qmd
@@ -33,31 +32,36 @@ website:
             href: internat/maquette.qmd
           - text: "Trombinoscope"
             href: internat/trombi.qmd
-      - text: Guide de l'interne
-        href: guide/index.qmd
       - text: Actualités
         href: blog/index.qmd
-      - text: "Ressources"
-        href: ressources/ressources.qmd
+      - text: Guide de l'interne
+        href: guide/index.qmd
       - text: "Aide méthodologique"
         href: aide/aide.qmd
   sidebar:
     - id: guide
       style: "floating"
-      background: $primary-back
       contents: guide
   page-footer:
-    foreground: darken($primary, 20%)
     left: |
-      <span>{{< fa brands creative-commons >}}&nbsp;{{< var year >}} ALiSP</span><br>
-      <span>{{< fa brands creative-commons >}}&nbsp;{{< fa brands creative-commons-by >}} [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)</span>
+      <span>{{< fa brands creative-commons >}}&nbsp;{{< var year >}} ALiSP</span>
+      <br>
+      <span>
+        {{< fa brands creative-commons >}}&nbsp;{{< fa brands creative-commons-by >}}
+        [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)
+      </span>
     center: |
       [{{< var links.mail.text >}}]({{< var links.mail.href >}})
       [{{< var links.insta.text >}}]({{< var links.insta.href >}})
       [{{< var links.twitter.text >}}]({{< var links.twitter.href >}})
       [{{< var links.facebook.text >}}]({{< var links.facebook.href >}})
       [{{< var links.linkedin.text >}}]({{< var links.linkedin.href >}})
-      <br>{{< var alisp >}}
+      <br>
+      {{< var alisp >}}
     right: |
-      <span>Site conçu avec {{< iconify fa6-brands r-project title='R' >}} et [{{< iconify simple-icons quarto title='https://quarto.org/' >}}](https://quarto.org/)</span><br>
+      <span>
+        Site conçu avec {{< iconify fa6-brands r-project title='R' >}} et
+        [{{< iconify simple-icons quarto title='https://quarto.org/' >}}](https://quarto.org/)
+      </span>
+      <br>
       <span>[{{< var repo.text >}}]({{< var repo.href >}})</span>

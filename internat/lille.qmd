@@ -24,7 +24,7 @@ toc: false
 </iframe>
 ```
 ```{=html}
-<a href="https://example.com" target="_blank" rel="noopener noreferrer">
+<a href="../blog/test/" target="_blank" rel="noopener noreferrer">
   <img
     src="../_img/apero-info.png"
     alt="Apéro info"

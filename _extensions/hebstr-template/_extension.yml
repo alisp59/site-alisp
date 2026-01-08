@@ -27,8 +27,7 @@ contributes:
       footnotes-hover: true
       theme: style.scss
       css:
-        - resources/index.css
+        - resources/index.scss
         - resources/column.scss
         - resources/callout.scss
-        - resources/container.css
         - resources/fonts.css

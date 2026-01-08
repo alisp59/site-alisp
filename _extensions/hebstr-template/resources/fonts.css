@@ -1,4 +1,4 @@
-@font-face {
+/* @font-face {
   font-family: "Fira Code";
   font-style: normal;
   font-weight: 400;
@@ -12,7 +12,7 @@
   font-weight: 700;
   font-display: swap;
   src: url('https://fonts.gstatic.com/s/firacode/v22/uU9NCBsR6Z2vfE9aq3bh3dSD.woff2') format("woff2");
-}
+} */
 
 @font-face {
   font-family: "Luciole";

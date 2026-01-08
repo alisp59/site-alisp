@@ -1,23 +1,14 @@
 /*-- scss:defaults --*/
 
-$primary: #dd0000ff !default;
-$primary-back: lighten($primary, 52%) !default;
+$primary: #dd0000 !default;
 $secondary: #0099FF !default;
-$secondary-back: #F0FAFF !default;
-$body-back: #FFF5F5 !default;
 
 $neutral: #5E5E5E !default;
 $neutral-light: #999 !default;
 $chapter-number-color: #6d7a86 !default;
 $line-color: #DEE2E6 !default;
-$background-color: #f8f9fa !default;
 
-$callout-icon-scale: -10%;
-$callout-note-color: #0099FF !default;
-$callout-tip-color: #3fb618 !default;
-$callout-caution-color: #f0ad4e !default;
-$callout-warning-color: #ff6a00ff !default;
-$callout-important-color: #FF0000 !default;
+$callout-icon-scale: -10% !default;
 
 $font-family-body: "Luciole";
 $font-family-monospace: "Fira Code";
@@ -28,32 +19,37 @@ $grid-body-width: 900px !default;
 $grid-margin-width: 400px !default;
 
 :root {
-  --primary-back: #{$primary-back};
-  --callout-icon-scale: #{$callout-icon-scale};
-  --callout-note-color: #{$callout-note-color};
-  --callout-tip-color: #{$callout-tip-color};
-  --callout-caution-color: #{$callout-caution-color};
-  --callout-warning-color: #{$callout-warning-color};
-  --callout-important-color: #{$callout-important-color};
+  --primary: #{$primary};
+  --primary-back: color-mix(in srgb, var(--primary), white 90%);
+  --secondary: #{$secondary};
+  --secondary-back: #F0FAFF;
+  --body: color-mix(in srgb, var(--primary), black 40%);
+  --body-back: #FFF5F5;
+  --code-bg-color: #f8f9fa;
+  --callout-note-color: #0099FF;
+  --callout-tip-color: #3fb618;
+  --callout-caution-color: #f0ad4e;
+  --callout-warning-color: #ff6a00;
+  --callout-important-color: #FF0000;
 }
 
 /*-- scss:rules --*/
 
 body {
-  background-color: $body-back;
-  color: darken($primary, 20%);
+  background-color: var(--body-back);
+  color: var(--body);
   font-family: $font-family-body;
   text-align: justify !important;
 }
 
 html {
-  scrollbar-color: $primary $primary-back;
+  scrollbar-color: var(--primary) var(--primary-back);
   scrollbar-width: thin;
 }
 
 #listing-listing {
   margin-top: 2rem;
-  color: darken($primary, 20%);
+  color: var(--body);
   a {
     color: inherit;
   }
@@ -70,7 +66,7 @@ html {
   .listing-category {
     padding: 0.4rem 0.5rem;
     margin-right: 0.3rem;
-    color: darken($primary, 20%);
+    color: var(--body);
     background-color: var(--primary-back);
     border: 0;
   }
@@ -98,7 +94,7 @@ html {
     > ul {
       margin-bottom: 2rem;
       a {
-        border-left: 1px solid lighten($primary, 45%);
+        border-left: 3px solid var(--primary-back);
       }
       li a {
         padding-top: 0.6rem;
@@ -106,7 +102,7 @@ html {
     }
     :is(ul > li, ul > li > ul > li) > a.active {
       font-weight: bold;
-      border-left: 3px solid $primary;
+      border-left: 3px solid var(--primary);
     }
   }
 }
@@ -122,22 +118,23 @@ h2#toc-title {
 }
 
 #quarto-sidebar {
+  background-color: var(--primary-back);
   .sidebar-title {
-    color: $primary;
+    color: var(--primary);
     font-weight: bold;
     font-size: 1.1rem;
     line-height: 1.6rem;
   }
   .sidebar-item-container {
     padding: 0.2rem;
-    color: $primary;
+    color: var(--primary);
     .active {
       color: inherit;
       font-weight: bold;
     }
   }
   .sidebar-item-section > .sidebar-item-container:first-child a {
-    color: darken($primary, 20%);
+    color: var(--body);
     font-weight: bold;
     font-size: 1.2rem;
   }
@@ -148,7 +145,7 @@ h2#toc-title {
 }
 
 h1, h2, h3 {
-  color: $primary;
+  color: var(--primary);
 }
 
 h2, h3, h4, h5 {
@@ -218,7 +215,7 @@ div[data-code-filename] summary {
 }
 
 div.sourceCode {
-  background-color: $background-color;
+  background-color: var(--code-bg-color);
 }
 
 code.sourceCode, pre code {
@@ -232,7 +229,7 @@ pre code {
 }
 
 code {
-  color: $primary;
+  color: var(--primary);
 }
 
 code span.do {
@@ -291,36 +288,36 @@ div.csl-right-inline {
 #title-block-header {
   .quarto-title-banner {
     padding: 2.5rem 2.5rem;
-    background-color: $primary-back;
+    background-color: var(--primary-back);
     margin-block-end: 0;
     .quarto-title {
       margin: 0;
     }
     .title {
-      color: $primary;
+      color: var(--primary);
       padding: 0;
       font-size: 2.5rem;
     }
     .description {
-      color: $primary;
+      color: var(--primary);
       padding-top: 1rem;
       font-size: 1.3rem;
     }
     .quarto-category {
       padding: 0.3rem 0.4rem;
-      color: darken($primary, 20%);
-      background-color: $body-back;
+      color: var(--body);
+      background-color: var(--body-back);
     }
   }
   .quarto-title-meta {
     margin-top: 1rem;
     .quarto-title-meta-heading {
-      color: $primary;
+      color: var(--primary);
       font-weight: bold !important;
     }
   }
   .block-title {
-    color: $primary;
+    color: var(--primary);
     font-weight: bold !important;
   }
 }
@@ -330,6 +327,7 @@ div.csl-right-inline {
 }
 
 #quarto-header .navbar {
+  background-color: var(--primary);
   border-bottom: 3px solid var(--primary-back);
   .navbar-logo {
     width: auto;
@@ -341,7 +339,7 @@ div.csl-right-inline {
     padding: 0;
   }
   .nav-link {
-    color: $body-back;
+    color: var(--body-back);
     padding: 0 1rem;
   }
   .nav-link:hover,
@@ -350,32 +348,39 @@ div.csl-right-inline {
     font-weight: bold;
   }
   .dropdown-menu {
-    border: 3px solid $body-back;
+    border: 3px solid var(--body-back);
     padding: 0.5rem 1rem;
-    background-color: $primary-back;
+    background-color: var(--primary-back);
     .dropdown-item {
-      color: $primary;
+      color: var(--primary);
       font-size: 1rem;
       font-weight: bold;
     }
     .dropdown-item:hover,
     .dropdown-item:focus {
-      color: darken($primary, 20%);
-      background-color: $primary-back;
+      color: var(--body);
+      background-color: var(--primary-back);
     }
   }
 }
 
 .nav-footer {
   padding-top: 0.8rem;
-  background-color: $primary-back;
-  border-top: 2px solid $body-back;
+  background-color: var(--primary-back);
+  color: var(--body);
+  border-top: 2px solid var(--body-back);
   line-height: 1.5rem;
   font-size: 1.05rem;
-  .nav-footer-center iconify-icon {
+  a {
+    color: inherit;
+  }
+  .nav-footer-center a {
     margin: 0 0.3rem;
-    color: $primary;
+    color: var(--primary);
     font-size: 1.1rem;
+    :hover {
+      color: var(--body);
+    }
   }
 }
 
@@ -387,4 +392,15 @@ iframe {
   border: 1px solid var(--primary-back);
   box-shadow: 0 2px 4px var(--primary-back);
   max-width: 100%;
+}
+
+.embed-container {
+  position: relative;
+  padding-bottom: 136%;
+  max-width: 100%;
+  iframe, object, embed {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+  }
 }
