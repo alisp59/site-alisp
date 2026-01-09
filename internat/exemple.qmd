@@ -1,0 +1,159 @@
+---
+sec: internat-lille
+title: "L'Internat à Lille"
+description: "Informations pratiques sur l'internat de santé publique à Lille"
+freeze: false
+toc: false
+grid:
+  sidebar-width: 0px
+  body-width: 1500px
+  margin-width: 0px
+jorf: https://clisp.fr/wp-content/uploads/2019/12/Maquette-oficielle-du-DES-publi%C3%A9e-au-JO.pdf
+---
+
+{{< include ../_setup.qmd >}}
+
+::: callout-warning
+# exemple de page
+
+ofc possible de structurer les pages en mode contenu principal + sidebar classique (techniquement c'est juste deux colonnes basiques desquelles on peut régler la largeur, ça permet plus de contrôle)
+
+on peut tester plein de trucs
+:::
+
+::: page-content
+
+::: {.column width="70%"}
+# Titre 1
+
+{{< lipsum 1 random=true >}}
+
+# Titre 2
+
+{{< lipsum 1 random=true >}}
+
+[légifrance](https://www.legifrance.gouv.fr/loda/article_lc/LEGIARTI000047113755)
+
+::: embed-container
+<iframe src="`r rmarkdown::metadata$jorf`"></iframe>
+:::
+
+\
+
+{{< lipsum 1 >}}
+
+:::
+
+::: {.page-sidebar .column width="30%"}
+# Agenda (pour test)
+```{=html}
+<iframe
+  src="https://calendar.google.com/calendar/embed?src=example"
+  height="500"
+  loading="lazy">
+</iframe>
+```
+
+\
+
+## [img redirigeant vers page blog]
+```{=html}
+<a
+  href="../blog/test/"
+  rel="noopener noreferrer">
+  <img
+    src="../_img/apero-info.jpg"
+    alt="Apéro-info"
+    loading="lazy">
+</a>
+```
+
+\
+
+# encore un truc
+```{=html}
+<iframe
+  src="https://example.com"
+  height="500"
+  loading="lazy">
+</iframe>
+```
+
+\
+
+on peut aussi mettre du texte tkrl
+
+:::
+
+:::
+
+# encore un titre
+
+ou pas
+
+::: callout-tip
+# et puis
+on peut sans pb reprendre avec structure indépendante de la précédente, avec nombre et largeur de colonne qu'on veut
+
+basé.
+:::
+
+::: page-content
+
+::: {.page-sidebar .column width="50%"}
+# Agenda (pour test)
+```{=html}
+<iframe
+  src="https://calendar.google.com/calendar/embed?src=example"
+  height="500"
+  loading="lazy">
+</iframe>
+```
+
+\
+
+## [img redirigeant vers page blog]
+```{=html}
+<a
+  href="../blog/test/"
+  rel="noopener noreferrer">
+  <img
+    src="../_img/apero-info.jpg"
+    alt="Apéro-info"
+    loading="lazy">
+</a>
+```
+
+\
+
+# encore un truc
+```{=html}
+<iframe
+  src="https://example.com"
+  height="500"
+  loading="lazy">
+</iframe>
+```
+:::
+
+::: {.column width="50%"}
+# Titre 1
+
+{{< lipsum 1 random=true >}}
+
+# Titre 2
+
+{{< lipsum 1 random=true >}}
+
+[légifrance](https://www.legifrance.gouv.fr/loda/article_lc/LEGIARTI000047113755)
+
+::: embed-container
+<iframe src="`r rmarkdown::metadata$jorf`"></iframe>
+:::
+
+\
+
+{{< lipsum 1 >}}
+
+:::
+:::

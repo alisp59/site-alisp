@@ -12,8 +12,10 @@ grid:
 
 {{< include ../_setup.qmd >}}
 
-```{=html}
-<div class="embed-container">
-  <iframe src="`r rmarkdown::metadata$file`"></iframe>
-</div>
-```
+::: callout-warning
+# sais pas quoi faire de cette page on peut sûrement l'intégrer au guide ou ailleurs
+:::
+
+::: embed-container
+<iframe src="`r rmarkdown::metadata$file`"></iframe>
+:::

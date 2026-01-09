@@ -3,13 +3,12 @@ title: Guide de l'interne
 date: today
 ---
 
-# Test
+::: callout-warning
+# proposition format "book" de quarto
 
-skhezog difhae ehfiea iehgzà g
+avec une page par section du guide (j'ai grossièrmeent recopié les 2 premières pour illuster)
 
-# zjfiaehgaê
+une option permet de le sortir en pdf
 
-## fieepgihepz
-
-fkagepahG
-*PSFJPHEZ
+une alternative au format book pourrait être un menu déroulant dans la navbar avec une page par section, à voir
+:::

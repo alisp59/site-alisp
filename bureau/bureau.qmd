@@ -1,9 +1,37 @@
 ---
 sec: bureau
-title: "Bureau de l'ALISP"
+title: "Composition du bureau 2025-2026"
 toc: false
 ---
 
 {{< include ../_setup.qmd >}}
 
-`r knit_section()`
+::: callout-warning
+# à rédiger (je peux faire des sortes de vignettes c'est plus stylé avec +/- infos complémentaires pour chacune)
+:::
+
+# Président
+
+**GUEROUT Victor** - Rôle : Représentation de l’association, coordination générale
+
+# Secrétaire
+
+**BOULANGER Philippine** - Rôle : Gestion administrative
+
+# Trésorier
+
+**JOHNSON Valentin** - Rôle : Gestion financière
+
+# Webmaster
+
+**Julien ELICES-DIEZ** - Rôle : Gestion du site web
+
+\
+
+::: {.column-screen}
+<iframe
+  src="https://tinyurl.com/4bzthh8k"
+  width="100%"
+  height="450">
+</iframe>
+:::

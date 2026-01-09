@@ -33,21 +33,6 @@ page-layout: full
 ![](_img/lille_cut.png)
 :::
 
-# Page d'accueil
-
-::: callout-warning
-# propositions
-je réfléchis à mettre ici une sorte de carrousel avec articles "blog" + autres actualités qu'on voudrait mettre en avant
-:::
-
-\
-
-::: {.column-screen}
-```{=html}
-<iframe
-  src="https://tinyurl.com/4bzthh8k"
-  width="100%"
-  height="450">
-</iframe>
-```
+::: {.callout-important .column-screen-inset}
+# on peut mettre ici une sorte de carrousel/groupe de vignettes avec actualités + autres trucs qu'on voudrait mettre en avant (j'y réfléchis)
 :::

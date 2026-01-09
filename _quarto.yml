@@ -24,12 +24,10 @@ website:
     right:
       - text: "Bureau"
         href: bureau/bureau.qmd
-      - text: "Subdivision"
+      - text: "Section"
         menu:
-          - text: "La santé publique à Lille"
-            href: internat/lille.qmd
-          - text: "Maquette du DES"
-            href: internat/maquette.qmd
+          - text: "exemple"
+            href: internat/exemple.qmd
           - text: "Trombinoscope"
             href: internat/trombi.qmd
       - text: Actualités
@@ -44,7 +42,10 @@ website:
       contents: guide
   page-footer:
     left: |
-      <span>{{< fa brands creative-commons >}}&nbsp;{{< var year >}} ALiSP</span>
+      <span>
+        {{< fa brands creative-commons >}}
+        [{{< var year >}} ALiSP](https://tinyurl.com/38p26zwy)
+      </span>
       <br>
       <span>
         {{< fa brands creative-commons >}}&nbsp;{{< fa brands creative-commons-by >}}

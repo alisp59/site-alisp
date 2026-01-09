@@ -26,5 +26,9 @@ comments: false
 ---
 
 ::: callout-warning
-# Eventuellent un autre paragraphe
+# proposition format "blog" de quarto
+
+nommé "actualités" mais en vrai on peut y regrouper flux et trucs plus pérennes
+
+chaque élement redirige vers une page quarto classique
 :::

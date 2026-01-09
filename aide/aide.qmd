@@ -6,8 +6,31 @@ description: "Déposez votre demande d'aide pour vos projets de recherche"
 
 {{< include ../_setup.qmd >}}
 
-`r knit_section()`
+::: callout-warning
+# à rédiger (on peut y intéger le formulaire directement)
+:::
 
+# Aide méthodologique
+
+L’ALISP propose un service d’aide méthodologique pour accompagner les internes et les professionnels de santé publique dans leurs projets de recherche et analyses statistiques, notamment dans le cadre de projets de thèses.
+
+## Types d’aide proposés
+
+Méthodologie de recherche
+
+- Conception d’études
+- Choix des méthodes d’analyse
+
+Analyses statistiques
+
+  - Analyses descriptives et inférentielles
+  - Modélisation statistique
+  - Analyses multivariées
+  - Utilisation de RStudio
+
+\
+
+::: embed-container
 ```{=html}
 <iframe
   src="https://tinyurl.com/yewpa7m2"
@@ -15,3 +38,4 @@ description: "Déposez votre demande d'aide pour vos projets de recherche"
   height="800">
 </iframe>
 ```
+:::
