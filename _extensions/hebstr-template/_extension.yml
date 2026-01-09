@@ -25,9 +25,5 @@ contributes:
       html-table-processing: none
       default-image_extension: svg
       footnotes-hover: true
-      theme: style.scss
-      css:
-        - resources/index.scss
-        - resources/column.scss
-        - resources/callout.scss
-        - resources/fonts.css
+      theme: resources/theme.scss
+      css: resources/fonts.css
