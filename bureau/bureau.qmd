@@ -2,6 +2,10 @@
 sec: bureau
 title: "Composition du bureau 2025-2026"
 toc: false
+grid:
+  sidebar-width: 0px
+  body-width: 1200px
+  margin-width: 0px
 ---
 
 {{< include ../_setup.qmd >}}
@@ -10,22 +14,56 @@ toc: false
 # à rédiger (je peux faire des sortes de vignettes c'est plus stylé avec +/- infos complémentaires pour chacune)
 :::
 
-# Président
+::: {.bureau-grid}
 
-**GUEROUT Victor** - Rôle : Représentation de l’association, coordination générale
+:::: {.bureau-card}
+<img src="pp/victor_guerout.jpg" alt="Victor GUEROUT" class="bureau-photo">
+<div class="bureau-info">
+  <h1 class="bureau-nom">Victor&nbsp;GUEROUT</h1>
+  <p class="bureau-fonction">Président</p>
+  <p class="bureau-desc">Coordination générale</p>
+</div>
+::::
 
-# Secrétaire
+:::: {.bureau-card}
+<img src="pp/philippine_boulanger.jpg" alt="Philippine BOULANGER" class="bureau-photo">
+<div class="bureau-info">
+  <h1 class="bureau-nom">Philippine&nbsp;BOULANGER</h1>
+  <p class="bureau-fonction">Secrétaire</p>
+  <p class="bureau-desc">Gestion administrative</p>
+</div>
+::::
 
-**BOULANGER Philippine** - Rôle : Gestion administrative
+:::: {.bureau-card}
+<img src="pp/tristan_leguillette.jpg" alt="Tristan LÉGUILLETTE" class="bureau-photo">
+<div class="bureau-info">
+  <h1 class="bureau-nom">Tristan&nbsp;LÉGUILLETTE</h1>
+  <p class="bureau-fonction">Communication</p>
+  <p class="bureau-desc">Représentation de l'association</p>
+</div>
+::::
 
-# Trésorier
+:::: {.bureau-card}
+<img src="pp/valentin_johnson.jpg" alt="Valentin JOHNSON" class="bureau-photo">
+<div class="bureau-info">
+  <h1 class="bureau-nom">Valentin&nbsp;JOHNSON</h1>
+  <p class="bureau-fonction">Trésorier</p>
+  <p class="bureau-desc">Gestion financière</p>
+</div>
+::::
 
-**JOHNSON Valentin** - Rôle : Gestion financière
+:::: {.bureau-card}
+<img src="pp/julien_elices-diez.jpg" alt="Julien ELICES-DIEZ" class="bureau-photo">
+<div class="bureau-info">
+  <h1 class="bureau-nom">Julien&nbsp;ELICES-DIEZ</h1>
+  <p class="bureau-fonction">Webmaster</p>
+  <p class="bureau-desc">Gestion du site web</p>
+</div>
+::::
 
-# Webmaster
+:::
 
-**Julien ELICES-DIEZ** - Rôle : Gestion du site web
-
+\
 \
 
 ::: {.column-screen}

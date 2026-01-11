@@ -6,28 +6,28 @@ page-layout: full
 
 {{< include _setup.qmd >}}
 
+::: {.index-logo .column-screen}
 ```{=html}
-<div class="site-hero column-screen">
-  <div class="site-logo-word">
-    <img src="_img/word-homepage.png" alt="Logo ALISP">
+<div class="index-logo-libelle">
+  <img src="_img/word-homepage.png" alt="Libellé ALISP">
+</div>
+<div class="index-logo-lille">
+  <img src="_img/sym-red-nobg.png" alt="Logo ville de Lille">
+</div>
+<div class="index-logo-alisp-social">
+  <div class="index-logo-alisp">
+    <img src="_img/logo-homepage.png" alt="Logo ALISP">
   </div>
-  <div class="site-logo-lille">
-    <img src="_img/sym-red-nobg.png" alt="Logo ALISP">
-  </div>
-  <div class="site-logo-alisp-social">
-    <div class="site-logo-alisp">
-      <img src="_img/logo-homepage.png" alt="Logo ALISP">
-    </div>
-    <div class="social-icon-links" aria-hidden="true">
-      `r social_icon(id = "mail", icon = "envelope", fa = "fa")`
-      `r social_icon(id = "insta", icon = "instagram")`
-      `r social_icon(id = "twitter", icon = "x-twitter")`
-      `r social_icon(id = "facebook", icon = "facebook")`
-      `r social_icon(id = "linkedin", icon = "linkedin")`
-    </div>
+  <div class="index-logo-social">
+    `r social_icon(id = "mail", icon = "envelope", fa = "fa")`
+    `r social_icon(id = "insta", icon = "instagram")`
+    `r social_icon(id = "twitter", icon = "x-twitter")`
+    `r social_icon(id = "facebook", icon = "facebook")`
+    `r social_icon(id = "linkedin", icon = "linkedin")`
   </div>
 </div>
 ```
+:::
 
 ::: {.column-screen}
 ![](_img/lille_cut.png)

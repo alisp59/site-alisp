@@ -14,7 +14,7 @@ format:
 
 website:
   title: "{{< var alisp >}}"
-  site-url: https://www.example.org/
+  site-url: https://hebstr.quarto.pub/alisp/
   description: "Site officiel de l'ALiSP"
   favicon: _img/sym-red-nobg.png
   navbar:
@@ -32,9 +32,9 @@ website:
             href: internat/trombi.qmd
       - text: Actualités
         href: blog/index.qmd
-      - text: Guide de l'interne
+      - text: Guide&nbsp;de&nbsp;l'interne
         href: guide/index.qmd
-      - text: "Aide méthodologique"
+      - text: "Aide&nbsp;méthodologique"
         href: aide/aide.qmd
   sidebar:
     - id: guide
