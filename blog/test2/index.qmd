@@ -7,7 +7,7 @@ categories:
   - catégorie A
   - catégorie C
 description: Description
-image: ../../_img/guide.png
+image: ../../_img/guide.jpg
 source_link: https://codeberg.org/hebstr/site_alisp/src/branch/main/
 ---
 
