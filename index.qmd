@@ -1,10 +1,32 @@
 ---
-sec: index
-toc: false
 page-layout: full
 ---
 
-{{< include _setup.qmd >}}
+```{r}
+glue_qmd <- \(x, .envir = parent.frame()) {
+
+  stringr::str_glue(x, .open = "<<", .close = ">>", .envir = .envir)
+
+}
+
+social_icon <- \(id, icon, set = "fa6-brands") {
+
+  glue_qmd("
+    <a
+      href='{{< var links.<<id>>.href >}}'
+      title=<<id>>
+      target='_blank'
+      rel='noopener'>
+      <iconify-icon
+        icon='<<set>>:<<icon>>'
+        width='1.5em'
+        height='1.5em'>
+      </iconify-icon>
+    </a>
+  ")
+
+}
+```
 
 ::: {.index-logo .column-screen}
 ```{=html}
@@ -19,7 +41,7 @@ page-layout: full
     <img src="_img/logo-homepage.png" alt="Logo ALISP">
   </div>
   <div class="index-logo-social">
-    `r social_icon(id = "mail", icon = "envelope", fa = "fa")`
+    `r social_icon(id = "mail", icon = "envelope", set = "fa")`
     `r social_icon(id = "insta", icon = "instagram")`
     `r social_icon(id = "twitter", icon = "x-twitter")`
     `r social_icon(id = "facebook", icon = "facebook")`
@@ -29,7 +51,7 @@ page-layout: full
 ```
 :::
 
-::: {.column-screen}
+::: {.column-screen style="text-align: center;"}
 ![](_img/lille_cut.png)
 :::
 

@@ -14,16 +14,12 @@ contributes:
           message: false
           warning: false
     html:
-      toc: true
-      toc-depth: 2
+      toc: false
       smooth-scroll: true
       title-block-banner: true
       colorlinks: true
-      code-link: true
-      code-fold: true
       callout-appearance: simple
       html-table-processing: none
-      default-image_extension: svg
       footnotes-hover: true
       theme: resources/theme.scss
       css: resources/fonts.css

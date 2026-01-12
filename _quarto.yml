@@ -6,15 +6,12 @@ execute:
 
 lang: fr
 
-filters:
-  - fontawesome
-
 format:
   hebstr-template-html: default
 
 website:
   title: "{{< var alisp >}}"
-  site-url: https://hebstr.quarto.pub/alisp/
+  site-url: https://alisp.netlify.app/
   description: "Site officiel de l'ALiSP"
   favicon: _img/sym-red-nobg.png
   navbar:
@@ -43,12 +40,13 @@ website:
   page-footer:
     left: |
       <span>
-        {{< fa brands creative-commons >}}
+        {{< iconify fa6-brands creative-commons >}}
         [{{< var year >}} ALiSP](https://tinyurl.com/38p26zwy)
       </span>
       <br>
       <span>
-        {{< fa brands creative-commons >}}&nbsp;{{< fa brands creative-commons-by >}}
+        {{< iconify fa6-brands creative-commons >}}
+        {{< iconify fa6-brands creative-commons-by >}}
         [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)
       </span>
     center: |
@@ -62,7 +60,7 @@ website:
     right: |
       <span>
         Site conçu avec {{< iconify fa6-brands r-project title='R' >}} et
-        [{{< iconify simple-icons quarto title='https://quarto.org/' >}}](https://quarto.org/)
+        [{{< iconify simple-icons quarto title='Quarto' >}}](https://quarto.org/)
       </span>
       <br>
       <span>[{{< var repo.text >}}]({{< var repo.href >}})</span>

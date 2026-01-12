@@ -1,14 +1,10 @@
 ---
-sec: bureau
 title: "Composition du bureau 2025-2026"
-toc: false
 grid:
   sidebar-width: 0px
   body-width: 1200px
   margin-width: 0px
 ---
-
-{{< include ../_setup.qmd >}}
 
 ::: callout-warning
 # à rédiger (je peux faire des sortes de vignettes c'est plus stylé avec +/- infos complémentaires pour chacune)
@@ -35,20 +31,20 @@ grid:
 ::::
 
 :::: {.bureau-card}
-<img src="pp/tristan_leguillette.jpg" alt="Tristan LÉGUILLETTE" class="bureau-photo">
-<div class="bureau-info">
-  <h1 class="bureau-nom">Tristan&nbsp;LÉGUILLETTE</h1>
-  <p class="bureau-fonction">Communication</p>
-  <p class="bureau-desc">Représentation de l'association</p>
-</div>
-::::
-
-:::: {.bureau-card}
 <img src="pp/valentin_johnson.jpg" alt="Valentin JOHNSON" class="bureau-photo">
 <div class="bureau-info">
   <h1 class="bureau-nom">Valentin&nbsp;JOHNSON</h1>
   <p class="bureau-fonction">Trésorier</p>
   <p class="bureau-desc">Gestion financière</p>
+</div>
+::::
+
+:::: {.bureau-card}
+<img src="pp/tristan_leguillette.jpg" alt="Tristan LÉGUILLETTE" class="bureau-photo">
+<div class="bureau-info">
+  <h1 class="bureau-nom">Tristan&nbsp;LÉGUILLETTE</h1>
+  <p class="bureau-fonction">Communication</p>
+  <p class="bureau-desc">Représentation de l'association</p>
 </div>
 ::::
 

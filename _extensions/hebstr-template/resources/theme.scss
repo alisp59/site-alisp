@@ -47,6 +47,10 @@ html {
   scrollbar-width: thin;
 }
 
+// a:hover {
+//   cursor: url("_img/fa6-solid-hand-pointer.svg") 10 0, pointer;
+// }
+
 #listing-listing {
   margin-top: 2rem;
   color: var(--body);
@@ -448,28 +452,24 @@ h5 {
     @extend %flex-center;
   }
   .index-logo-libelle {
-    max-width: 40%;
-    height: auto;
+    flex: 0 0 40%;
     @include logo-size(80%);
   }
   .index-logo-lille {
-    max-width: 20%;
-    height: auto;
+    flex: 0 0 20%;
     @include logo-size(80%);
   }
   .index-logo-alisp-social {
-    max-width: 40%;
-    height: auto;
+    flex: 0 0 40%;
     padding: 2rem;
     .index-logo-alisp {
       @include logo-size(90%);
     }
     .index-logo-social {
       margin-top: 1rem;
-      font-size: 1.2rem;
-      max-width: 100%;
+      font-size: 2rem;
       gap: 1.5rem;
-      .link-primary{
+      a {
         transition: transform 0.3s ease;
         &:hover {
           transform: scale(1.3);
@@ -702,7 +702,7 @@ div.callout.callout-warning {
     border-radius: 50%;
     object-fit: cover;
     object-position: center top;
-    border: 3px solid var(--primary-back);
+    border: 3px solid var(--primary);
     margin-bottom: 1rem;
   }
   .bureau-info {

@@ -3,19 +3,17 @@ title: Trombinoscope
 description: Promotion 2023-2024
 date: 2023-12-11
 file: "trombinoscope_2023-2024_v2023-12-11.pdf"
-engine: knitr
-freeze: false
 grid:
   sidebar-width: 0px
   margin-width: 0px
 ---
-
-{{< include ../_setup.qmd >}}
 
 ::: callout-warning
 # sais pas quoi faire de cette page on peut sûrement l'intégrer au guide ou ailleurs
 :::
 
 ::: embed-container
-<iframe src="`r rmarkdown::metadata$file`"></iframe>
+```{=html}
+<iframe src="{{< meta file >}}"></iframe>
+```
 :::

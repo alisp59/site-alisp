@@ -1,17 +1,12 @@
 ---
-sec: internat-lille
 title: "L'Internat à Lille"
 description: "Informations pratiques sur l'internat de santé publique à Lille"
-freeze: false
-toc: false
+file: jorf-des-sante-publique.pdf
 grid:
   sidebar-width: 0px
   body-width: 1500px
   margin-width: 0px
-jorf: https://clisp.fr/wp-content/uploads/2019/12/Maquette-oficielle-du-DES-publi%C3%A9e-au-JO.pdf
 ---
-
-{{< include ../_setup.qmd >}}
 
 ::: callout-warning
 # exemple de page
@@ -35,7 +30,9 @@ on peut tester plein de trucs
 [légifrance](https://www.legifrance.gouv.fr/loda/article_lc/LEGIARTI000047113755)
 
 ::: embed-container
-<iframe src="`r rmarkdown::metadata$jorf`"></iframe>
+```{=html}
+<iframe src="{{< meta file >}}"></iframe>
+```
 :::
 
 \
@@ -148,7 +145,9 @@ basé.
 [légifrance](https://www.legifrance.gouv.fr/loda/article_lc/LEGIARTI000047113755)
 
 ::: embed-container
-<iframe src="`r rmarkdown::metadata$jorf`"></iframe>
+```{=html}
+<iframe src="{{< meta file >}}"></iframe>
+```
 :::
 
 \
