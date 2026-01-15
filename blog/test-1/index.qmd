@@ -1,19 +1,20 @@
 ---
-title: Titre
+title: test article 1
 author: XXX
-date: 2025-11-01
-slug: test-blog-2
+date: 2025-10-01
+slug: test-blog-1
 categories:
-  - catégorie A
-  - catégorie C
+  - catégorie B
 description: Description
-image: ../../_img/guide.jpg
+image: ../../_img/apero-info.jpg
 source_link: https://codeberg.org/hebstr/site_alisp/src/branch/main/
 ---
 
 # Excepteur in incididunt
 
 Occaecat ut irure anim in eu in est labore elit. Lorem labore aliquip aute reprehenderit ea est labore voluptate eiusmod. Nulla culpa cillum irure non proident culpa nostrud nisi duis. Et dolore reprehenderit nostrud do magna elit duis deserunt tempor. Ut nulla ut consequat aute velit officia sit non cupidatat.
+
+![](../../_img/apero-info.jpg)
 
 # Ex magna ad
 

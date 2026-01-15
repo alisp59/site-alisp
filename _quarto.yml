@@ -24,9 +24,9 @@ website:
       - text: "Section"
         menu:
           - text: "exemple"
-            href: internat/exemple.qmd
+            href: section/exemple.qmd
           - text: "Trombinoscope"
-            href: internat/trombi.qmd
+            href: section/trombi.qmd
       - text: Actualités
         href: blog/index.qmd
       - text: Guide&nbsp;de&nbsp;l'interne

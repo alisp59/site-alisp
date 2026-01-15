@@ -1,0 +1,17 @@
+---
+title: test article 4
+author: XXX
+date: 2025-11-17
+slug: test-blog-4
+categories:
+  - catégorie C
+description: >
+  Une phrase de description
+  Une phrase de description
+  Une phrase de description
+image: ../../_img/sym.png
+---
+
+# un titre
+
+{{< lipsum 3 >}}

@@ -78,6 +78,20 @@ html {
     padding-bottom: 1rem;
     margin-bottom: 1rem;
     border-bottom: 3px solid var(--primary-back);
+    img {
+      max-width: auto;
+      height: 250px;
+      padding: 0.2rem;
+      background-color: #fff;
+      border-radius: 8px;
+      box-shadow: 0 2px 8px var(--primary-back);
+      border: 1px solid var(--primary-back);
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+      &:hover {
+        transform: scale(1.08);
+        box-shadow: 10px 10px 10px var(--primary-back);
+      }
+    }
   }
 }
 
@@ -310,7 +324,7 @@ h5 {
     .quarto-category {
       padding: 0.3rem 0.4rem;
       color: var(--body);
-      background-color: var(--body-back);
+      background-color: #fff;
     }
   }
   .quarto-title-meta {
@@ -474,6 +488,38 @@ h5 {
         &:hover {
           transform: scale(1.3);
         }
+      }
+    }
+  }
+}
+
+#listing-index-blog {
+  .quarto-grid-item {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px var(--primary-back);
+    border: 1px solid var(--primary-back);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    &:hover {
+      transform: scale(1.08);
+      box-shadow: 10px 10px 10px var(--primary-back);
+    }
+    .card-body.post-contents {
+      padding: 1.5rem;
+      h5 {
+        margin: 0;
+        color: var(--primary);
+        font-weight: bold;
+        font-size: 1.2rem;
+        border: 0;
+      }
+      .card-text {
+        font-size: 1rem;
+        color: var(--body);
+      }
+      .card-attribution {
+        font-weight: bold;
+        color: var(--body);
       }
     }
   }
@@ -686,9 +732,9 @@ div.callout.callout-warning {
   flex-direction: column;
   width: 300px;
   align-items: center;
+  padding: 2rem;
   background-color: #fff;
   border-radius: 8px;
-  padding: 2rem;
   box-shadow: 0 2px 8px var(--primary-back);
   border: 1px solid var(--primary-back);
   transition: transform 0.3s ease, box-shadow 0.3s ease;

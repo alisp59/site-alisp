@@ -1,0 +1,14 @@
+---
+title: test article 3
+author: XXX
+date: 2025-11-15
+slug: test-blog-3
+categories:
+  - catégorie A
+  - catégorie B
+  - catégorie C
+description: Une phrase de description c'est cool
+image: ../../_img/guide_transport.jpg
+---
+
+{{< lipsum 1 >}}

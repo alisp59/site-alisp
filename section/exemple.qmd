@@ -56,7 +56,7 @@ on peut tester plein de trucs
 ## [img redirigeant vers page blog]
 ```{=html}
 <a
-  href="../blog/test/"
+  href="../blog/test-1/"
   rel="noopener noreferrer">
   <img
     src="../_img/apero-info.jpg"

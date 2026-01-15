@@ -1,6 +1,50 @@
 ---
-page-layout: full
+listing:
+  - id: index-blog
+    contents:
+      - "blog/*/*.qmd"
+      - "blog/*/*.md"
+    sort: "date desc"
+    type: grid
+    max-items: 9
+    page-size: 3
+    categories: false
+    sort-ui: false
+    filter-ui: false
+    fields: [title, image, description, date]
+grid:
+  sidebar-width: 0px
+  body-width: 1500px
+  margin-width: 0px
 ---
+
+```{=html}
+<script>
+document.addEventListener("DOMContentLoaded", function() {
+  const listingId = "listing-index-blog";
+
+  function fixLinks() {
+    document.querySelectorAll("#" + listingId + " .listing-pagination a.page-link[href='#']").forEach(function(link) {
+      const pageNum = link.getAttribute("data-i");
+      if (pageNum) {
+        link.href = "#" + listingId;
+      }
+    });
+  }
+
+  setTimeout(fixLinks, 100);
+
+  const observer = new MutationObserver(function() {
+    setTimeout(fixLinks, 10);
+  });
+
+  const pagination = document.querySelector("#" + listingId + " .listing-pagination");
+  if (pagination) {
+    observer.observe(pagination, { childList: true, subtree: true });
+  }
+});
+</script>
+```
 
 ```{r}
 glue_qmd <- \(x, .envir = parent.frame()) {
@@ -55,6 +99,9 @@ social_icon <- \(id, icon, set = "fa6-brands") {
 ![](_img/lille_cut.png)
 :::
 
-::: {.callout-important .column-screen-inset}
-# on peut mettre ici une sorte de carrousel/groupe de vignettes avec actualités + autres trucs qu'on voudrait mettre en avant (j'y réfléchis)
+\
+
+# [**Actualités**](/blog)
+
+::: {#index-blog}
 :::

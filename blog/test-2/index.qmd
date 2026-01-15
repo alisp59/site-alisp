@@ -1,25 +1,23 @@
 ---
-title: Apéro-Info
+title: test article 2
 author: XXX
-date: 2025-10-01
-slug: test-blog-1
+date: 2025-11-01
+slug: test-blog-2
 categories:
-  - catégorie B
+  - catégorie A
+  - catégorie C
 description: Description
-image: ../../_img/apero-info.jpg
-source_link: https://codeberg.org/hebstr/site_alisp/src/branch/main/
+image: ../../_img/guide.jpg
 ---
 
 # Excepteur in incididunt
 
 Occaecat ut irure anim in eu in est labore elit. Lorem labore aliquip aute reprehenderit ea est labore voluptate eiusmod. Nulla culpa cillum irure non proident culpa nostrud nisi duis. Et dolore reprehenderit nostrud do magna elit duis deserunt tempor. Ut nulla ut consequat aute velit officia sit non cupidatat.
 
-![](../../_img/apero-info.jpg)
-
-# Ex magna ad
+## Ex magna ad
 
 Sunt amet excepteur exercitation anim minim aliqua elit sint veniam. Ex nulla voluptate occaecat do ipsum adipisicing laboris aute reprehenderit. Cillum duis ex nulla amet est tempor eiusmod enim sit. Aute duis laborum aliquip id nisi dolor in tempor sit. Minim sint culpa aliqua sint nisi ad laboris ullamco excepteur.
 
-# Ea consequat
+## Ea consequat
 
 Elit culpa ipsum incididunt exercitation qui sunt eu cupidatat sunt. Sint ipsum pariatur culpa ullamco amet ea quis voluptate consequat. Velit ipsum laborum amet magna voluptate eiusmod eu veniam in. Aliqua ea labore nisi ut ad sunt nostrud ut velit. Eu reprehenderit nisi culpa qui in irure in proident tempor.

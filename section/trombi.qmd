@@ -1,8 +1,7 @@
 ---
 title: Trombinoscope
-description: Promotion 2023-2024
-date: 2023-12-11
-file: "trombinoscope_2023-2024_v2023-12-11.pdf"
+description: Promotion 2025-2026
+file: "trombinoscope_2025-2026.pdf"
 grid:
   sidebar-width: 0px
   margin-width: 0px
