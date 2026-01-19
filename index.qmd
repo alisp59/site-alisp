@@ -21,6 +21,7 @@ grid:
 ```{=html}
 <script>
 document.addEventListener("DOMContentLoaded", function() {
+
   const listingId = "listing-index-blog";
 
   function fixLinks() {
@@ -42,6 +43,7 @@ document.addEventListener("DOMContentLoaded", function() {
   if (pagination) {
     observer.observe(pagination, { childList: true, subtree: true });
   }
+
 });
 </script>
 ```

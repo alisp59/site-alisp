@@ -11,8 +11,7 @@ format:
 
 website:
   title: "{{< var alisp >}}"
-  site-url: https://alisp.netlify.app/
-  description: "Site officiel de l'ALiSP"
+  site-url: https://www.alisp.fr/
   favicon: _img/sym-red-nobg.png
   navbar:
     pinned: true

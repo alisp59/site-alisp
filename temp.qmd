@@ -1,0 +1,86 @@
+---
+pagetitle: "Site en construction"
+navbar: false
+grid:
+  sidebar-width: 0px
+  body-width: 1200px
+  margin-width: 0px
+---
+
+```{r}
+glue_qmd <- \(x, .envir = parent.frame()) {
+
+  stringr::str_glue(x, .open = "<<", .close = ">>", .envir = .envir)
+
+}
+
+social_icon <- \(id, icon, set = "fa6-brands") {
+
+  glue_qmd("
+    <a
+      href='{{< var links.<<id>>.href >}}'
+      title=<<id>>
+      target='_blank'
+      rel='noopener'>
+      <iconify-icon
+        icon='<<set>>:<<icon>>'
+        width='1.5em'
+        height='1.5em'>
+      </iconify-icon>
+    </a>
+  ")
+
+}
+```
+
+::: {.temp-page}
+
+![](/_img/logo-homepage.png){style='max-width:100%;'}
+
+# SITE EN CONSTRUCTION
+
+Notre nouveau site arrive bientôt
+
+Pour une demande d'aide méthodologique, contactez-nous par mail
+
+::: {.index-logo}
+```{=html}
+<div class="index-logo-alisp-social">
+  <div class="index-logo-social">
+    `r social_icon(id = "mail", icon = "envelope", set = "fa")`
+    `r social_icon(id = "insta", icon = "instagram")`
+    `r social_icon(id = "twitter", icon = "x-twitter")`
+    `r social_icon(id = "facebook", icon = "facebook")`
+    `r social_icon(id = "linkedin", icon = "linkedin")`
+  </div>
+</div>
+```
+:::
+
+:::
+
+```{=html}
+<style>
+.temp-page {
+  justify-content: center;
+  text-align: center;
+  margin-top: 3rem;
+  h1 {
+    text-align: center;
+    margin-bottom: 2rem;
+    font-size: 2.5rem;
+    border: 0;
+  }
+  p {
+    font-size: 1.7rem;
+  }
+}
+.index-logo-social {
+  font-size: 3rem !important;
+  gap: 2rem !important;
+}
+.nav-footer {
+  display: none
+}
+</style>
+```
