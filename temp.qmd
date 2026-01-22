@@ -61,6 +61,9 @@ Pour une demande d'aide méthodologique, contactez-nous par mail
 
 ```{=html}
 <style>
+html {
+  zoom: 60%
+}
 .temp-page {
   justify-content: center;
   text-align: center;

@@ -1,0 +1,40 @@
+---
+navbar: false
+grid:
+  sidebar-width: 0px
+  body-width: 1200px
+  margin-width: 0px
+---
+
+::: {.temp-page}
+
+![](/_img/logo-homepage.png){style='max-width:100%;'}
+
+# PAGE NOT FOUND
+
+:::
+
+```{=html}
+<style>
+html {
+  zoom: 60%
+}
+.temp-page {
+  justify-content: center;
+  text-align: center;
+  margin-top: 3rem;
+  h1 {
+    text-align: center;
+    margin-bottom: 2rem;
+    font-size: 2.5rem;
+    border: 0;
+  }
+  p {
+    font-size: 1.7rem;
+  }
+}
+.nav-footer {
+  display: none
+}
+</style>
+```
