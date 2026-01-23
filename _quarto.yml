@@ -11,7 +11,7 @@ format:
 
 website:
   title: "{{< var alisp >}}"
-  site-url: https://www.alisp.fr/
+  site-url: https://alisp.fr/
   favicon: _img/sym-red-nobg.png
   navbar:
     pinned: true
