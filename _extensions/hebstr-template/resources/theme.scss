@@ -400,6 +400,7 @@ h5 {
   border-top: 2px solid var(--body-back);
   line-height: 1.5rem;
   font-size: 1.05rem;
+  align-items: center;
   a {
     text-decoration: none;
     color: var(--primary);
@@ -408,14 +409,20 @@ h5 {
     text-decoration: underline;
     color: currentColor;
   }
-  .nav-footer-center a {
-    margin: 0 0.3rem;
-    color: var(--primary);
-    font-size: 1.1rem;
-    :hover {
-      color: var(--body);
-      transform: scale(1.2);
+  .nav-footer-center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    a {
+      margin: 0 0.5rem;
+      font-size: 1.5rem;
+      color: var(--primary);
+      display: inline-block;
       transition: transform 0.3s ease;
+      &:hover {
+        color: var(--body);
+        transform: scale(1.5);
+      }
     }
   }
 }
@@ -486,7 +493,7 @@ h5 {
       a {
         transition: transform 0.3s ease;
         &:hover {
-          transform: scale(1.3);
+          transform: scale(1.4);
         }
       }
     }
@@ -697,15 +704,17 @@ div.callout.callout-warning {
       margin: 0;
       padding: 0;
     }
-    .index-logo-social {
-      font-size: 0.75rem;
+    .index-logo-social a {
+      margin: 0 -0.3rem;
+      font-size: 2rem;
     }
   }
   .nav-footer {
     .nav-footer-center {
+      margin-top: 1.1rem;
       order: 1;
       a {
-        font-size: 1.2rem;
+        font-size: 2rem;
       }
     }
     .nav-footer-right {

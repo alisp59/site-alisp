@@ -4,19 +4,19 @@ year: 2009–2025
 
 links:
   mail:
-    text: "{{< iconify fa envelope size=1.1em title='contact@alisp.fr' >}}"
+    text: "{{< iconify fa envelope title='contact@alisp.fr' >}}"
     href: mailto:contact@alisp.fr
   insta:
-    text: "{{< iconify fa6-brands instagram size=1.1em title='Instagram' >}}"
+    text: "{{< iconify fa6-brands instagram title='Instagram' >}}"
     href: https://www.instagram.com/alisp_59/?hl=en
   twitter:
-    text: "{{< iconify fa6-brands x-twitter size=1.1em title='X' >}}"
+    text: "{{< iconify fa6-brands x-twitter title='X' >}}"
     href: https://x.com/alisp59000?lang=fr
   facebook:
-    text: "{{< iconify fa6-brands facebook size=1.1em title='Facebook' >}}"
+    text: "{{< iconify fa6-brands facebook title='Facebook' >}}"
     href: https://www.facebook.com/SPubLille
   linkedin:
-    text: "{{< iconify fa6-brands linkedin size=1.1em title='LinkedIn' >}}"
+    text: "{{< iconify fa6-brands linkedin title='LinkedIn' >}}"
     href: https://www.linkedin.com/company/107447153/
 
 repo:

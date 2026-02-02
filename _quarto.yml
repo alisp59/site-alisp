@@ -39,8 +39,7 @@ website:
   page-footer:
     left: |
       <span>
-        {{< iconify fa6-brands creative-commons >}}
-        [{{< var year >}} ALiSP](https://tinyurl.com/38p26zwy)
+        {{< var year >}} [{{< var alisp >}}](https://annuaire-entreprises.data.gouv.fr/entreprise/association-lilloise-des-internes-en-sante-publique-alisp-514856012)
       </span>
       <br>
       <span>
@@ -49,13 +48,13 @@ website:
         [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)
       </span>
     center: |
-      [{{< var links.mail.text >}}]({{< var links.mail.href >}})
-      [{{< var links.insta.text >}}]({{< var links.insta.href >}})
-      [{{< var links.twitter.text >}}]({{< var links.twitter.href >}})
-      [{{< var links.facebook.text >}}]({{< var links.facebook.href >}})
-      [{{< var links.linkedin.text >}}]({{< var links.linkedin.href >}})
-      <br>
-      {{< var alisp >}}
+      <span>
+        [{{< var links.mail.text >}}]({{< var links.mail.href >}})
+        [{{< var links.insta.text >}}]({{< var links.insta.href >}})
+        [{{< var links.twitter.text >}}]({{< var links.twitter.href >}})
+        [{{< var links.facebook.text >}}]({{< var links.facebook.href >}})
+        [{{< var links.linkedin.text >}}]({{< var links.linkedin.href >}})
+      <span>
     right: |
       <span>
         Site conçu avec {{< iconify fa6-brands r-project title='R' >}} et
