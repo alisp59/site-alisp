@@ -83,9 +83,7 @@ social_icon <- \(id, icon, set = "fa6-brands") {
   <img src="_img/sym-red-nobg.png" alt="Logo ville de Lille">
 </div>
 <div class="index-logo-alisp-social">
-  <div class="index-logo-alisp">
-    <img src="_img/logo-homepage.png" alt="Logo ALISP">
-  </div>
+  <div class="index-logo-alisp"><p>AL<strong>i</strong>SP</p></div>
   <div class="index-logo-social">
     `r social_icon(id = "mail", icon = "envelope", set = "fa")`
     `r social_icon(id = "insta", icon = "instagram")`
