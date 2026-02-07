@@ -18,36 +18,6 @@ grid:
   margin-width: 0px
 ---
 
-```{=html}
-<script>
-document.addEventListener("DOMContentLoaded", function() {
-
-  const listingId = "listing-index-blog";
-
-  function fixLinks() {
-    document.querySelectorAll("#" + listingId + " .listing-pagination a.page-link[href='#']").forEach(function(link) {
-      const pageNum = link.getAttribute("data-i");
-      if (pageNum) {
-        link.href = "#" + listingId;
-      }
-    });
-  }
-
-  setTimeout(fixLinks, 100);
-
-  const observer = new MutationObserver(function() {
-    setTimeout(fixLinks, 10);
-  });
-
-  const pagination = document.querySelector("#" + listingId + " .listing-pagination");
-  if (pagination) {
-    observer.observe(pagination, { childList: true, subtree: true });
-  }
-
-});
-</script>
-```
-
 ```{r}
 glue_qmd <- \(x, .envir = parent.frame()) {
 
@@ -77,13 +47,17 @@ social_icon <- \(id, icon, set = "fa6-brands") {
 ::: {.index-logo .column-screen}
 ```{=html}
 <div class="index-logo-libelle">
-  <img src="_img/word-homepage.png" alt="Libellé ALISP">
+  <p><strong>A</strong>ssociation <strong>L</strong>illoise<p>
+  <p>des <span class="strong-i">i</span>nternes<p>
+  <p>de <strong>S</strong>anté <strong>P</strong>ublique<p>
 </div>
-<div class="index-logo-lille">
-  <img src="_img/sym-red-nobg.png" alt="Logo ville de Lille">
+<div
+  class="index-logo-lille"
+  role="img"
+  aria-label="Symbole de Lille, fleur de lys rouge">
 </div>
 <div class="index-logo-alisp-social">
-  <div class="index-logo-alisp"><p>AL<strong>i</strong>SP</p></div>
+  <div class="index-logo-alisp"><p>AL<span class="strong-i">i</span>SP</p></div>
   <div class="index-logo-social">
     `r social_icon(id = "mail", icon = "envelope", set = "fa")`
     `r social_icon(id = "insta", icon = "instagram")`
@@ -95,13 +69,11 @@ social_icon <- \(id, icon, set = "fa6-brands") {
 ```
 :::
 
-::: {.column-screen style="text-align: center;"}
-![](_img/lille_cut.png)
-:::
-
-\
-
-# [**Actualités**](/blog)
-
 ::: {#index-blog}
 :::
+
+<!-- \ -->
+
+<!-- ::: {.column-screen style="text-align: center;"}
+![](_img/lille_cut.png)
+::: -->

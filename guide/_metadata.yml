@@ -2,4 +2,5 @@ toc: true
 title-block-banner: false
 grid:
   sidebar-width: 400px
-  margin-width: 300px
+  body-width: 1200px
+  margin-width: 400px

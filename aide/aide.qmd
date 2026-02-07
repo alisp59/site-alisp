@@ -3,10 +3,6 @@ title: Aide méthodologique
 description: "Déposez votre demande d'aide pour vos projets de recherche"
 ---
 
-::: callout-warning
-# à rédiger (on peut y intéger le formulaire directement)
-:::
-
 # Aide méthodologique
 
 L’ALISP propose un service d’aide méthodologique pour accompagner les internes et les professionnels de santé publique dans leurs projets de recherche et analyses statistiques, notamment dans le cadre de projets de thèses.

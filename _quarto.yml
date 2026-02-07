@@ -12,29 +12,23 @@ format:
 website:
   title: "{{< var alisp >}}"
   site-url: https://alisp.fr/
-  favicon: _img/sym-red-nobg.png
+  favicon: _img/sym.svg
   navbar:
     pinned: true
-    logo: _img/logo-navbar.png
+    logo: _img/logo-navbar.svg
     title: false
     right:
       - text: "Bureau"
         href: bureau/bureau.qmd
-      - text: "Section"
-        menu:
-          - text: "exemple"
-            href: section/exemple.qmd
-          - text: "Trombinoscope"
-            href: section/trombi.qmd
       - text: Actualités
         href: blog/index.qmd
-      - text: Guide&nbsp;de&nbsp;l'interne
+      - text: Guide&nbsp;du&nbsp;néo-interne
         href: guide/index.qmd
       - text: "Aide&nbsp;méthodologique"
         href: aide/aide.qmd
   sidebar:
     - id: guide
-      style: "floating"
+      # style: "floating"
       contents: guide
   page-footer:
     left: |

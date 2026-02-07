@@ -1,20 +1,12 @@
 ---
 title: "L'Internat à Lille"
 description: "Informations pratiques sur l'internat de santé publique à Lille"
-file: jorf-des-sante-publique.pdf
+file: ../_files/jorf-des-sante-publique.pdf
 grid:
   sidebar-width: 0px
   body-width: 1500px
   margin-width: 0px
 ---
-
-::: callout-warning
-# exemple de page
-
-ofc possible de structurer les pages en mode contenu principal + sidebar classique (techniquement c'est juste deux colonnes basiques desquelles on peut régler la largeur, ça permet plus de contrôle)
-
-on peut tester plein de trucs
-:::
 
 ::: page-content
 
@@ -86,14 +78,7 @@ on peut aussi mettre du texte tkrl
 
 # encore un titre
 
-ou pas
-
-::: callout-tip
-# et puis
-on peut sans pb reprendre avec structure indépendante de la précédente, avec nombre et largeur de colonne qu'on veut
-
-basé.
-:::
+{{< lipsum 1 >}}
 
 ::: page-content
 

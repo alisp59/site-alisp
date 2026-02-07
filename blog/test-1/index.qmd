@@ -6,7 +6,7 @@ slug: test-blog-1
 categories:
   - catégorie B
 description: Description
-image: ../../_img/apero-info.jpg
+image: sym.png
 source_link: https://codeberg.org/hebstr/site_alisp/src/branch/main/
 ---
 

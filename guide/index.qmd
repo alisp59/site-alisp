@@ -1,14 +1,4 @@
 ---
-title: Guide de l'interne
-date: today
+title: Guide du néo-interne
+date: last-modified
 ---
-
-::: callout-warning
-# proposition format "book" de quarto
-
-avec une page par section du guide (j'ai grossièrmeent recopié les 2 premières pour illuster)
-
-une option permet de le sortir en pdf
-
-une alternative au format book pourrait être un menu déroulant dans la navbar avec une page par section, à voir
-:::

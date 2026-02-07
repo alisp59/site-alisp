@@ -7,7 +7,7 @@ categories:
   - catégorie A
   - catégorie C
 description: Description
-image: ../../_img/guide.jpg
+image: guide.jpg
 ---
 
 # Excepteur in incididunt

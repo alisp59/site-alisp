@@ -7,8 +7,8 @@ categories:
   - catégorie A
   - catégorie B
   - catégorie C
-description: Une phrase de description c'est cool
-image: ../../_img/guide_transport.jpg
+description: Description
+image: guide_transport.jpg
 ---
 
 {{< lipsum 1 >}}

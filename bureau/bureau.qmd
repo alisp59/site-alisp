@@ -1,14 +1,11 @@
 ---
 title: "Composition du bureau 2025-2026"
+file: "" #"../_files/trombinoscope_2025-2026.pdf"
 grid:
   sidebar-width: 0px
   body-width: 1200px
   margin-width: 0px
 ---
-
-::: callout-warning
-# à rédiger (je peux faire des sortes de vignettes c'est plus stylé avec +/- infos complémentaires pour chacune)
-:::
 
 ::: {.bureau-grid}
 
@@ -68,4 +65,14 @@ grid:
   width="100%"
   height="450">
 </iframe>
+:::
+
+::: callout-warning
+# attente autorisations
+:::
+
+::: embed-container
+```{=html}
+<iframe src="{{< meta file >}}"></iframe>
+```
 :::
