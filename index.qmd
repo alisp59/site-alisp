@@ -19,37 +19,15 @@ grid:
 ---
 
 ```{r}
-glue_qmd <- \(x, .envir = parent.frame()) {
-
-  stringr::str_glue(x, .open = "<<", .close = ">>", .envir = .envir)
-
-}
-
-social_icon <- \(id, icon, set = "fa6-brands") {
-
-  glue_qmd("
-    <a
-      href='{{< var links.<<id>>.href >}}'
-      title=<<id>>
-      target='_blank'
-      rel='noopener'>
-      <iconify-icon
-        icon='<<set>>:<<icon>>'
-        width='1.5em'
-        height='1.5em'>
-      </iconify-icon>
-    </a>
-  ")
-
-}
+source(here::here("_scripts/helpers.R"))
 ```
 
 ::: {.index-logo .column-screen}
 ```{=html}
 <div class="index-logo-libelle">
-  <p><strong>A</strong>ssociation <strong>L</strong>illoise<p>
-  <p>des <span class="strong-i">i</span>nternes<p>
-  <p>de <strong>S</strong>anté <strong>P</strong>ublique<p>
+  <p><strong>A</strong>ssociation <strong>L</strong>illoise</p>
+  <p>des <span class="strong-i">i</span>nternes</p>
+  <p>de <strong>S</strong>anté <strong>P</strong>ublique</p>
 </div>
 <div
   class="index-logo-lille"

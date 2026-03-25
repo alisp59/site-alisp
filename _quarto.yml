@@ -18,14 +18,17 @@ website:
     logo: _img/logo-navbar.svg
     title: false
     right:
-      - text: "Bureau"
+      - text: "bureau"
         href: bureau/bureau.qmd
-      - text: Actualités
+      - text: actualités
         href: blog/index.qmd
-      - text: Guide&nbsp;du&nbsp;néo-interne
+      - text: guide&nbsp;du&nbsp;néo-interne
         href: guide/index.qmd
-      - text: "Aide&nbsp;méthodologique"
+      - text: "aide&nbsp;méthodologique"
         href: aide/aide.qmd
+      - text: "{{< iconify fa6-solid rss title='Flux RSS' >}}"
+        href: blog/index.xml
+        aria-label: Flux RSS
   sidebar:
     - id: guide
       # style: "floating"

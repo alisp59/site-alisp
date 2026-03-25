@@ -3,24 +3,38 @@ title: Actualités de l'ALISP
 description: >
   un paragraphe de description (ou pas)
 listing:
-  contents:
-    - "**/*.qmd"
-    - "**/*.md"
-  sort: "date desc"
-  type: default
-  categories: true
-  sort-ui: true
-  filter-ui: true
-  fields:
-    - date
-    - title
-    - reading-time
-    - image
-    - description
-    - categories
-  feed: true
-  image-align: left
+  - id: blog-posts
+    contents:
+      - "**/*.qmd"
+    sort: "date desc"
+    type: default
+    categories: true
+    sort-ui: true
+    filter-ui: true
+    fields:
+      - date
+      - title
+      - reading-time
+      - image
+      - description
+      - categories
+    feed: true
+    image-align: left
 page-layout: full
 title-block-banner: true
 comments: false
+grid:
+  margin-width: 400px
+margin-footer: |
+  <a
+    href="{{< var clisp_newsletters >}}"
+    class="page-sidebar"
+    target="_blank"
+    rel="noopener noreferrer">
+    <img
+      src="/_img/clisp_nl.png"
+      alt="Newsletters du CLiSP"
+      loading="lazy"
+      style="margin-top:1.5rem;">
+  </a>
 ---

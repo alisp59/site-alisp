@@ -1,6 +1,6 @@
 alisp: ALiSP - Association Lilloise des Internes de Santé Publique
 
-year: 2009–2025
+year: 2009–2026
 
 links:
   mail:
@@ -17,7 +17,9 @@ links:
     href: https://www.facebook.com/SPubLille
   linkedin:
     text: "{{< iconify fa6-brands linkedin title='LinkedIn' >}}"
-    href: https://www.linkedin.com/company/107447153/
+    href: https://www.linkedin.com/company/alisp59/
+
+clisp_newsletters: https://clisp.fr/newsletters/
 
 repo:
   text: "Voir la source"

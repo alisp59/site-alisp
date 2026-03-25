@@ -1,78 +1,71 @@
 ---
 title: "Composition du bureau 2025-2026"
-file: "" #"../_files/trombinoscope_2025-2026.pdf"
-grid:
-  sidebar-width: 0px
-  body-width: 1200px
-  margin-width: 0px
+bureau:
+  - photo: victor_guerout.jpg
+    nom: "Victor GUEROUT"
+    fonction: Président
+    desc: Coordination générale
+  - photo: philippine_boulanger.jpg
+    nom: "Philippine BOULANGER"
+    fonction: Secrétaire
+    desc: Gestion administrative
+  - photo: valentin_johnson.jpg
+    nom: "Valentin JOHNSON"
+    fonction: Trésorier
+    desc: Gestion financière
+  - photo: tristan_leguillette.jpg
+    nom: "Tristan LÉGUILLETTE"
+    fonction: Communication
+    desc: "Représentation de l'association"
+  - photo: julien_elices-diez.jpg
+    nom: "Julien ELICES-DIEZ"
+    fonction: Webmaster
+    desc: Gestion du site web
+maps: "https://tinyurl.com/4bzthh8k"
+trombi: "" #"../_files/trombinoscope_2025-2026.pdf"
 ---
+
+```{r}
+source(here::here("_scripts/helpers.R"))
+
+bureau_card <- \(photo, nom, fonction, desc) {
+  nom_nbsp <- stringr::str_replace_all(nom, "\\s", "&nbsp;")
+  glue_qmd("
+  ::: {.bureau-card}
+  <img src='pp/<<photo>>' alt='<<nom>>' class='bureau-photo'>
+  <div class='bureau-info'>
+    <h1 class='bureau-nom'><<nom_nbsp>></h1>
+    <p class='bureau-fonction'><<fonction>></p>
+    <p class='bureau-desc'><<desc>></p>
+  </div>
+  :::
+  ")
+}
+```
+
+:::: {.column-screen}
 
 ::: {.bureau-grid}
 
-:::: {.bureau-card}
-<img src="pp/victor_guerout.jpg" alt="Victor GUEROUT" class="bureau-photo">
-<div class="bureau-info">
-  <h1 class="bureau-nom">Victor&nbsp;GUEROUT</h1>
-  <p class="bureau-fonction">Président</p>
-  <p class="bureau-desc">Coordination générale</p>
-</div>
-::::
-
-:::: {.bureau-card}
-<img src="pp/philippine_boulanger.jpg" alt="Philippine BOULANGER" class="bureau-photo">
-<div class="bureau-info">
-  <h1 class="bureau-nom">Philippine&nbsp;BOULANGER</h1>
-  <p class="bureau-fonction">Secrétaire</p>
-  <p class="bureau-desc">Gestion administrative</p>
-</div>
-::::
-
-:::: {.bureau-card}
-<img src="pp/valentin_johnson.jpg" alt="Valentin JOHNSON" class="bureau-photo">
-<div class="bureau-info">
-  <h1 class="bureau-nom">Valentin&nbsp;JOHNSON</h1>
-  <p class="bureau-fonction">Trésorier</p>
-  <p class="bureau-desc">Gestion financière</p>
-</div>
-::::
-
-:::: {.bureau-card}
-<img src="pp/tristan_leguillette.jpg" alt="Tristan LÉGUILLETTE" class="bureau-photo">
-<div class="bureau-info">
-  <h1 class="bureau-nom">Tristan&nbsp;LÉGUILLETTE</h1>
-  <p class="bureau-fonction">Communication</p>
-  <p class="bureau-desc">Représentation de l'association</p>
-</div>
-::::
-
-:::: {.bureau-card}
-<img src="pp/julien_elices-diez.jpg" alt="Julien ELICES-DIEZ" class="bureau-photo">
-<div class="bureau-info">
-  <h1 class="bureau-nom">Julien&nbsp;ELICES-DIEZ</h1>
-  <p class="bureau-fonction">Webmaster</p>
-  <p class="bureau-desc">Gestion du site web</p>
-</div>
-::::
-
-:::
-
-\
-\
-
-::: {.column-screen}
-<iframe
-  src="https://tinyurl.com/4bzthh8k"
-  width="100%"
-  height="450">
-</iframe>
-:::
-
-::: callout-warning
-# attente autorisations
-:::
-
-::: embed-container
-```{=html}
-<iframe src="{{< meta file >}}"></iframe>
+```{r}
+#| output: asis
+rmarkdown::metadata$bureau |>
+  purrr::map_chr(~ bureau_card(.$photo, .$nom, .$fonction, .$desc)) |>
+  cat(sep = "\n\n")
 ```
+
 :::
+
+::: {.page-content}
+
+::: {.column width="40%"}
+<iframe src="{{< meta maps >}}" width="100%" height="600"></iframe>
+:::
+
+::: {.column width="60%" class="embed-container"}
+<iframe src="{{< meta trombi >}}"></iframe>
+:::
+
+:::
+
+::::

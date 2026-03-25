@@ -1,32 +1,28 @@
 ---
-title: Aide méthodologique
-description: "Déposez votre demande d'aide pour vos projets de recherche"
+title: Formulez votre demande
+page-layout: custom
+airtable: "https://airtable.com/embed/appWo7CiUOiuLDn8Y/pag6Qf3m75x7RkMKj/form"
 ---
 
-# Aide méthodologique
+::: {.page-content style="gap: 3rem;"}
 
-L’ALISP propose un service d’aide méthodologique pour accompagner les internes et les professionnels de santé publique dans leurs projets de recherche et analyses statistiques, notamment dans le cadre de projets de thèses.
+::: {.column width="40%"}
 
-## Types d’aide proposés
+# titre
 
-Méthodologie de recherche
+{{< lipsum 2 >}}
 
-- Conception d’études
-- Choix des méthodes d’analyse
+:::
 
-Analyses statistiques
-
-  - Analyses descriptives et inférentielles
-  - Modélisation statistique
-  - Analyses multivariées
-  - Utilisation de RStudio
-
-\
-
-::: embed-container
+::: {.column .embed-container width="60%"}
 <iframe
-  src="https://tinyurl.com/yewpa7m2"
+  class="embed-form"
+  src="{{< meta airtable >}}"
+  title="Formulaire de demande d'aide méthodologique"
+  loading="lazy"
   width="100%"
-  height="800">
+  onload="this.classList.add('loaded')">
 </iframe>
+:::
+
 :::

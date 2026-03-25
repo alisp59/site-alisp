@@ -5,3 +5,6 @@
   netlify:
     - id: 88cb3dd1-0c14-4942-bff9-2b6f7353b1b8
       url: https://alisp.fr
+  posit-connect-cloud:
+    - id: 019d228d-164b-fe8f-e8de-8aa4a4b1dbfe
+      url: https://connect.posit.cloud/hebstr/content/019d228d-164b-fe8f-e8de-8aa4a4b1dbfe
