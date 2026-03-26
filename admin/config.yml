@@ -1,0 +1,30 @@
+backend:
+  name: github
+  repo: alisp59/site-alisp
+  branch: main
+  base_url: https://sveltia-cms-auth.asso-isp-lille.workers.dev
+
+publish_mode: editorial_workflow
+
+media_folder: blog/_media
+public_folder: /blog/_media
+
+collections:
+  - name: blog
+    label: Actualités
+    label_singular: Article
+    folder: blog
+    path: "{{slug}}/index"
+    media_folder: ""
+    public_folder: ""
+    create: true
+    extension: qmd
+    format: yaml-frontmatter
+    fields:
+      - { name: title,       label: Titre,       widget: string }
+      - { name: author,      label: Auteur,      widget: string }
+      - { name: date,        label: Date,        widget: datetime, format: "YYYY-MM-DD", date_only: true }
+      - { name: description, label: Description, widget: text }
+      - { name: categories,  label: Catégories,  widget: list }
+      - { name: image,       label: "Image de couverture", widget: image, required: false }
+      - { name: body,        label: Contenu,     widget: markdown }
