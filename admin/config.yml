@@ -19,12 +19,49 @@ collections:
     public_folder: ""
     create: true
     extension: qmd
-    format: yaml-frontmatter
+    frontmatter_delimiter: "---"
     fields:
-      - { name: title,       label: Titre,       widget: string }
-      - { name: author,      label: Auteur,      widget: string }
-      - { name: date,        label: Date,        widget: datetime, format: "YYYY-MM-DD", date_only: true }
-      - { name: description, label: Description, widget: text }
-      - { name: categories,  label: Catégories,  widget: list }
-      - { name: image,       label: "Image de couverture", widget: image, required: false }
-      - { name: body,        label: Contenu,     widget: markdown }
+      - name: title
+        label: Titre
+        widget: string
+      - name: author
+        label: Auteur
+        widget: string
+      - name: date
+        label: Date
+        widget: datetime
+        format: "YYYY-MM-DD"
+        date_only: true
+      - name: description
+        label: Description
+        widget: text
+      - name: categories
+        label: Catégories
+        widget: list
+      - name: image
+        label: Image de couverture
+        widget: image
+        required: false
+      - name: body
+        label: Contenu
+        widget: markdown
+
+  - name: guide
+    label: Guide du néo-interne
+    label_singular: Page
+    folder: guide
+    create: true
+    extension: qmd
+    frontmatter_delimiter: "---"
+    fields:
+      - name: title
+        label: Titre
+        widget: string
+      - name: date
+        label: Date
+        widget: datetime
+        format: "YYYY-MM-DD"
+        date_only: true
+      - name: body
+        label: Contenu
+        widget: markdown

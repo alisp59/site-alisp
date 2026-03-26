@@ -1,5 +1,7 @@
 project:
   type: website
+  resources:
+    - admin/**
 
 execute:
   freeze: auto

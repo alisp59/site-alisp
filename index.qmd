@@ -1,20 +1,9 @@
 ---
-listing:
-  - id: index-blog
-    contents:
-      - "blog/*/*.qmd"
-      - "blog/*/*.md"
-    sort: "date desc"
-    type: grid
-    max-items: 9
-    page-size: 3
-    categories: false
-    sort-ui: false
-    filter-ui: false
-    fields: [title, image, description, date]
+pagetitle: "Site en construction"
+navbar: false
 grid:
   sidebar-width: 0px
-  body-width: 1500px
+  body-width: 1200px
   margin-width: 0px
 ---
 
@@ -22,20 +11,25 @@ grid:
 source(here::here("_scripts/helpers.R"))
 ```
 
+::: {.temp-page}
+
 ::: {.index-logo .column-screen}
 ```{=html}
-<div class="index-logo-libelle">
-  <p><strong>A</strong>ssociation <strong>L</strong>illoise</p>
-  <p>des <span class="strong-i">i</span>nternes</p>
-  <p>de <strong>S</strong>anté <strong>P</strong>ublique</p>
-</div>
-<div
-  class="index-logo-lille"
-  role="img"
-  aria-label="Symbole de Lille, fleur de lys rouge">
-</div>
 <div class="index-logo-alisp-social">
   <div class="index-logo-alisp"><p>AL<span class="strong-i">i</span>SP</p></div>
+</div>
+```
+:::
+
+# SITE EN CONSTRUCTION
+
+Notre nouveau site arrive bientôt
+
+Pour une demande d'aide méthodologique, contactez-nous par mail
+
+::: {.index-logo}
+```{=html}
+<div class="index-logo-alisp-social">
   <div class="index-logo-social">
     `r social_icon(id = "mail", icon = "envelope", set = "fa")`
     `r social_icon(id = "insta", icon = "instagram")`
@@ -47,11 +41,38 @@ source(here::here("_scripts/helpers.R"))
 ```
 :::
 
-::: {#index-blog}
 :::
 
-<!-- \ -->
-
-<!-- ::: {.column-screen style="text-align: center;"}
-![](_img/lille_cut.png)
-::: -->
+```{=html}
+<style>
+html {
+  zoom: 80%
+}
+.temp-page {
+  justify-content: center;
+  text-align: center;
+  margin-top: 3rem;
+  h1 {
+    text-align: center;
+    margin-bottom: 2rem;
+    font-size: 2.5rem;
+    border: 0;
+  }
+  p {
+    font-size: 1.7rem;
+  }
+}
+.index-logo-social {
+  font-size: 3rem !important;
+  gap: 2rem !important;
+}
+.nav-footer {
+  display: none
+}
+@media(max-width: 36em) {
+  html {
+    zoom: 50%
+  }
+}
+</style>
+```
