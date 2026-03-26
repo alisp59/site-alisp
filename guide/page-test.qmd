@@ -1,0 +1,12 @@
+---
+title: page test
+date: 2026-03-26
+---
+
+# texte
+
+ok ça marche
+
+[![aaa](/blog/_media/clisp_nl.png "tret ")](zfijapefa)
+
+encore du texte
