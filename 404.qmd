@@ -1,1 +1,7 @@
-{{< include index.qmd >}}
+---
+title: Page introuvable
+---
+
+Cette page n'existe pas ou a été déplacée.
+
+[Retour à l'accueil](/)
