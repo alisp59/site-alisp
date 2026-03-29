@@ -14,6 +14,9 @@ format:
 website:
   title: "{{< var alisp >}}"
   site-url: https://alisp.fr/
+  description: "Association Lilloise des Internes de Santé Publique"
+  open-graph: true
+  twitter-card: true
   favicon: _img/sym.svg
   navbar:
     pinned: true
@@ -53,7 +56,7 @@ website:
         [{{< var links.twitter.text >}}]({{< var links.twitter.href >}})
         [{{< var links.facebook.text >}}]({{< var links.facebook.href >}})
         [{{< var links.linkedin.text >}}]({{< var links.linkedin.href >}})
-      <span>
+      </span>
     right: |
       <span>
         Site conçu avec {{< iconify fa6-brands r-project title='R' >}} et

@@ -6,7 +6,7 @@ social_icon <- \(id, icon, set = "fa6-brands") {
   glue_qmd("
     <a
       href='{{< var links.<<id>>.href >}}'
-      title=<<id>>
+      title='<<id>>'
       target='_blank'
       rel='noopener'>
       <iconify-icon

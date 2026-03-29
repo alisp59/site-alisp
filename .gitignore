@@ -1,9 +1,11 @@
 /.quarto/
-/_freeze/
 /_site/
+/_freeze/
 .Rproj.user
 **/*.quarto_ipynb
 /.posit/
 /blog/newsletter/
 CONFIG.md
-**/*_temp.md
+**/*_temp.qmd
+
+/.luarc.json
