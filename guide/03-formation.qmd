@@ -1,0 +1,106 @@
+---
+title: "Formation théorique"
+date: last-modified
+---
+
+# Cours obligatoires du D.E.S
+
+## Cours hebdomadaires à la faculté de Médecine de Lille
+
+Chaque mardi après-midi, des cours sont dispensés par nos enseignants ou des intervenants externes. Cela rentre dans le cadre d’une demi-journée de formation supervisée. Il est à noter que très peu de facultés dispensent des cours aux internes en santé publique et aucune n’en donne à un rythme d’un cours par semaine. Ces enseignements obligatoires sont une grande force du DES de Santé Publique à Lille. Le programme est renouvelé tous les 2 à 3 ans. Certains cours sont ciblés pour les phases socle et ne sont à suivre qu'une seule fois dans le parcours tels que les cours d'outils bureautiques.
+
+Néanmoins ces cours ne couvrent pas l’entièreté du programme du D.E.S. Vous devrez compléter votre formation en stage ou lors d’une demi-journée d’auto-formation complémentaire, avec des ressources en ligne et des livres.   
+Ainsi, conformément à l’article R653-2 du code de la santé publique, une semaine de D.E.S. englobe 8 demi-journées de stage et 2 demi-journées de formation. 
+
+L’adresse mail à contacter en cas d’absence ou au sujet de la programmation des cours est 📧 [santepub@gmail.com](mailto:santepub@gmail.com)
+
+## Cours UNESS
+
+Durant la première année de l’internat de santé publique (phase socle), 4 modules de formation sont à valider : 
+
+- Bases en épidémiologie et en recherche clinique  
+- Bases en promotion de la santé  
+- Bases en économie, administration des services de santé, politiques publiques  
+- Bases en biostatistiques 
+
+Le contenu de ce tronc commun à tous les internes à l’échelle nationale est accessible sur le site internet UNESS formation 3e cycle : [UNESS](https://www.uness.fr/)
+
+Nous avons pour habitude de nous réunir à l’extérieur à la fin des cours à chaque fin d'après-midi le mardi \#cohésion de groupe
+
+# Journées évènementielles 
+
+## Journée de communication des internes de santé publique (JCISP)
+
+Chaque année, aux alentours du mois de juin, une journée est dédiée à la présentation de vos travaux. C'est une opportunité conviviale de valoriser le travail réalisé durant vos stages et de découvrir l'éventail des projets possibles selon les lieux de stage. Cette journée rassemble co-internes, chefs, enseignants de santé publique et anciens internes de santé publique favorisant ainsi les échanges et le renforcement des liens au sein de la région lilloise.
+
+## Journée de l’Esprit Critique en Santé (JNEC)
+
+Chaque année le premier mardi du mois d’avril a lieu une journée nationale de l’esprit critique en santé. Plusieurs facultés françaises participent à cet événement et le matin à Lille les externes de médecine de la faculté de Lille nous invitent à avoir une démarche d’esprit critique face aux informations relayées dans les médias. Lors de l’après-midi a lieu le visionnage d’un webinaire.
+
+Il s'agit d'une journée organisée nationalement par différentes fac françaises et la faculté de Lille y participe. Le matin: ateliers en local à destination des étudiants et enseignants de l'ensemble de l'Université, organisés par les étudiants en médecine mais pas seulement. Les enseignants et d'autres étudiants peuvent également participer à son organisation. l'après midi webinaire national.
+
+## Journée de la Fédération des Registres des Hauts-de-France
+
+J’ai l’honneur de vous adresser une invitation à la 3ème journée scientifique de la Fédération des Registres de morbidité des Hauts-de-France, qui se tiendra le mardi 26 novembre 2024 au CHU de Lille à l’Institut Gernez Rieux de 10h à 16h, sous l’égide des CHU d’Amiens et de Lille. Ces structures épidémiologiques labellisées et soutenues par Santé Publique France, l’Inserm, l’Inca, la DGS et la DGOS assurent la surveillance nationale des principales maladies en France. Nous avons la chance d’en compter cinq dans les Hauts-de-France qui couvrent les cardiopathies ischémiques, les accidents vasculaires cérébraux, les cancers, les maladies inflammatoires du tube digestif (Les recto-colites hémorragiques \- RCH et les maladies inflammatoires chroniques de l’intestin \- MICI) auxquelles nos habitants paient un lourd tribut, et un sixième, national, portant sur une maladie rare, l’atrésie de l’œsophage. Nous avons également le plaisir d’accueillir deux observatoires régionaux à contribution nationale, portant d’une part sur les arrêts cardiaques (Registre électronique des Arrêts Cardiaques \- RéAC) et de l’autre, sur l’insuffisance rénale chronique terminale traitée (Réseau Epidémiologique et d’Informations en Néphrologie – R.E.I.N).  
+Ouverte à tous les acteurs de santé publique, décideurs politiques, personnels des agences, cliniciens, cette journée permettra d’aborder, sous forme de conférences didactiques...  
+Date et programme 2026 à venir.
+
+# Les ressources numériques de l’Université de Lille
+
+La Bibliothèque Santé offre en particulier des formations bibliographiques au moteur de recherche Pubmed ou à l’outil de bibliographie Zotero.
+
+Vos identifiants sur le site de l’Université de Lille vous permettent l’accès gratuit à une majorité d’articles scientifiques, littéraires, d’actualité. L’installation de l’extension « Library access » sur votre navigateur vous reconnaitra pour afficher le contenu intégral des articles de revues auxquelles l’Université est abonnée : https://www.univ-lille.fr/vie-des-campus/acceder-aux-ressources/
+
+Le site Europresse (https://lilliad.univ-lille.fr/ressources/europresse) vous permet l’accès à plus de 10 700 sources d’information reconnues couvrant l’actualité locale, régionale, nationale et internationale.
+
+# Formations et lectures complémentaires conseillées
+
+## Master 1
+
+* M1 Paris Saclay : Santé Publique  
+* Master 1 Biologie-santé : parcours Epidémiologie, Statistiques, Santé publique et traitement de l’information – Université Lille 2
+
+## Master 2
+
+* Master 2 Paris Saclay  
+* Master 2 professionnalisant : Management des Entreprises du Secteur de la Santé – Institut d’Administration des Entreprises de Lille  
+* Master 2 recherche : Biologie Santé : Parcours E : Épidémiologie, statistique, santé publique et traitement de l’information – Université Lille 2
+
+## MOOC
+
+* MOOC R Falissard
+
+Bruno Falissard, professeur de statistiques à l’université Paris-Saclay, a un MOOC d’une grande qualité et reconnu par tous les internes de santé publique comme offrant de bonnes bases sur le logiciel Rstudio et son langage de programmation R. Chaque année, ce MOOC est ouvert lors de plusieurs sessions, il est vivement conseillé de le réaliser pour les internes de santé publique.
+
+[Introduction à la statistique avec R \- Cours \- FUN MOOC](https://www.fun-mooc.fr/fr/cours/introduction-a-la-statistique-avec-r/)
+
+* Santé environnement ISPED 
+
+L’école de santé publique de Bordeaux dispose d’un MOOC en santé environnementale.
+
+[Santé environnementale \- Cours \- FUN MOOC](https://www.fun-mooc.fr/fr/cours/sante-environnementale/)
+
+## Formations
+
+* Formation Santé Publique France en santé-environnement 
+
+Cette formation sera proposée en période hivernale par l’équipe enseignante du Diplôme d’Études Spécialisées (D.E.S) de Santé Publique.
+
+* Congrès Santé environnementale de Besançon : 
+
+Chaque année, aux alentours d’octobre-novembre, la subdivision de Besançon organise un séminaire d’une semaine autour de la santé environnementale. Au programme : balades, cours magistraux et ateliers reliant la santé environnementale à d’autres aspects de la santé publique.
+
+*Aucun lien n’est disponible actuellement pour l’année à venir mais cette formation sera proposée par l’équipe enseignante du D.E.S.*
+
+## Diplômes Universitaires
+
+Les diplômes universitaires et interuniversitaires sont très hétérogènes en France, bien qu’indispensables dans certaines surspécialités médicales, ces dernières sont très peu discutées dans le domaine de la santé publique. 
+
+## Lectures
+
+Voici quelques exemples de livres intéressants : 
+
+* Les livres des presses de l’EHESP [Presses de l'EHESP](https://www.presses.ehesp.fr/)  
+* La médecine de santé publique : Une pratique singulière au service des populations \- Dr Sylvain Gautier  
+* R4DS (Rstudio for Data Science) [R for Data Science (2e)](https://r4ds.hadley.nz/) disponible en ligne gratuitement  
+* Statistiques épidémiologiques \- Thierry Ancelle

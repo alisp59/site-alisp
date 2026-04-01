@@ -1,4 +1,5 @@
 toc: true
+toc-title: " "
 title-block-banner: false
 grid:
   sidebar-width: 400px

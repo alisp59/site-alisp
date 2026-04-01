@@ -1,4 +1,8 @@
 ---
 title: Guide du néo-interne
-date: last-modified
 ---
+
+# Titre
+
+
+{{< lipsum 1 >}}

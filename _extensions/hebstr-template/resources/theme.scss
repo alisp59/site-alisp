@@ -118,25 +118,36 @@ h2#toc-title {
 }
 
 #quarto-sidebar {
+  padding: 0;
   background-color: var(--primary-back);
-  .sidebar-title {
-    color: var(--primary);
-    font-weight: bold;
-    font-size: 1.1rem;
-    line-height: 1.6rem;
-  }
+  // .sidebar-item-toggle {
+  //   display: none;
+  // }
+  // .sidebar-title {
+  //   color: var(--primary);
+  //   font-weight: bold;
+  //   font-size: 1.1rem;
+  //   line-height: 1.6rem;
+  // }
   .sidebar-item-container {
-    padding: 0.2rem;
-    color: var(--primary);
+    padding: 0.5rem;
+    color: var(--body);
+    font-size: 1.2rem;
+    font-variant: small-caps;
+    text-align: center;
+    :hover {
+      color: var(--primary);
+    }
     .active {
-      color: inherit;
+      color: var(--primary);
       font-weight: bold;
     }
   }
   .sidebar-item-section > .sidebar-item-container:first-child a {
-    color: var(--body);
-    font-weight: bold;
-    font-size: 1.2rem;
+    display: none;
+    // color: var(--body);
+    // font-weight: bold;
+    // font-size: 1.4rem;
   }
 }
 

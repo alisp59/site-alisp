@@ -6,6 +6,7 @@
 /.posit/
 /blog/newsletter/
 CONFIG.md
+DEFERRED.md
 **/*_temp.qmd
 
 /.luarc.json

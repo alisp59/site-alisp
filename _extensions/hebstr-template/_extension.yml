@@ -25,3 +25,19 @@ contributes:
       css: resources/fonts.css
       include-in-header:
         - text: '<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">'
+    typst:
+      font-paths: resources/fonts
+      html-table-processing: none
+      # html-math-method: plain
+      papersize: a4
+      margin:
+        x: 1.5cm
+        y: 1.5cm
+      keep-typ: false
+      template-partials:
+        - resources/typst/numbering.typ
+        - resources/typst/page.typ
+        - resources/typst/typst-show.typ
+      filters:
+        - path: resources/typst/orange-book.lua
+          at: post-quarto

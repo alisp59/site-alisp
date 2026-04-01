@@ -10,6 +10,7 @@ lang: fr
 
 format:
   hebstr-template-html: default
+  # hebstr-template-typst: default
 
 website:
   title: "{{< var alisp >}}"
@@ -36,7 +37,6 @@ website:
         aria-label: Flux RSS
   sidebar:
     - id: guide
-      # style: "floating"
       contents: guide
   page-footer:
     left: |

@@ -1,6 +1,5 @@
 ---
 title: "Découvrir la vie à Lille"
-date: 2025-01-01
 ---
 
 Lille, métropole européenne dynamique, se distingue par son énergie étudiante, son ambiance chaleureuse et son riche patrimoine.
