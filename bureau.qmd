@@ -21,8 +21,6 @@ bureau:
     nom: "Julien ELICES-DIEZ"
     fonction: Webmaster
     desc: Gestion du site web
-maps: "https://www.openstreetmap.org/export/embed.html?bbox=3.034871220588684%2C50.60736649096912%2C3.0410832166671757%2C50.6096746357402&amp;layer=mapnik&amp;marker=50.60852057750887%2C3.0379772186279297" #"https://tinyurl.com/4bzthh8k"
-trombi: "" #"../_files/trombinoscope_2025-2026.pdf"
 ---
 
 
@@ -60,14 +58,14 @@ rmarkdown::metadata$bureau |>
 ::: {.page-content}
 
 ::: {.column width="40%"}
-<iframe src="{{< meta maps >}}" width="100%" height="600" sandbox="allow-scripts" loading="lazy"></iframe>
+<iframe src="{{< var links.map >}}" width="100%" height="600" sandbox="allow-scripts" loading="lazy"></iframe>
 :::
 
 ::: {.column width="60%" class="embed-container"}
 ::: callout-important
 # attente autorisation trombi
 :::
-<iframe src="{{< meta trombi >}}"></iframe>
+<iframe src="{{< var docs.trombi >}}"></iframe>
 :::
 
 :::

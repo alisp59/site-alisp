@@ -37,7 +37,7 @@ source(here::here("_scripts/helpers.R"))
 <div class="index-logo-alisp-social">
   <div class="index-logo-alisp"><p>AL<span class="strong-i">i</span>SP</p></div>
   <div class="index-logo-social">
-    `r social_icon(id = "mail", icon = "envelope", title = "Email", set = "fa")`
+    `r social_icon(id = "mail", icon = "envelope", title = "Email", set = "fa6-solid")`
     `r social_icon(id = "insta", icon = "instagram", title = "Instagram")`
     `r social_icon(id = "twitter", icon = "x-twitter", title = "X")`
     `r social_icon(id = "facebook", icon = "facebook", title = "Facebook")`

@@ -1,10 +1,9 @@
 alisp: ALiSP - Association Lilloise des Internes de Santé Publique
-
 year: 2009–2026
 
-links:
+social:
   mail:
-    text: "{{< iconify fa envelope title='contact@alisp.fr' >}}"
+    text: "{{< iconify fa6-solid envelope title='contact@alisp.fr' >}}"
     href: mailto:contact@alisp.fr
   insta:
     text: "{{< iconify fa6-brands instagram title='Instagram' >}}"
@@ -19,7 +18,16 @@ links:
     text: "{{< iconify fa6-brands linkedin title='LinkedIn' >}}"
     href: https://www.linkedin.com/company/alisp59/
 
-clisp_newsletters: https://clisp.fr/newsletters/
+docs:
+  trombi: /_files/trombinoscope_2025-2026.pdf
+  jorf: /_files/jorf-des-sante-publique.pdf
+
+links:
+  license: https://creativecommons.org/licenses/by/4.0/
+  annuaire: https://annuaire-entreprises.data.gouv.fr/entreprise/association-lilloise-des-internes-en-sante-publique-alisp-514856012
+  map: https://www.openstreetmap.org/export/embed.html?bbox=3.034871220588684%2C50.60736649096912%2C3.0410832166671757%2C50.6096746357402&amp;layer=mapnik&amp;marker=50.60852057750887%2C3.0379772186279297 #https://tinyurl.com/4bzthh8k
+  airtable: https://airtable.com/embed/appWo7CiUOiuLDn8Y/pag6Qf3m75x7RkMKj/form
+  clisp: https://clisp.fr/newsletters/
 
 repo:
   text: "Voir la source"

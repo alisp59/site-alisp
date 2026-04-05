@@ -41,21 +41,21 @@ website:
   page-footer:
     left: |
       <span>
-        {{< var year >}} [{{< var alisp >}}](https://annuaire-entreprises.data.gouv.fr/entreprise/association-lilloise-des-internes-en-sante-publique-alisp-514856012)
+        {{< var year >}} [{{< var alisp >}}]({{< var links.annuaire >}})
       </span>
       <br>
       <span>
         {{< iconify fa6-brands creative-commons >}}
         {{< iconify fa6-brands creative-commons-by >}}
-        [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)
+        [CC BY 4.0]({{< var links.license >}})
       </span>
     center: |
       <span>
-        [{{< var links.mail.text >}}]({{< var links.mail.href >}})
-        [{{< var links.insta.text >}}]({{< var links.insta.href >}})
-        [{{< var links.twitter.text >}}]({{< var links.twitter.href >}})
-        [{{< var links.facebook.text >}}]({{< var links.facebook.href >}})
-        [{{< var links.linkedin.text >}}]({{< var links.linkedin.href >}})
+        [{{< var social.mail.text >}}]({{< var social.mail.href >}})
+        [{{< var social.insta.text >}}]({{< var social.insta.href >}})
+        [{{< var social.twitter.text >}}]({{< var social.twitter.href >}})
+        [{{< var social.facebook.text >}}]({{< var social.facebook.href >}})
+        [{{< var social.linkedin.text >}}]({{< var social.linkedin.href >}})
       </span>
     right: |
       <span>

@@ -27,7 +27,7 @@ grid:
   margin-width: 400px
 margin-footer: |
   <a
-    href="{{< var clisp_newsletters >}}"
+    href="{{< var links.clisp >}}"
     class="page-sidebar"
     target="_blank"
     rel="noopener noreferrer">

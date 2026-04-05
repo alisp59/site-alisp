@@ -8,4 +8,4 @@ Pour alimenter le site sans avoir à toucher à git/GitHub, tout se fait via l'i
 2. Se connecter avec le compte GitHub **alisp59**
 3. Rédiger dans l'éditeur visuel puis cliquer sur **Save**
 
-Après quoi le site n'est pas immédiatement mis à jour : c'est moi qui valide les changements et update manuellement (aucun risque de "casser" le site par inadvertance)
+Après quoi le site n'est pas immédiatement mis à jour : l'admin valide les changements et update manuellement le site (aucun risque de "casser" le site par inadvertance; solution temporaire ok pour des ajouts peu féquents)

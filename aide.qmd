@@ -1,7 +1,6 @@
 ---
 title: Formulez votre demande
 page-layout: custom
-airtable: "https://airtable.com/embed/appWo7CiUOiuLDn8Y/pag6Qf3m75x7RkMKj/form"
 ---
 
 ::: {.page-content style="gap: 3rem;"}
@@ -17,7 +16,7 @@ airtable: "https://airtable.com/embed/appWo7CiUOiuLDn8Y/pag6Qf3m75x7RkMKj/form"
 ::: {.column .embed-container width="60%"}
 <iframe
   class="embed-form"
-  src="{{< meta airtable >}}"
+  src="{{< var links.airtable >}}"
   title="Formulaire de demande d'aide méthodologique"
   loading="lazy"
   width="100%"
