@@ -63,6 +63,21 @@ rmarkdown::metadata$bureau |>
 :::
 
 ::: {.column width="60%" class="embed-container"}
+::: callout-caution
+# attente confirmation trombi
+:::
+::: callout-important
+# attente confirmation trombi
+:::
+::: callout-tip
+# attente confirmation trombi
+:::
+::: callout-note
+# attente confirmation trombi
+:::
+::: callout-warning
+# attente confirmation trombi
+:::
 <iframe src="{{< meta trombi >}}"></iframe>
 :::
 

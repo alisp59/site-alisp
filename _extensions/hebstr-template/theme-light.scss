@@ -1,0 +1,25 @@
+/*-- scss:defaults --*/
+
+$primary: #dd0000 !default;
+$callout-icon-scale: -10% !default;
+$font-family-body: "Luciole" !default;
+$font-family-monospace: "Fira Code" !default;
+$font-size-root: 1.2rem !default;
+$grid-sidebar-width: 0px !default;
+$grid-body-width: 900px !default;
+$grid-margin-width: 400px !default;
+
+$neutral: #850000 !default;
+$primary-back: color-mix(in srgb, #{$primary}, white 90%) !default;
+$body-back: #FFF5F5 !default;
+$body-surface: #FFF !default;
+$code-bg-color: #f8f9fa !default;
+
+$callout-note: #0099FF !default;
+$callout-tip: #3fb618 !default;
+$callout-caution: #ffb300 !default;
+$callout-warning: #ff5e00 !default;
+$callout-important: #FF0000 !default;
+$callout-mix-base: white !default;
+$callout-text-mix: black !default;
+$callout-bg-mix: 97% !default;

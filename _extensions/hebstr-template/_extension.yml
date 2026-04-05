@@ -21,7 +21,9 @@ contributes:
       callout-appearance: simple
       html-table-processing: none
       footnotes-hover: true
-      theme: resources/theme.scss
+      theme:
+        light: [theme-light.scss, theme-base.scss]
+        dark: [theme-dark.scss, theme-base.scss]
       css: resources/fonts.css
       include-in-header:
         - text: '<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">'

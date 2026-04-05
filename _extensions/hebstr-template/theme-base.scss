@@ -1,32 +1,21 @@
-/*-- scss:defaults --*/
-
-$primary: #dd0000 !default;
-$callout-icon-scale: -10% !default;
-$font-family-body: "Luciole" !default;
-$font-family-monospace: "Fira Code" !default;
-$font-size-root: 1.2rem !default;
-$grid-sidebar-width: 0px !default;
-$grid-body-width: 900px !default;
-$grid-margin-width: 400px !default;
+/*-- scss:rules --*/
 
 :root {
   --primary: #{$primary};
-  --primary-back: color-mix(in srgb, var(--primary), white 90%);
-  --body: color-mix(in srgb, var(--primary), black 40%);
-  --body-back: #FFF5F5;
-  --body-surface: #FFF;
-  --code-bg-color: #f8f9fa;
-  --callout-note-color: #0099FF;
-  --callout-tip-color: #3fb618;
-  --callout-caution-color: #ffb300ff;
-  --callout-warning-color: #ff5e00ff;
-  --callout-important-color: #FF0000;
-  --callout-mix-base: white;
-  --callout-text-mix: black;
-  --callout-bg-mix: 97%;
+  --primary-back: #{$primary-back};
+  --body: #{$neutral};
+  --body-back: #{$body-back};
+  --body-surface: #{$body-surface};
+  --code-bg-color: #{$code-bg-color};
+  --callout-note-color: #{$callout-note};
+  --callout-tip-color: #{$callout-tip};
+  --callout-caution-color: #{$callout-caution};
+  --callout-warning-color: #{$callout-warning};
+  --callout-important-color: #{$callout-important};
+  --callout-mix-base: #{$callout-mix-base};
+  --callout-text-mix: #{$callout-text-mix};
+  --callout-bg-mix: #{$callout-bg-mix};
 }
-
-/*-- scss:rules --*/
 
 body {
   background-color: var(--body-back);
@@ -123,15 +112,6 @@ h2#toc-title {
 #quarto-sidebar {
   padding: 0;
   background-color: var(--primary-back);
-  // .sidebar-item-toggle {
-  //   display: none;
-  // }
-  // .sidebar-title {
-  //   color: var(--primary);
-  //   font-weight: bold;
-  //   font-size: 1.1rem;
-  //   line-height: 1.6rem;
-  // }
   .sidebar-item-container {
     padding: 0.5rem;
     color: var(--body);
@@ -148,9 +128,6 @@ h2#toc-title {
   }
   .sidebar-item-section > .sidebar-item-container:first-child a {
     display: none;
-    // color: var(--body);
-    // font-weight: bold;
-    // font-size: 1.4rem;
   }
 }
 
@@ -258,6 +235,18 @@ h5 {
   }
 }
 
+.quarto-navbar-tools {
+  margin-left: 0.75rem;
+  .quarto-color-scheme-toggle {
+    color: var(--body-back);
+    display: inline-block;
+    transition: transform 0.3s ease;
+    &:hover, &:focus-visible {
+      transform: scale(1.5);
+    }
+  }
+}
+
 #quarto-header .navbar {
   background-color: var(--primary);
   border-bottom: 3px solid var(--primary-back);
@@ -311,6 +300,18 @@ h5 {
         }
       }
     }
+  }
+  .quarto-color-scheme-toggle .bi::before {
+    background-image: none !important;
+    background-size: none !important;
+    font-family: "Font Awesome 7 Free" !important;
+    font-weight: 900 !important;
+    font-size: 1.3rem;
+    content: "\f185" !important;
+    color: inherit;
+  }
+  .quarto-color-scheme-toggle.alternate .bi::before {
+    content: "\f186" !important;
   }
 }
 
