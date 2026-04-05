@@ -21,9 +21,10 @@ bureau:
     nom: "Julien ELICES-DIEZ"
     fonction: Webmaster
     desc: Gestion du site web
-maps: "https://tinyurl.com/4bzthh8k"
+maps: "https://www.openstreetmap.org/export/embed.html?bbox=3.034871220588684%2C50.60736649096912%2C3.0410832166671757%2C50.6096746357402&amp;layer=mapnik&amp;marker=50.60852057750887%2C3.0379772186279297" #"https://tinyurl.com/4bzthh8k"
 trombi: "" #"../_files/trombinoscope_2025-2026.pdf"
 ---
+
 
 ```{r}
 source(here::here("_scripts/helpers.R"))
@@ -32,7 +33,7 @@ bureau_card <- \(photo, nom, fonction, desc) {
   nom_nbsp <- stringr::str_replace_all(nom, "\\s", "&nbsp;")
   glue_qmd("
   ::: {.bureau-card}
-  <img src='pp/<<photo>>' alt='<<nom>>' class='bureau-photo'>
+  <img src='/_img/bureau/<<photo>>' alt='<<nom>>' class='bureau-photo'>
   <div class='bureau-info'>
     <h1 class='bureau-nom'><<nom_nbsp>></h1>
     <p class='bureau-fonction'><<fonction>></p>
@@ -59,24 +60,12 @@ rmarkdown::metadata$bureau |>
 ::: {.page-content}
 
 ::: {.column width="40%"}
-<iframe src="{{< meta maps >}}" width="100%" height="600"></iframe>
+<iframe src="{{< meta maps >}}" width="100%" height="600" sandbox="allow-scripts" loading="lazy"></iframe>
 :::
 
 ::: {.column width="60%" class="embed-container"}
-::: callout-caution
-# attente confirmation trombi
-:::
 ::: callout-important
-# attente confirmation trombi
-:::
-::: callout-tip
-# attente confirmation trombi
-:::
-::: callout-note
-# attente confirmation trombi
-:::
-::: callout-warning
-# attente confirmation trombi
+# attente autorisation trombi
 :::
 <iframe src="{{< meta trombi >}}"></iframe>
 :::

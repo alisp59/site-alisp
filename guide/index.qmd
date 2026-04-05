@@ -2,7 +2,10 @@
 title: Guide du néo-interne
 ---
 
-# Titre
+::: callout-note
+# premières pages comme placeholders, à complétér 
+:::
 
+# Titre
 
 {{< lipsum 1 >}}

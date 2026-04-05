@@ -25,13 +25,13 @@ website:
     title: false
     right:
       - text: "bureau"
-        href: bureau/bureau.qmd
+        href: bureau.qmd
       - text: actualités
         href: blog/index.qmd
       - text: guide&nbsp;du&nbsp;néo-interne
         href: guide/index.qmd
       - text: "aide&nbsp;méthodologique"
-        href: aide/aide.qmd
+        href: aide.qmd
       - text: "{{< iconify fa6-solid rss title='Flux RSS' >}}"
         href: blog/index.xml
         aria-label: Flux RSS

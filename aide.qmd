@@ -21,6 +21,7 @@ airtable: "https://airtable.com/embed/appWo7CiUOiuLDn8Y/pag6Qf3m75x7RkMKj/form"
   title="Formulaire de demande d'aide méthodologique"
   loading="lazy"
   width="100%"
+  sandbox="allow-scripts allow-same-origin allow-forms allow-popups"
   onload="this.classList.add('loaded')">
 </iframe>
 :::

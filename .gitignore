@@ -4,9 +4,5 @@
 .Rproj.user
 **/*.quarto_ipynb
 /.posit/
-/blog/newsletter/
-CONFIG.md
-DEFERRED.md
-**/*_temp.qmd
-
+/_tmp/
 /.luarc.json
