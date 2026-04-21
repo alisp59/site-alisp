@@ -11,4 +11,8 @@ image: apero-info.jpg
 
 # un titre
 
-{{< lipsum 3 >}}
+{{< lipsum 1 >}}
+
+## un sous titre
+
+{{< lipsum 2 >}}

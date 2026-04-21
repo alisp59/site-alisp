@@ -1,3 +1,11 @@
 toc: true
 toc-location: right
 title-block-banner: false
+
+# page-layout: custom
+format:
+  hebstr-template-html:
+    grid:
+      sidebar-width: 300px
+      body-width: 950px
+      margin-width: 300px

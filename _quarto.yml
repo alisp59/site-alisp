@@ -18,10 +18,10 @@ website:
   description: "Association Lilloise des Internes de Santé Publique"
   open-graph: true
   twitter-card: true
-  favicon: _images/sym.svg
+  favicon: _resources/images/sym.svg
   navbar:
     pinned: false
-    logo: _images/logo-navbar.svg
+    logo: _resources/images/logo-navbar.svg
     title: false
     right:
       - text: "bureau"

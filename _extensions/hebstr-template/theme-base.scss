@@ -440,7 +440,6 @@ nav.quarto-title-breadcrumbs {
   .embed-form {
     position: relative;
     z-index: 1;
-    // border: 2px solid color-mix(in srgb, var(--primary), white 80%);
     width: calc(100% / var(--zoom));
     height: var(--height);
     transform: scale(var(--zoom));
@@ -532,7 +531,7 @@ nav.quarto-title-breadcrumbs {
     flex: 0 0 20%;
     aspect-ratio: 1.5;
     background-color: var(--primary);
-    mask-image: url('_images/sym.svg');
+    mask-image: url('_resources/images/sym.svg');
     mask-size: contain;
     mask-repeat: no-repeat;
     mask-position: center;
@@ -570,7 +569,6 @@ nav.quarto-title-breadcrumbs {
       h5 {
         margin: 0;
         color: var(--primary);
-        font-weight: bold;
         font-size: 1.2rem;
         border: 0;
       }
@@ -579,7 +577,6 @@ nav.quarto-title-breadcrumbs {
         color: var(--body);
       }
       .card-attribution {
-        font-weight: bold;
         color: var(--body);
       }
     }

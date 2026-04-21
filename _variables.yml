@@ -19,8 +19,8 @@ social:
     href: https://www.linkedin.com/company/alisp59/
 
 docs:
-  trombi: /_files/trombinoscope_2025-2026.pdf
-  jorf: /_files/jorf-des-sante-publique.pdf
+  trombi: "" #/_resources/docs/trombinoscope_2025-2026.pdf
+  jorf: /_resources/docs/jorf-des-sante-publique.pdf
 
 links:
   license: https://creativecommons.org/licenses/by/4.0/

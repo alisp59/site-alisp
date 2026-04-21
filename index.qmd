@@ -19,7 +19,7 @@ grid:
 ---
 
 ```{r}
-source(here::here("_scripts/helpers.R"))
+source(here::here("_resources/scripts/helpers.R"))
 ```
 
 ::: {.index-logo .column-screen}
@@ -53,5 +53,5 @@ source(here::here("_scripts/helpers.R"))
 <!-- \ -->
 
 <!-- ::: {.column-screen style="text-align: center;"}
-![](_images/lille_cut.png)
+![](_resources/images/lille_cut.png)
 ::: -->

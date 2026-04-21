@@ -1,0 +1,143 @@
+---
+title: "L'Internat à Lille"
+description: "Informations pratiques sur l'internat de santé publique à Lille"
+file: ../_files/jorf-des-sante-publique.pdf
+grid:
+  sidebar-width: 0px
+  body-width: 1500px
+  margin-width: 0px
+---
+
+::: page-content
+
+::: {.column width="70%"}
+# Titre 1
+
+{{< lipsum 1 random=true >}}
+
+# Titre 2
+
+{{< lipsum 1 random=true >}}
+
+[légifrance](https://www.legifrance.gouv.fr/loda/article_lc/LEGIARTI000047113755)
+
+::: embed-container
+```{=html}
+<iframe src="{{< meta file >}}"></iframe>
+```
+:::
+
+\
+
+{{< lipsum 1 >}}
+
+:::
+
+::: {.page-sidebar .column width="30%"}
+# Agenda (pour test)
+```{=html}
+<iframe
+  src="https://calendar.google.com/calendar/embed?src=example"
+  height="500"
+  loading="lazy">
+</iframe>
+```
+
+\
+
+## [img redirigeant vers page blog]
+```{=html}
+<a
+  href="../blog/test-1/"
+  rel="noopener noreferrer">
+  <img
+    src="../_img/apero-info.jpg"
+    alt="Apéro-info"
+    loading="lazy">
+</a>
+```
+
+\
+
+# encore un truc
+```{=html}
+<iframe
+  src="https://example.com"
+  height="500"
+  loading="lazy">
+</iframe>
+```
+
+\
+
+on peut aussi mettre du texte tkrl
+
+:::
+
+:::
+
+# encore un titre
+
+{{< lipsum 1 >}}
+
+::: page-content
+
+::: {.page-sidebar .column width="50%"}
+# Agenda (pour test)
+```{=html}
+<iframe
+  src="https://calendar.google.com/calendar/embed?src=example"
+  height="500"
+  loading="lazy">
+</iframe>
+```
+
+\
+
+## [img redirigeant vers page blog]
+```{=html}
+<a
+  href="../blog/test/"
+  rel="noopener noreferrer">
+  <img
+    src="../_img/apero-info.jpg"
+    alt="Apéro-info"
+    loading="lazy">
+</a>
+```
+
+\
+
+# encore un truc
+```{=html}
+<iframe
+  src="https://example.com"
+  height="500"
+  loading="lazy">
+</iframe>
+```
+:::
+
+::: {.column width="50%"}
+# Titre 1
+
+{{< lipsum 1 random=true >}}
+
+# Titre 2
+
+{{< lipsum 1 random=true >}}
+
+[légifrance](https://www.legifrance.gouv.fr/loda/article_lc/LEGIARTI000047113755)
+
+::: embed-container
+```{=html}
+<iframe src="{{< meta file >}}"></iframe>
+```
+:::
+
+\
+
+{{< lipsum 1 >}}
+
+:::
+:::

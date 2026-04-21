@@ -14,7 +14,7 @@ source_link: https://codeberg.org/hebstr/site_alisp/src/branch/main/
 
 Occaecat ut irure anim in eu in est labore elit. Lorem labore aliquip aute reprehenderit ea est labore voluptate eiusmod. Nulla culpa cillum irure non proident culpa nostrud nisi duis. Et dolore reprehenderit nostrud do magna elit duis deserunt tempor. Ut nulla ut consequat aute velit officia sit non cupidatat.
 
-![](../../_images/apero-info.jpg)
+![](../../_resources/images/apero-info.jpg)
 
 # Ex magna ad
 
