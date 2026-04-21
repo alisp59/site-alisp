@@ -18,22 +18,22 @@ website:
   description: "Association Lilloise des Internes de Santé Publique"
   open-graph: true
   twitter-card: true
-  favicon: _img/sym.svg
+  favicon: _images/sym.svg
   navbar:
-    pinned: true
-    logo: _img/logo-navbar.svg
+    pinned: false
+    logo: _images/logo-navbar.svg
     title: false
     right:
       - text: "bureau"
         href: bureau.qmd
       - text: actualités
-        href: blog/index.qmd
+        href: blog.qmd
       - text: guide&nbsp;du&nbsp;néo-interne
-        href: guide/index.qmd
+        href: guide.qmd
       - text: "aide&nbsp;méthodologique"
-        href: aide.qmd
+        href: formulaire.qmd
       - text: "{{< iconify fa6-solid rss title='Flux RSS' >}}"
-        href: blog/index.xml
+        href: blog.xml
         aria-label: Flux RSS
   sidebar:
     - id: guide

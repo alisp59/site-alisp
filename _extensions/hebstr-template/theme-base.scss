@@ -6,7 +6,6 @@
   --body: #{$neutral};
   --body-back: #{$body-back};
   --body-surface: #{$body-surface};
-  --code-bg-color: #{$code-bg-color};
   --callout-note-color: #{$callout-note};
   --callout-tip-color: #{$callout-tip};
   --callout-caution-color: #{$callout-caution};
@@ -22,6 +21,9 @@ body {
   color: var(--body);
   font-family: $font-family-body;
   text-align: left;
+  p {
+    line-height: 1.8rem;
+  }
 }
 
 html {
@@ -30,7 +32,7 @@ html {
 }
 
 #listing-blog-posts {
-  margin-top: 2rem;
+  margin-top: 0.5rem;
   color: var(--body);
   a {
     color: inherit;
@@ -38,30 +40,77 @@ html {
   .listing-title {
     margin-left: 0;
     margin-bottom: 0.3rem;
-    a {
-      font-weight: bold;
-    }
+    font-size: 1.5rem;
   }
   .listing-description {
     margin-top: 0.2rem;
   }
   .listing-category {
-    padding: 0.4rem 0.5rem;
+    padding: 0.3rem 0.4rem;
     margin-right: 0.3rem;
-    color: var(--body);
-    background-color: var(--primary-back);
-    border: 0;
+    color: color-mix(in srgb, var(--body), white 50%);
+    background-color: var(--body-surface);
+    border: 1px solid color-mix(in srgb, var(--primary), white 80%);
+    transition:
+      background-color 0.2s ease, color 0.2s ease;
+    &:hover {
+      color: var(--body-surface);
+      background-color: var(--primary);
+      border: 1px solid var(--primary);
+    }
   }
   .quarto-post {
-    padding-bottom: 1rem;
-    margin-bottom: 1rem;
-    border-bottom: 3px solid var(--primary-back);
-    img {
-      @extend %card-surface;
-      max-width: 100%;
-      height: 250px;
-      padding: 0.2rem;
+    position: relative;
+    padding: 1.25rem 1.5rem;
+    margin-bottom: 1.25rem;
+    margin-right: -2rem;
+    background-color: var(--body-surface);
+    border: 2px solid color-mix(in srgb, var(--primary), white 80%);
+    border-radius: 12px;
+    transition:
+      border-color 0.2s ease,
+      box-shadow 0.2s ease,
+      transform 0.2s ease;
+    &:hover {
+      border-color: var(--primary);
+      box-shadow: 0 8px 24px color-mix(in srgb, var(--primary) 13%, transparent);
+      transform: translateY(-4px);
     }
+    .listing-title a::after {
+      content: "";
+      position: absolute;
+      inset: 0;
+      z-index: 1;
+    }
+    .listing-category {
+      position: relative;
+      z-index: 2;
+    }
+    img {
+      max-width: 100%;
+      height: 200px;
+      padding: 0;
+      border-radius: 12px;
+      overflow: hidden;
+    }
+    .metadata {
+      font-size: 0.9rem;
+    }
+  }
+}
+
+#title-block-header h1.title {
+  border-bottom: none;
+}
+
+body:has(#listing-blog-posts) #title-block-header {
+  h1.title {
+    font-size: 2.5rem;
+    font-weight: normal;
+    margin-bottom: 0;
+  }
+  .quarto-title-meta {
+    display: none;
   }
 }
 
@@ -79,22 +128,24 @@ html {
     max-width: 100%;
     height: auto;
   }
-  .quarto-listing-category-title {
+  .quarto-listing-category-title,
+  .quarto-listing-category {
     margin-left: 0;
+    text-align: center;
   }
   nav[role=doc-toc] {
     > ul {
       margin-bottom: 2rem;
       a {
-        border-left: 3px solid var(--primary-back);
+        border-left: 2px solid var(--primary-back);
       }
       li a {
         padding-top: 0.6rem;
       }
     }
     :is(ul > li, ul > li > ul > li) > a.active {
-      font-weight: bold;
-      border-left: 3px solid var(--primary);
+      // font-weight: bold;
+      border-left: 2px solid var(--primary);
     }
   }
 }
@@ -104,8 +155,7 @@ a.anchorjs-link {
 }
 
 h2#toc-title {
-  font-size: 0.9rem;
-  font-weight: bold;
+  margin-left: 0;
   padding-bottom: 0.3rem;
 }
 
@@ -118,12 +168,12 @@ h2#toc-title {
     font-size: 1.2rem;
     font-variant: small-caps;
     text-align: center;
+    line-height: 1.3rem;
     :hover {
       color: var(--primary);
     }
     .active {
       color: var(--primary);
-      font-weight: bold;
     }
   }
   .sidebar-item-section > .sidebar-item-container:first-child a {
@@ -144,6 +194,8 @@ h1, h2, h3, h4, h5 {
   border-bottom: 2px solid var(--primary-back);
   padding-bottom: 0.3rem;
   text-align: left;
+  font-weight: normal;
+  color: var(--body);
 }
 
 h1 {
@@ -152,16 +204,13 @@ h1 {
 }
 
 h2 {
-  padding-top: 1rem;
   margin-left: 0.5rem;
   font-size: 1.4rem;
-  font-weight: bold;
 }
 
 h3 {
   margin-left: 1rem;
   font-size: 1.2rem;
-  font-weight: normal;
 }
 
 h4 {
@@ -182,12 +231,14 @@ h5 {
   color: var(--body);
 }
 
-.quarto-title-breadcrumbs .breadcrumb li:last-of-type a {
-  color: var(--body);
+nav.quarto-title-breadcrumbs {
+  display: none !important;
 }
 
-.quarto-page-breadcrumbs .breadcrumb-item::before {
-  color: var(--body);
+@media (min-width: 992px) {
+  .quarto-secondary-nav {
+    display: none !important;
+  }
 }
 
 #title-block-header {
@@ -195,30 +246,36 @@ h5 {
     background-color: var(--primary-back);
     margin-block-end: 0;
     padding: 2.5rem;
-    .quarto-title {
-      margin: 0;
+  }
+  .title {
+    color: var(--primary);
+    font-size: 2.3rem;
+  }
+  .description {
+    padding-top: 0.5rem;
+    font-size: 1.1rem;
+  }
+  .quarto-category {
+    padding: 0.3rem 0.4rem;
+    color: color-mix(in srgb, var(--body), white 50%);
+    background-color: var(--body-surface);
+    border: 1px solid color-mix(in srgb, var(--primary), white 80%);
+    opacity: 1;
+    transition:
+      background-color 0.2s ease, color 0.2s ease, border-color 0.2s ease;
+    &:hover {
+      color: var(--body-surface);
+      background-color: var(--primary);
+      border-color: var(--primary);
     }
-    .title {
-      color: var(--primary);
-      font-size: 2.5rem;
-      padding: 0;
-    }
-    .description {
-      color: var(--primary);
-      padding-top: 1rem;
-      font-size: 1.3rem;
-    }
-    .quarto-category {
-      padding: 0.3rem 0.4rem;
-      color: var(--body);
-      background-color: var(--body-surface);
+    a {
+      color: inherit;
     }
   }
   .quarto-title-meta {
     margin-top: 1rem;
     .quarto-title-meta-heading {
       color: var(--primary);
-      font-weight: bold !important;
     }
   }
   .block-title {
@@ -320,9 +377,10 @@ h5 {
   background-color: var(--primary-back);
   color: var(--body);
   border-top: 2px solid var(--body-back);
-  line-height: 1.5rem;
-  font-size: 1.05rem;
   align-items: center;
+  p {
+    line-height: 1.5;
+  }
   a {
     text-decoration: none;
     color: var(--primary);
@@ -382,7 +440,7 @@ h5 {
   .embed-form {
     position: relative;
     z-index: 1;
-    border: 2px solid var(--primary);
+    // border: 2px solid color-mix(in srgb, var(--primary), white 80%);
     width: calc(100% / var(--zoom));
     height: var(--height);
     transform: scale(var(--zoom));
@@ -474,7 +532,7 @@ h5 {
     flex: 0 0 20%;
     aspect-ratio: 1.5;
     background-color: var(--primary);
-    mask-image: url('_img/sym.svg');
+    mask-image: url('_images/sym.svg');
     mask-size: contain;
     mask-repeat: no-repeat;
     mask-position: center;

@@ -1,6 +1,5 @@
 ---
 title: "Formation théorique"
-date: last-modified
 ---
 
 # Cours obligatoires du D.E.S

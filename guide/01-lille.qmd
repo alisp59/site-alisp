@@ -38,7 +38,7 @@ L’ensemble de la métropole ainsi que de nombreuses villes alentours sont acce
 
 ```{r}
 #| fig-cap: Réseau de transport de Lille et ses alentours
-knitr::include_graphics("../_img/guide_transport.jpg")
+knitr::include_graphics("../_images/guide_transport.jpg")
 ```
 
 Une prise en charge partielle des frais de transport en commun par le CHU est possible mais il est nécessaire de le demander avant le 05 du mois en cours à l’adresse mail du pagrh de rattachement du bâtiment (bureau PAGRH dans chaque bâtiment/pôle).

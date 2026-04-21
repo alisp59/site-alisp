@@ -1,15 +1,14 @@
 ---
-title: Formulez votre demande
 page-layout: custom
 ---
 
-::: {.page-content style="gap: 3rem;"}
+::: {.page-content style="gap: 2rem;"}
 
 ::: {.column width="40%"}
 
-# titre
+# Formulez votre demande
 
-{{< lipsum 2 >}}
+{{< lipsum 1 >}}
 
 :::
 

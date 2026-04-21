@@ -10,10 +10,9 @@ $grid-body-width: 900px !default;
 $grid-margin-width: 400px !default;
 
 $neutral: #850000 !default;
-$primary-back: color-mix(in srgb, #{$primary}, white 90%) !default;
-$body-back: #FFF5F5 !default;
+$primary-back: color-mix(in srgb, #{$primary}, white 95%) !default;
+$body-back: color-mix(in srgb, #{$primary}, white 97.5%) !default;
 $body-surface: #FFF !default;
-$code-bg-color: #f8f9fa !default;
 
 $callout-note: #0099FF !default;
 $callout-tip: #3fb618 !default;
@@ -22,4 +21,4 @@ $callout-warning: #ff5e00 !default;
 $callout-important: #FF0000 !default;
 $callout-mix-base: white !default;
 $callout-text-mix: black !default;
-$callout-bg-mix: 97% !default;
+$callout-bg-mix: 100% !default;

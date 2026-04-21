@@ -30,7 +30,7 @@ collections:
       - name: date
         label: Date
         widget: datetime
-        format: "YYYY-MM-DD"
+        format: "DD-MM-YYYY"
         date_only: true
       - name: description
         label: Description
@@ -65,3 +65,71 @@ collections:
       - name: body
         label: Contenu
         widget: markdown
+
+  - name: config
+    label: Configuration du site
+    files:
+      - name: variables
+        label: Variables globales
+        file: _variables.yml
+        format: yaml
+        fields:
+          - name: alisp
+            label: Nom complet de l'association
+            widget: string
+          - name: year
+            label: Années (pied de page)
+            widget: string
+          - name: social
+            label: Réseaux sociaux
+            widget: object
+            fields:
+              - name: mail
+                label: Email
+                widget: object
+                fields:
+                  - { name: href, label: Lien (mailto:…), widget: string }
+              - name: insta
+                label: Instagram
+                widget: object
+                fields:
+                  - { name: href, label: URL, widget: string }
+              - name: twitter
+                label: X (Twitter)
+                widget: object
+                fields:
+                  - { name: href, label: URL, widget: string }
+              - name: facebook
+                label: Facebook
+                widget: object
+                fields:
+                  - { name: href, label: URL, widget: string }
+              - name: linkedin
+                label: LinkedIn
+                widget: object
+                fields:
+                  - { name: href, label: URL, widget: string }
+          - name: docs
+            label: Documents PDF
+            widget: object
+            fields:
+              - name: trombi
+                label: Trombinoscope (chemin)
+                widget: string
+              - name: jorf
+                label: JORF santé publique (chemin)
+                widget: string
+          - name: links
+            label: Liens externes
+            widget: object
+            fields:
+              - { name: license, label: Licence, widget: string }
+              - { name: annuaire, label: Annuaire des entreprises, widget: string }
+              - { name: airtable, label: Formulaire Airtable, widget: string }
+              - { name: clisp, label: Newsletter CLISP, widget: string }
+          - name: repo
+            label: Dépôt source
+            widget: object
+            fields:
+              - { name: text, label: Libellé, widget: string }
+              - { name: href, label: URL, widget: string }

@@ -25,7 +25,9 @@ docs:
 links:
   license: https://creativecommons.org/licenses/by/4.0/
   annuaire: https://annuaire-entreprises.data.gouv.fr/entreprise/association-lilloise-des-internes-en-sante-publique-alisp-514856012
-  map: https://www.openstreetmap.org/export/embed.html?bbox=3.034871220588684%2C50.60736649096912%2C3.0410832166671757%2C50.6096746357402&amp;layer=mapnik&amp;marker=50.60852057750887%2C3.0379772186279297 #https://tinyurl.com/4bzthh8k
+  map:
+    - https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2532.0058095407308!2d3.03668438031227!3d50.608429584677424!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c2d5057f23d8d9%3A0x7c4e86012dd1d69a!2s6%20Rue%20du%20Professeur%20Laguesse%2C%2059000%20Lille!5e0!3m2!1sen!2sfr!4v1764724386097!5m2!1sen!2sfr
+    # - https://www.openstreetmap.org/export/embed.html?bbox=3.034871220588684%2C50.60736649096912%2C3.0410832166671757%2C50.6096746357402&amp;layer=mapnik&amp;marker=50.60852057750887%2C3.0379772186279297
   airtable: https://airtable.com/embed/appWo7CiUOiuLDn8Y/pag6Qf3m75x7RkMKj/form
   clisp: https://clisp.fr/newsletters/
 
