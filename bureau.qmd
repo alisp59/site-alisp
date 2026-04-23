@@ -1,5 +1,6 @@
 ---
-title: "Composition du bureau 2025-2026"
+title: "Bureau"
+body-classes: bureau
 bureau:
   - photo: victor_guerout.jpg
     nom: "Victor GUEROUT"
@@ -23,9 +24,8 @@ bureau:
     desc: Gestion du site web
 ---
 
-
 ```{r}
-source(here::here("_resources/scripts", "helpers.R"))
+source(here::here("_resources", "scripts", "helpers.R"))
 
 bureau_card <- \(photo, nom, fonction, desc) {
   nom_nbsp <- stringr::str_replace_all(nom, "\\s", "&nbsp;")
@@ -33,7 +33,7 @@ bureau_card <- \(photo, nom, fonction, desc) {
   ::: {.bureau-card}
   <img src='/_resources/images/bureau/<<photo>>' alt='<<nom>>' class='bureau-photo'>
   <div class='bureau-info'>
-    <h1 class='bureau-nom'><<nom_nbsp>></h1>
+    <h2 class='bureau-nom'><<nom_nbsp>></h2>
     <p class='bureau-fonction'><<fonction>></p>
     <p class='bureau-desc'><<desc>></p>
   </div>
@@ -43,6 +43,8 @@ bureau_card <- \(photo, nom, fonction, desc) {
 ```
 
 :::: {.column-screen}
+
+# Qui sommes-nous ?
 
 ::: {.bureau-grid}
 
@@ -58,7 +60,15 @@ rmarkdown::metadata$bureau |>
 ::: {.page-content}
 
 ::: {.column width="40%"}
-<iframe src="{{< var links.map >}}" width="100%" height="600" sandbox="allow-scripts" loading="lazy"></iframe>
+# Maison Régionale de la Recherche Clinique, CHU de Lille
+<iframe 
+  src="{{< var links.map >}}" 
+  title="Carte de localisation du bureau de l'ALiSP"
+  width="100%"
+  height="600"
+  sandbox="allow-scripts"
+  loading="lazy">
+</iframe>
 :::
 
 ::: {.column width="60%" class="embed-container"}

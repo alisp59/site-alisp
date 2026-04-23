@@ -15,7 +15,7 @@ contributes:
     html:
       toc: false
       smooth-scroll: true
-      title-block-banner: true
+      title-block-banner: false
       colorlinks: true
       callout-appearance: simple
       html-table-processing: none

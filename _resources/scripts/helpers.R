@@ -8,12 +8,14 @@ social_icon <- \(id, icon, title = id, set = "fa6-brands") {
     <a
       href='{{< var social.<<id>>.href >}}'
       title='<<title>>'
+      aria-label='<<title>>'
       target='_blank'
       rel='noopener'>
       <iconify-icon
         icon='<<set>>:<<icon>>'
         width='1.5em'
-        height='1.5em'>
+        height='1.5em'
+        aria-hidden='true'>
       </iconify-icon>
     </a>
   "

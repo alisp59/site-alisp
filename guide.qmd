@@ -2,12 +2,13 @@
 title: Guide du néo-interne
 toc: true
 toc-title: " "
-title-block-banner: false
 sidebar: guide
-grid:
-  sidebar-width: 400px
-  body-width: 1200px
-  margin-width: 400px
+format:
+  hebstr-template-html:
+    grid:
+      sidebar-width: 350px
+      body-width: 1200px
+      margin-width: 350px
 ---
 
 ::: callout-note

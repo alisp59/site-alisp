@@ -1,6 +1,5 @@
 ---
 title: Actualités de l'ALiSP
-title-block-banner: false
 comments: false
 
 page-layout: full

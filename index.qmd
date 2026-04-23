@@ -12,10 +12,12 @@ listing:
     sort-ui: false
     filter-ui: false
     fields: [title, image, description, date]
-grid:
-  sidebar-width: 0px
-  body-width: 1500px
-  margin-width: 0px
+format:
+  hebstr-template-html:
+    grid:
+      sidebar-width: 0px
+      body-width: 1500px
+      margin-width: 0px
 ---
 
 ```{r}
