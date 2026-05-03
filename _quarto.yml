@@ -3,14 +3,13 @@ project:
   resources:
     - admin/**
 
-execute:
-  freeze: auto
+# execute:
+#   freeze: auto
 
 lang: fr
 
 format:
   hebstr-template-html: default
-  # hebstr-template-typst: default
 
 website:
   title: "{{< var alisp >}}"
@@ -51,11 +50,11 @@ website:
       </span>
     center: |
       <span>
-        [{{< var social.mail.text >}}]({{< var social.mail.href >}})
-        [{{< var social.insta.text >}}]({{< var social.insta.href >}})
-        [{{< var social.twitter.text >}}]({{< var social.twitter.href >}})
-        [{{< var social.facebook.text >}}]({{< var social.facebook.href >}})
-        [{{< var social.linkedin.text >}}]({{< var social.linkedin.href >}})
+        <a href="{{< var social.mail.href >}}">{{< var social.mail.text >}}</a>
+        <a href="{{< var social.insta.href >}}" target="_blank" rel="noopener">{{< var social.insta.text >}}</a>
+        <a href="{{< var social.twitter.href >}}" target="_blank" rel="noopener">{{< var social.twitter.text >}}</a>
+        <a href="{{< var social.facebook.href >}}" target="_blank" rel="noopener">{{< var social.facebook.text >}}</a>
+        <a href="{{< var social.linkedin.href >}}" target="_blank" rel="noopener">{{< var social.linkedin.text >}}</a>
       </span>
     right: |
       <span>

@@ -391,7 +391,7 @@ nav.quarto-title-breadcrumbs {
       display: inline-block;
       transition: transform 0.3s ease;
       &:hover, &:focus-visible {
-        color: var(--body);
+        color: var(--bs-link-hover-color);
         transform: scale(1.5);
       }
     }
