@@ -18,6 +18,12 @@ website:
   open-graph: true
   twitter-card: true
   favicon: _resources/images/sym.svg
+  announcement:
+    icon: exclamation-circle-fill
+    content: "Site en cours de construction. Pour toute demande, contactez-nous par mail : [contact@alisp.fr](mailto:contact@alisp.fr)"
+    type: primary
+    position: below-navbar
+    dismissable: true
   navbar:
     pinned: false
     logo: _resources/images/logo-navbar.svg

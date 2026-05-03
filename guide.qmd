@@ -11,7 +11,7 @@ format:
       margin-width: 350px
 ---
 
-::: callout-note
+::: callout-important
 # premières pages pour exemple, à complétér 
 :::
 

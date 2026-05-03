@@ -279,7 +279,7 @@ nav.quarto-title-breadcrumbs {
   padding: 0 1rem;
   transition: transform 0.3s ease;
   &:hover, &:focus-visible {
-    transform: scale(1.5);
+    transform: scale(1.1);
   }
 }
 
@@ -290,7 +290,7 @@ nav.quarto-title-breadcrumbs {
     display: inline-block;
     transition: transform 0.3s ease;
     &:hover, &:focus-visible {
-      transform: scale(1.5);
+      transform: scale(1.1);
     }
   }
 }
@@ -759,6 +759,18 @@ body.bureau {
   .bureau-desc {
     font-size: 0.9rem;
     margin: 0;
+  }
+}
+
+// ANNOUNCEMENT ----------------------------------------------------------------
+
+#quarto-announcement {
+  font-size: 1rem;
+  font-weight: bold;
+  padding: 0.5em 1em;
+  .quarto-announcement-icon {
+    font-size: 1.3em;
+    padding-top: 0.1rem;
   }
 }
 
