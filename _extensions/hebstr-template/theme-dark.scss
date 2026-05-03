@@ -1,6 +1,6 @@
 /*-- scss:defaults --*/
 
-$primary: #ff5252 !default;
+$primary: #66c2ff !default;
 $callout-icon-scale: -10% !default;
 $font-family-body: "Luciole" !default;
 $font-family-monospace: "Fira Code" !default;
@@ -8,19 +8,30 @@ $font-size-root: 1.2rem !default;
 $grid-sidebar-width: 0px !default;
 $grid-body-width: 900px !default;
 $grid-margin-width: 400px !default;
-$body-bg: #210000 !default;
-$body-color: #ffe1e1 !default;
-$neutral: $body-color !default;
+$body-bg: #161616 !default;
+$body-color: #e8e8e8 !default;
+$neutral: #e8e8e8 !default;
 
-$primary-back: color-mix(in srgb, #{$primary}, black 90%) !default;
-$body-back: #210000 !default;
-$body-surface: #3a1010 !default;
+$primary-back: color-mix(in srgb, #{$primary}, black 82%) !default;
+$body-back: color-mix(in srgb, #{$primary}, black 84%) !default;
+$body-surface: color-mix(in srgb, #{$primary}, black 82%) !default;
 
-$callout-note: #66bbff !default;
+$callout-note: #66c2ff !default;
 $callout-tip: #5fc06a !default;
-$callout-caution: #e0a030 !default;
-$callout-warning: #e07030 !default;
-$callout-important: #fff !default;
-$callout-mix-base: #1a0508 !default;
+$callout-caution: #ffc870 !default;
+$callout-warning: #ff8a4d !default;
+$callout-important: #ff5252 !default;
+$callout-mix-base: #161616 !default;
 $callout-text-mix: white !default;
-$callout-bg-mix: 92% !default;
+$callout-bg-mix: 88% !default;
+
+/*-- scss:rules --*/
+
+#quarto-header .navbar {
+  background-color: color-mix(in srgb, #{$primary}, black 30%) !important;
+  .navbar-nav .nav-link,
+  .quarto-color-scheme-toggle,
+  .quarto-navbar-tools a {
+    color: $body-color !important;
+  }
+}
