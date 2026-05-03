@@ -730,14 +730,14 @@ body.bureau {
   align-items: center;
   padding: 2rem 1rem;
   background-color: var(--body-surface);
-  border-radius: 8px;
+  border-radius: 10px;
   .bureau-photo {
-    width: 150px;
-    height: 150px;
-    border-radius: 50%;
+    width: 140px;
+    height: 190px;
+    border-radius: 10px;
     object-fit: cover;
     object-position: center top;
-    border: 3px solid var(--primary);
+    border: 2px solid color-mix(in srgb, var(--primary), white 80%);
     margin-bottom: 1rem;
   }
   .bureau-info {
