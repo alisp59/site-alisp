@@ -19,7 +19,3 @@ bureau:
     nom: Julien ELICES-DIEZ
     fonction: Webmaster
     desc: Gestion du site web
-  - photo: _resources/images/bureau/guide.jpg
-    nom: nom test
-    fonction: fonction test
-    desc: descripton test
