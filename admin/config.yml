@@ -3,6 +3,12 @@ backend:
   repo: alisp59/site-alisp
   branch: main
   base_url: https://sveltia-cms-auth.asso-isp-lille.workers.dev
+  commit_messages:
+    create: "content: add {{collection}} {{slug}} ({{author-login}})"
+    update: "content: up {{collection}} {{slug}} ({{author-login}})"
+    delete: "content: delete {{collection}} {{slug}} ({{author-login}})"
+    uploadMedia: "assets: upload {{path}}"
+    deleteMedia: "assets: delete {{path}}"
 
 publish_mode: editorial_workflow
 
@@ -42,6 +48,14 @@ collections:
         label: Image de couverture
         widget: image
         required: false
+      - name: slug
+        label: Slug
+        widget: string
+        required: false
+      - name: source_link
+        label: Lien source
+        widget: string
+        required: false
       - name: body
         label: Contenu
         widget: markdown
@@ -68,3 +82,29 @@ collections:
       - name: body
         label: Contenu
         widget: markdown
+
+  - name: bureau
+    label: Bureau
+    files:
+      - name: membres
+        label: Membres du bureau
+        file: _resources/bureau.yml
+        media_folder: _resources/images/bureau
+        public_folder: /_resources/images/bureau
+        fields:
+          - name: bureau
+            label: Membres
+            widget: list
+            fields:
+              - name: photo
+                label: Photo
+                widget: image
+              - name: nom
+                label: Nom
+                widget: string
+              - name: fonction
+                label: Fonction
+                widget: string
+              - name: desc
+                label: Description
+                widget: string

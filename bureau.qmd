@@ -1,27 +1,6 @@
 ---
 title: "Bureau"
 body-classes: bureau
-bureau:
-  - photo: victor_guerout.jpg
-    nom: "Victor GUEROUT"
-    fonction: Président
-    desc: Coordination générale
-  - photo: philippine_boulanger.jpg
-    nom: "Philippine BOULANGER"
-    fonction: Secrétaire
-    desc: Gestion administrative
-  - photo: valentin_johnson.jpg
-    nom: "Valentin JOHNSON"
-    fonction: Trésorier
-    desc: Gestion financière
-  - photo: tristan_leguillette.jpg
-    nom: "Tristan LÉGUILLETTE"
-    fonction: Communication
-    desc: "Représentation de l'association"
-  - photo: julien_elices-diez.jpg
-    nom: "Julien ELICES-DIEZ"
-    fonction: Webmaster
-    desc: Gestion du site web
 ---
 
 ```{r}
@@ -31,7 +10,7 @@ bureau_card <- \(photo, nom, fonction, desc) {
   nom_nbsp <- stringr::str_replace_all(nom, "\\s", "&nbsp;")
   glue_qmd("
   ::: {.bureau-card}
-  <img src='/_resources/images/bureau/<<photo>>' alt='<<nom>>' class='bureau-photo'>
+  <img src='<<photo>>' alt='<<nom>>' class='bureau-photo'>
   <div class='bureau-info'>
     <h2 class='bureau-nom'><<nom_nbsp>></h2>
     <p class='bureau-fonction'><<fonction>></p>
@@ -50,7 +29,7 @@ bureau_card <- \(photo, nom, fonction, desc) {
 
 ```{r}
 #| output: asis
-rmarkdown::metadata$bureau |>
+yaml12::read_yaml(here::here("_resources", "bureau.yml"))$bureau |>
   purrr::map_chr(~ bureau_card(.$photo, .$nom, .$fonction, .$desc)) |>
   cat(sep = "\n\n")
 ```
