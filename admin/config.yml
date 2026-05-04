@@ -16,6 +16,21 @@ media_folder: _resources/sveltia
 public_folder: /_resources/sveltia
 
 collections:
+
+  - name: todo
+    label: TODO
+    files:
+      - name: todo
+        label: TODO
+        file: TODO.md
+        extension: md
+        fields:
+          - name: body
+            label: Contenu
+            widget: markdown
+
+  - divider: true
+
   - name: bureau
     label: Bureau
     files:
@@ -44,11 +59,14 @@ collections:
                 label: Description
                 widget: string
 
+  - divider: true
+
   - name: blog
     label: Actualités
     label_singular: Article
     folder: blog
     path: "{{slug}}/index"
+    identifier_field: slug
     media_folder: ""
     public_folder: ""
     create: true
@@ -64,7 +82,7 @@ collections:
       - name: date
         label: Date
         widget: datetime
-        format: "DD-MM-YYYY"
+        format: "YYYY-MM-DD"
         date_only: true
       - name: description
         label: Description
@@ -79,21 +97,36 @@ collections:
       - name: slug
         label: Slug
         widget: string
-        required: false
-      - name: source_link
-        label: Lien source
-        widget: string
-        required: false
       - name: body
         label: Contenu
         widget: markdown
 
-  - name: guide
-    label: Guide du néo-interne
+  - divider: true
+
+  - name: guide-index
+    label: Guide : index
+    files:
+      - name: guide-index
+        label: Guide : index
+        file: guide.qmd
+        media_folder: /guide/resources
+        public_folder: /guide/resources
+        extension: qmd
+        frontmatter_delimiter: "---"
+        fields:
+          - name: title
+            label: Titre
+            widget: string
+          - name: body
+            label: Contenu
+            widget: markdown
+
+  - name: guide-sections
+    label: Guide : sections
     label_singular: Page
     folder: guide
-    media_folder: "resources"
-    public_folder: "resources"
+    media_folder: /guide/resources
+    public_folder: /guide/resources
     create: true
     extension: qmd
     frontmatter_delimiter: "---"
