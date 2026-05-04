@@ -16,6 +16,34 @@ media_folder: _resources/sveltia
 public_folder: /_resources/sveltia
 
 collections:
+  - name: bureau
+    label: Bureau
+    files:
+      - name: membres
+        label: Membres du bureau
+        file: _resources/bureau.yml
+        media_folder: _resources/images/bureau
+        public_folder: /_resources/images/bureau
+        fields:
+          - name: bureau
+            label: Membres
+            widget: list
+            fields:
+              - name: photo
+                label: Photo
+                widget: image
+                media_folder: _resources/images/bureau
+                public_folder: /_resources/images/bureau
+              - name: nom
+                label: Nom
+                widget: string
+              - name: fonction
+                label: Fonction
+                widget: string
+              - name: desc
+                label: Description
+                widget: string
+
   - name: blog
     label: Actualités
     label_singular: Article
@@ -82,29 +110,3 @@ collections:
       - name: body
         label: Contenu
         widget: markdown
-
-  - name: bureau
-    label: Bureau
-    files:
-      - name: membres
-        label: Membres du bureau
-        file: _resources/bureau.yml
-        media_folder: _resources/images/bureau
-        public_folder: /_resources/images/bureau
-        fields:
-          - name: bureau
-            label: Membres
-            widget: list
-            fields:
-              - name: photo
-                label: Photo
-                widget: image
-              - name: nom
-                label: Nom
-                widget: string
-              - name: fonction
-                label: Fonction
-                widget: string
-              - name: desc
-                label: Description
-                widget: string
