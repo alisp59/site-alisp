@@ -33,7 +33,6 @@ collections:
                 label: Photo
                 widget: image
                 media_folder: _resources/images/bureau
-                public_folder: /_resources/images/bureau
               - name: nom
                 label: Nom
                 widget: string
