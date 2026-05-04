@@ -21,7 +21,7 @@ format:
 ---
 
 ```{r}
-source(here::here("_resources/scripts/helpers.R"))
+source(here::here("_resources/helpers.R"))
 ```
 
 ::: {.index-logo .column-screen}

@@ -19,6 +19,7 @@ collections:
 
   - name: todo
     label: TODO
+    icon: checklist
     files:
       - name: todo
         label: TODO
@@ -33,6 +34,7 @@ collections:
 
   - name: bureau
     label: Bureau
+    icon: groups
     files:
       - name: membres
         label: Membres du bureau
@@ -63,6 +65,7 @@ collections:
 
   - name: blog
     label: Actualités
+    icon: newspaper
     label_singular: Article
     folder: blog
     path: "{{slug}}/index"
@@ -104,10 +107,11 @@ collections:
   - divider: true
 
   - name: guide-index
-    label: Guide : index
+    label: "Guide > index"
+    icon: description
     files:
       - name: guide-index
-        label: Guide : index
+        label: "Guide > index"
         file: guide.qmd
         media_folder: /guide/resources
         public_folder: /guide/resources
@@ -122,7 +126,8 @@ collections:
             widget: markdown
 
   - name: guide-sections
-    label: Guide : sections
+    label: "Guide > sections"
+    icon: description
     label_singular: Page
     folder: guide
     media_folder: /guide/resources
