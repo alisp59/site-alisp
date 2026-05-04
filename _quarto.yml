@@ -3,8 +3,8 @@ project:
   resources:
     - admin/**
 
-# execute:
-#   freeze: auto
+execute:
+  freeze: auto
 
 lang: fr
 

@@ -1,6 +1,6 @@
 /.quarto/
 /_site/
-/_freeze/
+# /_freeze/
 .Rproj.user
 **/*.quarto_ipynb
 /.posit/
