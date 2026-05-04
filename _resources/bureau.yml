@@ -1,21 +1,25 @@
 bureau:
-  - photo: victor_guerout.jpg
-    nom: "Victor GUEROUT"
+  - photo: _resources/images/bureau/victor_guerout-1.jpg
+    nom: Victor GUEROUT
     fonction: Président
     desc: Coordination générale
-  - photo: philippine_boulanger.jpg
-    nom: "Philippine BOULANGER"
+  - photo: _resources/images/bureau/philippine_boulanger-1.jpg
+    nom: Philippine BOULANGER
     fonction: Secrétaire
     desc: Gestion administrative
-  - photo: valentin_johnson.jpg
-    nom: "Valentin JOHNSON"
+  - photo: _resources/images/bureau/valentin_johnson-1.jpg
+    nom: Valentin JOHNSON
     fonction: Trésorier
     desc: Gestion financière
-  - photo: tristan_leguillette.jpg
-    nom: "Tristan LÉGUILLETTE"
+  - photo: _resources/images/bureau/tristan_leguillette-1.jpg
+    nom: Tristan LÉGUILLETTE
     fonction: Communication
-    desc: "Représentation de l'association"
-  - photo: julien_elices-diez.jpg
-    nom: "Julien ELICES-DIEZ"
+    desc: Représentation de l'association
+  - photo: _resources/images/bureau/julien_elices-diez-1.jpg
+    nom: Julien ELICES-DIEZ
     fonction: Webmaster
     desc: Gestion du site web
+  - photo: _resources/images/bureau/guide.jpg
+    nom: nom test
+    fonction: fonction test
+    desc: descripton test
