@@ -2,7 +2,9 @@ toc: true
 toc-title: " "
 date: last-modified
 published-title: "dernière mise à jour"
-grid:
-  sidebar-width: 400px
-  body-width: 1200px
-  margin-width: 400px
+format:
+  hebstr-template-html:
+    grid:
+      sidebar-width: 350px
+      body-width: 1200px
+      margin-width: 350px

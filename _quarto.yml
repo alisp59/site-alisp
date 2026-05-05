@@ -5,7 +5,7 @@ project:
   render:
     - "**/*.qmd"
     - "**/*.md"
-    - "!TODO.md"
+    - "!*.md"
 
 execute:
   freeze: auto
@@ -16,7 +16,7 @@ format:
   hebstr-template-html: default
 
 website:
-  title: "{{< var alisp >}}"
+  title: "ALiSP - Association Lilloise des Internes de Santé Publique"
   site-url: https://alisp.fr/
   description: "Association Lilloise des Internes de Santé Publique"
   open-graph: true

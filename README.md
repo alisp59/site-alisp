@@ -1,11 +1,7 @@
-# Site web de l'ALISP - [alisp.fr](https://alisp.fr)
+# Site web de l'ALISP : [alisp.fr](https://alisp.fr)
 
 Le site est généré avec [Quarto](https://quarto.org/) et hébergé sur [Netlify](https://www.netlify.com/).
 
-Pour alimenter le site sans avoir à toucher à git/GitHub, tout se fait via l'interface visuelle [Sveltia CMS](https://github.com/sveltia/sveltia-cms) :
+Pour alimenter le site, aller sur [alisp.fr/admin](https://alisp.fr/admin) puis se connecter avec le compte **alisp59**.
 
-1. Aller sur [alisp.fr/admin](https://alisp.fr/admin)
-2. Se connecter avec le compte GitHub **alisp59**
-3. Rédiger dans l'éditeur visuel puis cliquer sur **Save**
-
-Le site se met à jour automatiquement quelques minutes après la sauvegarde (déploiement Netlify déclenché à chaque commit sur `main`).
+Le site se met à jour automatiquement quelques secondes après chaque sauvegarde.

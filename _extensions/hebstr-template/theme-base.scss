@@ -326,10 +326,10 @@ nav.quarto-title-breadcrumbs {
           transform: scale(1.15);
         }
       }
-      .nav-link[href$="index.xml"] {
+      .nav-link[href$="blog.xml"] {
         transition: transform 0.3s ease;
         &:hover, &:focus-visible {
-          transform: scale(1.5);
+          transform: scale(1.15);
         }
       }
       .dropdown-menu {
@@ -351,7 +351,6 @@ nav.quarto-title-breadcrumbs {
   }
   .quarto-color-scheme-toggle .bi::before {
     background-image: none !important;
-    background-size: none !important;
     font-family: "Font Awesome 7 Free" !important;
     font-weight: 900 !important;
     font-size: 1.3rem;
@@ -511,9 +510,13 @@ nav.quarto-title-breadcrumbs {
     flex: 0 0 20%;
     aspect-ratio: 1.5;
     background-color: var(--primary);
+    -webkit-mask-image: url('_resources/images/sym.svg');
     mask-image: url('_resources/images/sym.svg');
+    -webkit-mask-size: contain;
     mask-size: contain;
+    -webkit-mask-repeat: no-repeat;
     mask-repeat: no-repeat;
+    -webkit-mask-position: center;
     mask-position: center;
   }
   .index-logo-alisp-social {
@@ -786,7 +789,7 @@ body.bureau {
         transform: none;
       }
     }
-    .navbar-nav .nav-link[href$="index.xml"] {
+    .navbar-nav .nav-link[href$="blog.xml"] {
       &:hover, &:focus-visible {
         transform: none;
       }

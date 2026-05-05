@@ -13,6 +13,9 @@ format:
 
 ::: callout-important
 # premières pages pour exemple, à complétér 
+
+[guide en cours de rédaction sur gdocs]({{< var links.guide >}})
+
 :::
 
 # Présentation

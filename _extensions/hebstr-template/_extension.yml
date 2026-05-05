@@ -25,7 +25,7 @@ contributes:
         dark: [theme-dark.scss, theme-base.scss]
       css: resources/fonts.css
       include-in-header:
-        - text: '<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">'
+        - text: '<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha384-rWj9FmWWt3OMqd9vBkWRhFavvVUYalYqGPoMdL1brs/qvvqz88gvLShYa4hKNyqb" crossorigin="anonymous">'
     # typst:
     #   font-paths: resources/fonts
     #   html-table-processing: none

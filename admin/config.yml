@@ -10,7 +10,7 @@ backend:
     uploadMedia: "assets: upload {{path}}"
     deleteMedia: "assets: delete {{path}}"
 
-publish_mode: editorial_workflow
+# publish_mode: editorial_workflow
 
 media_folder: _resources/sveltia
 public_folder: /_resources/sveltia
@@ -106,27 +106,8 @@ collections:
 
   - divider: true
 
-  - name: guide-index
-    label: "Guide > index"
-    icon: description
-    files:
-      - name: guide-index
-        label: "Guide > index"
-        file: guide.qmd
-        media_folder: /guide/resources
-        public_folder: /guide/resources
-        extension: qmd
-        frontmatter_delimiter: "---"
-        fields:
-          - name: title
-            label: Titre
-            widget: string
-          - name: body
-            label: Contenu
-            widget: markdown
-
-  - name: guide-sections
-    label: "Guide > sections"
+  - name: guide
+    label: Guide du néo-interne
     icon: description
     label_singular: Page
     folder: guide
