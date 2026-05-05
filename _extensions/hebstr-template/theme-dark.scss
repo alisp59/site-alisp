@@ -28,7 +28,7 @@ $callout-bg-mix: 88% !default;
 /*-- scss:rules --*/
 
 #quarto-header .navbar {
-  background-color: color-mix(in srgb, #{$primary}, transparent 30%) !important;
+  background-color: color-mix(in srgb, #{$primary}, black 30%) !important;
   .navbar-nav .nav-link,
   .quarto-color-scheme-toggle,
   .quarto-navbar-tools a {
