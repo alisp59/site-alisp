@@ -10,7 +10,7 @@ bureau:
   - photo: _resources/images/bureau/valentin_johnson.jpg
     nom: Valentin JOHNSON
     fonction: Trésorier
-    desc: Gestion financière Il n'y a pas de déficit s'il n'y a pas de budget
+    desc: Gestion financière "Il n'y a pas de déficit s'il n'y a pas de budget"
   - photo: _resources/images/bureau/tristan_leguillette.jpg
     nom: Tristan LÉGUILLETTE
     fonction: Communication
