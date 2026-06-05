@@ -14,6 +14,7 @@ set -uo pipefail
 # Paths that never affect the published site. Add more here as needed.
 ignored_paths=(
   ":!TODO.md"
+  ":!README.md"
 )
 
 # No cached ref (first build, cleared cache, brand-new branch): build.
