@@ -1,13 +1,13 @@
 ---
 title: test article 2
-author: XXX
+author: YYY
 date: 2025-11-01
-slug: test-blog-2
+description: Description
 categories:
   - catégorie A
   - catégorie C
-description: Description
 image: guide.jpg
+slug: test-blog-2
 ---
 
 # Excepteur in incididunt
