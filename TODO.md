@@ -1,14 +1,14 @@
-# TODO — site-alisp
+# en cours
 
-## P0
+- formulaire : test OK (confirmation mail à checker)
+- guide 
 
-## P1
+# à faire
 
-- [ ] formulaire : test OK *(en cours : confirmation mail à checker)*
-- [ ] guide *(en cours)*
+- autorisation trombinoscope
+- placeholders à remplacer +/- content à ajouter (placer texte dans propositions)
+- tests blog à suppr/remplacer par du content (alisp.fr/admin)
 
-## P2
+# propositions / remarques
 
-- [ ] autorisation trombinoscope
-- [ ] placeholders à remplacer +/- content à ajouter (placer texte dans propositions)
-- [ ] tests blog à suppr/remplacer par du content (alisp.fr/admin)
+- 
