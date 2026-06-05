@@ -24,7 +24,8 @@ social_icon <- \(id, icon, title = id, set = "fa6-brands", external = TRUE) {
 
 bureau_card <- \(photo, nom, fonction, desc) {
   nom_nbsp <- stringr::str_replace_all(nom, "\\s", "&nbsp;")
-  glue_qmd("
+  glue_qmd(
+    "
   ::: {.bureau-card}
   <img src='<<photo>>' alt='<<nom>>' class='bureau-photo'>
   <div class='bureau-info'>
@@ -33,5 +34,6 @@ bureau_card <- \(photo, nom, fonction, desc) {
     <p class='bureau-desc'><<desc>></p>
   </div>
   :::
-  ")
+  "
+  )
 }

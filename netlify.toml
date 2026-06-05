@@ -3,3 +3,4 @@ package = "@quarto/netlify-plugin-quarto"
 
 [build]
 publish = "_site"
+ignore = "bash _netlify/ignore-build.sh"
