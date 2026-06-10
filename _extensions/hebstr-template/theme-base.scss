@@ -1,5 +1,9 @@
 /*-- scss:rules --*/
 
+// Global down-scale: the site was authored against an 80%-zoomed browser, so
+// emulate that at 100% browser zoom. zoom uniformly scales px/rem/vw/images.
+$site-zoom: 0.8;
+
 :root {
   --primary: #{$primary};
   --primary-back: #{$primary-back};
@@ -27,8 +31,31 @@ body {
 }
 
 html {
+  zoom: $site-zoom;
   scrollbar-color: var(--primary) var(--primary-back);
   scrollbar-width: thin;
+}
+
+// zoom desynchronises vh from the real viewport, so Quarto's two viewport-based
+// layout rules break: the sticky footer (.quarto-container min-height) floats up
+// and the full-height sidebar (.sidebar max-height) stops short. A full viewport
+// under the zoom is 100vh / $site-zoom; applying it to both restores the layout.
+body.nav-fixed {
+  display: flex;
+  flex-direction: column;
+  min-height: calc(100vh / #{$site-zoom});
+}
+body.nav-fixed > #quarto-content {
+  flex: 1 0 auto;
+}
+body.nav-fixed > .nav-footer {
+  flex-shrink: 0;
+}
+
+// !important: Quarto loads its bootstrap bundle three times (light/dark/light),
+// so source order cannot reliably override its `.sidebar { max-height: 100vh }`.
+.sidebar {
+  max-height: calc(100vh / #{$site-zoom}) !important;
 }
 
 #listing-blog-posts {

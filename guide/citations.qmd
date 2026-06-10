@@ -1,6 +1,6 @@
 ---
 title: Citations d'internes
-date: ''
+date: ""
 ---
 
 "L'important n'est pas la taille du script R mais comment on l'utilise" - Julien, aime les belles courbes (épidémiologiques)

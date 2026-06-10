@@ -21,6 +21,8 @@ format:
 ---
 
 ```{r}
+#| label: source-helpers
+
 source(here::here("_resources/helpers.R"))
 ```
 

@@ -3,16 +3,13 @@ page-layout: custom
 ---
 
 ::: {.page-content style="gap: 2rem;"}
-
-::: {.column width="40%"}
-
+::::: {.column width="40%"}
 # Titre
 
 {{< lipsum 1 >}}
+:::::
 
-:::
-
-::: {.column .embed-container width="60%"}
+::::: {.column .embed-container width="60%"}
 <iframe
   class="embed-form"
   src="{{< var links.airtable >}}"
@@ -22,6 +19,5 @@ page-layout: custom
   sandbox="allow-scripts allow-same-origin allow-forms allow-popups"
   onload="this.classList.add('loaded')">
 </iframe>
-:::
-
+:::::
 :::

@@ -3,26 +3,23 @@ title: "Bureau"
 body-classes: bureau
 ---
 
-:::: {.column-screen}
-
+::: {.column-screen}
 # Qui sommes-nous ?
 
-::: {.bureau-grid}
-
+::::: {.bureau-grid}
 ```{r}
 #| output: asis
+
 source(here::here("_resources/helpers.R"))
 
 yaml12::read_yaml(here::here("_resources", "bureau.yml"))$bureau |>
   purrr::map_chr(~ bureau_card(.$photo, .$nom, .$fonction, .$desc)) |>
   cat(sep = "\n\n")
 ```
+:::::
 
-:::
-
-::: {.page-content}
-
-::: {.column width="40%"}
+::::: {.page-content}
+::::::: {.column width="40%"}
 # Maison Régionale de la Recherche Clinique, CHU de Lille
 <iframe 
   src="{{< var links.map >}}" 
@@ -32,15 +29,13 @@ yaml12::read_yaml(here::here("_resources", "bureau.yml"))$bureau |>
   sandbox="allow-scripts"
   loading="lazy">
 </iframe>
-:::
+:::::::
 
-::: {.column width="60%" class="embed-container"}
-::: callout-important
+::::::: {.column width="60%" class="embed-container"}
+::::::::: callout-important
 # attente autorisation trombi
-:::
+:::::::::
 <iframe src="{{< var docs.trombi >}}"></iframe>
+:::::::
+:::::
 :::
-
-:::
-
-::::

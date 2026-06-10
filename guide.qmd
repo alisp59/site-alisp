@@ -12,7 +12,7 @@ format:
 ---
 
 ::: callout-important
-# premières pages pour exemple, à complétér 
+# premières pages pour exemple, à complétér
 :::
 
 # Présentation
