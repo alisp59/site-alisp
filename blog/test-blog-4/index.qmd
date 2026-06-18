@@ -1,18 +1,20 @@
 ---
-title: test article 4
-author: XXX
-date: 2025-11-17
-slug: test-blog-4
+title: JCISP 2026
+author: ALISP
+date: 2026-06-18
+description: Une après-midi enrichissante !
 categories:
-  - catégorie C
-description: Description
-image: apero-info.jpg
+  - JCISP
+image: ''
+slug: JCISP
 ---
 
-# un titre
+💥 La Journée de communication des internes de Santé Publique des Hauts-de-France a eu lieu mardi 16 juin et a été encore une fois une belle réussite !
 
-{{< lipsum 1 >}}
+📅 Au programme : des présentations passionnantes sur des thèmes aussi variés que l'information médicale, la santé cardio-vasculaire, la préparation sanitaire, la pharmacovigilance et l'addictologie.
 
-## un sous titre
+🗣️ Les discussions ont mis en lumière des approches innovantes pour améliorer la qualité des soins, renforcer la pertinence des données et optimiser la préparation sanitaire en France. Elles ont aussi rappelé l’importance fondamentale des registres de morbi-mortalité pour la recherche.
 
-{{< lipsum 2 >}}
+Une journée qui a confirmé, une fois de plus, la diversité des travaux menés dans le domaine de la santé publique.
+
+❤️ Un grand merci à tous ceux qui ont contribué à faire de cet événement un moment aussi enrichissant !
