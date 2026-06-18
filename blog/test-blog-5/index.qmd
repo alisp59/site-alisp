@@ -1,27 +1,38 @@
 ---
-title: TEST article 5
-author: YYY
-date: 2026-05-04
-description: description test
+title: Apéro Info - Santé Publique à Lille
+author: ALISP
+date: 2026-06-18
+description: Le 02 juillet 2026 à 19h
 categories:
-  - cat 1
-  - cat 2
-image: clisp_nl.png
+  - Apér-Info
+image: Visuel Apero Info 2 Juillet 2026.png
 slug: test-blog-5
 ---
 
-# Excepteur in incididunt
+APÉRO-INFO SANTÉ PUBLIQUE
 
-Occaecat ut irure anim in eu in est labore elit.
-Lorem labore aliquip aute reprehenderit ea est labore voluptate eiusmod.
-Nulla culpa cillum irure non proident culpa nostrud nisi duis.
-Et dolore reprehenderit nostrud do magna elit duis deserunt tempor.
-Ut nulla ut consequat aute velit officia sit non cupidatat.
+Tu te poses des questions sur la santé publique ?
 
-## Ex magna ad
+Tu es externe et tu veux découvrir l’internat de santé publique ?
 
-Sunt amet excepteur exercitation anim minim aliqua elit sint veniam.
-Ex nulla voluptate occaecat do ipsum adipisicing laboris aute reprehenderit.
-Cillum duis ex nulla amet est tempor eiusmod enim sit.
-Aute duis laborum aliquip id nisi dolor in tempor sit.
-Minim sint culpa aliqua sint nisi ad laboris ullamco excepteur.
+ Viens échanger autour d’un verre avec tes futurs co-internes !
+
+ Jeudi 2 juillet 2026
+
+ À partir de 19h
+
+ Jardin Vauban – Lille
+
+ Des internes de toutes les promotions seront présents pour répondre à tes questions :
+
+• L’internat de santé publique à Lille
+
+• Les stages et parcours possibles
+
+• Les débouchés professionnels
+
+Que tu sois simplement curieux ou déjà intéressé par la spécialité, viens discuter librement avec nous !
+
+ Un petit message pour nous prévenir de ta venue est apprécié.
+
+Organisé par l’Association Lilloise des Internes de Santé Publique (ALISP)
