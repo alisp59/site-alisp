@@ -4,12 +4,12 @@ author: ALISP
 date: 2026-06-18
 description: Le 02 juillet 2026 à 19h
 categories:
-  - Apér-Info
+  - Apéro-Info
 image: Visuel Apero Info 2 Juillet 2026.png
-slug: test-blog-5
+slug: Apéro Info
 ---
 
-APÉRO-INFO SANTÉ PUBLIQUE
+[APÉRO-INFO SANTÉ PUBLIQUE]
 
 Tu te poses des questions sur la santé publique ?
 
@@ -17,22 +17,18 @@ Tu es externe et tu veux découvrir l’internat de santé publique ?
 
  Viens échanger autour d’un verre avec tes futurs co-internes !
 
- Jeudi 2 juillet 2026
-
- À partir de 19h
-
- Jardin Vauban – Lille
+Jeudi 2 juillet 2026
+À partir de 19h
+Jardin Vauban – Lille
 
  Des internes de toutes les promotions seront présents pour répondre à tes questions :
 
-• L’internat de santé publique à Lille
+- L’internat de santé publique à Lille
 
-• Les stages et parcours possibles
+- Les stages et parcours possibles
 
-• Les débouchés professionnels
+- Les débouchés professionnels
 
-Que tu sois simplement curieux ou déjà intéressé par la spécialité, viens discuter librement avec nous !
-
- Un petit message pour nous prévenir de ta venue est apprécié.
+Que tu sois simplement curieux ou déjà intéressé par la spécialité, viens discuter librement avec nous ! Un petit message pour nous prévenir de ta venue est apprécié.
 
 Organisé par l’Association Lilloise des Internes de Santé Publique (ALISP)
