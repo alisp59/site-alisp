@@ -8,6 +8,7 @@ body-classes: bureau
 
 ::::: {.bureau-grid}
 ```{r}
+#| label: bureau-card
 #| output: asis
 
 source(here::here("_resources/helpers.R"))
