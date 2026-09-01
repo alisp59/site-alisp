@@ -1,0 +1,40 @@
+---
+title: Les congrès de votre internat
+date: 2026-09-01
+---
+
+Les congrès de l'internat de santé publique constituent des événements majeurs pour les internes, offrant des opportunités de formation, d'échanges et de développement professionnel. Ces rencontres sont organisées à différentes fréquences et avec des objectifs spécifiques, reflétant la diversité des besoins et des étapes de la formation en santé publique.
+
+**Le SANI : Séminaire d'Accueil des Nouveaux Internes de Santé Publique**
+
+Le SANI est un événement spécialement conçu pour accueillir les nouveaux internes de santé publique. Ce séminaire vise à faciliter leur intégration dans le monde de l'internat, à leur présenter les enjeux et les spécificités de la discipline et à leur offrir un premier aperçu des différentes facettes de la santé publique. Il contribue ainsi à forger une cohésion au sein de la promotion et à instaurer un sentiment d'appartenance à la communauté des internes de santé publique. Il est habituellement organisé en septembre ou en octobre avant le début de l’internat.
+
+🌐 [https://clisp.fr/sani/](https://clisp.fr/sani/)
+
+**Le CLISPro : Congrès Professionnalisant des Internes de Santé Publique**
+
+Le CLISPro, également organisé chaque année, se concentre sur l'aspect professionnalisant de la formation. Ce congrès national propose des ateliers, des conférences et des retours d'expériences visant à approfondir les compétences techniques et transversales des internes de santé publique. Le CLISPro est une occasion unique pour les internes de se confronter aux réalités du terrain, de découvrir de nouvelles approches et de renforcer leur expertise en vue de leur future carrière. C'est un forum d'apprentissage dynamique où les internes peuvent interagir avec des professionnels expérimentés et des experts reconnus. Chaque année, une session spéciale est dédiée à la présentation de travaux d’internes, évalués par un jury d’internes et récompensés par le prix du CLISPro.
+
+🌐 [https://clisp.fr/clispro/](https://clisp.fr/clispro/)
+
+**Le CNISP : Congrès National des Internes de Santé Publique**
+
+Le CNISP est le congrès annuel des internes de santé publique, il se déroule chaque année dans une ville différente. Il réunit un large public autour de conférences, tables rondes et communications (orales et affichées) présentant les travaux de recherche des internes. C'est une plateforme d'échanges scientifiques et professionnels essentielle, favorisant la diffusion des connaissances, le débat sur la santé publique et la mise en réseau. L'alternance des villes enrichit la perspective des participants en soulignant les spécificités régionales.
+
+🌐 [https://www.cnisp.fr/](https://www.cnisp.fr/)
+
+**Le Congrès de la SFSP (Société Française de Santé Publique)**
+
+Ce congrès organisé tous les deux ans par la Société Française de Santé Publique est un événement d'envergure nationale ouvert à l'ensemble des acteurs de la santé publique, y compris les internes. Ce congrès représente une opportunité exceptionnelle pour les internes de s'immerger dans la communauté de la santé publique. Il offre la possibilité de découvrir les dernières avancées scientifiques, les politiques de santé publique en cours, et les innovations dans un grand nombre de domaines. Nous pouvons y présenter nos travaux, assister à des conférences animées par des experts de renom et échanger avec des chercheurs et décideurs. Il est habituel que certains internes y participent en tant que bénévoles. 
+
+🌐[https://www.congres.sfsp.fr/](https://www.congres.sfsp.fr/)
+
+**Spring Meeting d'Euronet MRPH**
+
+Le congrès d’Euronet a lieu tous les ans et rassemble des internes venus de nombreux pays d’Europe, c’est l’occasion de rencontrer des collègues internationaux, perfectionner son anglais, découvrir de nouvelles cultures et modes de pratique. De plus, il est possible de présenter en anglais un article scientifique sur lequel on a travaillé lors de son internat de santé publique.
+
+🌐[https://euronetmrph.org/](https://euronetmrph.org/)
+
+**Congrès EMOIS**
+
+Piloté par le Centre d'études et de recherche en informatique médicale, le congrès EMOIS se consacre à l'information médicale sous toutes ses formes : de sa collecte (codage, systèmes d'information) à son utilisation clinique ou administrative (soin, PMSI, T2A), jusqu'à ses applications en recherche, épidémiologie et pilotage. Chaque année, cet événement rassemble entre 320 et 450 experts issus de divers horizons, tels que des DIM, cliniciens, soignants, chercheurs, informaticiens, statisticiens, ainsi que des gestionnaires et décideurs en santé publique.
