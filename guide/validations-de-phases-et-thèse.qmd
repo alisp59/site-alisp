@@ -1,0 +1,42 @@
+---
+title: Validations de phases et thèse
+date: 2026-09-01
+---
+
+## **Validations de phases** 
+
+La validation de chaque phase du D.E.S. se déroule lors d’une commission de coordination de la spécialité.
+
+Pour les phases socle et d’approfondissement, il s’agit d’une commission locale comportant le coordonnateur local du D.E.S. de santé publique, deux autres enseignants (l’un du D.E.S. et l’autre affilié à un autre D.E.S.), un médecin de la spécialité désigné par le conseil départemental de l’ordre des médecins et deux internes (dont un au moins du D.E.S.).
+
+Les outils à apporter pour valider sa phase d’internat sont : 
+
+- un diaporama des activités réalisées depuis le début du D.E.S.
+- le contrat de formation
+- le e-portfolio (excel) rempli 
+
+Le contrat de formation est un outil d'évaluation progressive, obligatoirement rédigé avant la validation de phase socle. Il mentionne le projet professionnel de l'étudiant ainsi que les objectifs pédagogiques de la formation à suivre au sein de la spécialité. Il précise les formations spécialisées transversales et les options souhaitées, le parcours recherche, le cas échéant et le sujet de thèse. Il spécifie les compétences à acquérir ou à développer au cours de la période de formation, les activités confiées aux étudiants en fonction des objectifs de formation ainsi que les connaissances à acquérir conformément à la maquette de formation et au projet professionnel.
+
+La validation de la phase de consolidation, quant à elle,  se fait au cours d’une commission régionale comportant le coordonnateur régional du D.E.S. de santé publique, les coordonnateurs locaux, trois autres enseignants (deux du D.E.S. et l’autre affilié à un autre D.E.S.), un médecin de la spécialité désigné par le conseil départemental de l’ordre des médecins et deux internes (un de chaque ville dont un au moins du D.E.S.). Les documents à apporter sont similaires que pour les autres phases. De plus, on demandera à l’interne de présenter un travail abouti réalisé lors de son D.E.S. (travail de stage, mémoire de master).
+
+Une inscription complémentaire en tant que Docteur sera nécessaire à la fin du DES.
+
+## **Thèse**
+
+La thèse doit être validée avant l’exercice de Dr Junior. 
+
+Dans cette rubrique, vous retrouverez des ressources pour vous aider à rédiger votre thèse : 
+
+Le site Objectif Thèse a été conçu par le Professeur Chazard, l’un de nos enseignants en biostatistiques. Ces ressources, multiples et pragmatiques (vidéos explicatives, supports divers aidant notamment pour la recherche bibliographique etc.), sont mises à disposition gratuitement.
+
+🌐[https://chazard.org/objectifthese/](https://chazard.org/objectifthese/)
+
+Vous trouverez sur ces liens des informations relatives aux modalités d'écriture des thèses de médecine ainsi que toutes les thèses de médecine ayant été rédigées par des internes et doctorants du CHU de Lille. 
+
+🌐[https://medecine.univ-lille.fr/theses/](https://medecine.univ-lille.fr/theses/)
+
+🌐[https://pepite.univ-lille.fr/ori-oai-search/](https://pepite.univ-lille.fr/ori-oai-search/)
+
+Parmi les outils disponibles pour faciliter la rédaction de votre thèse, BibliZap se distingue comme une solution innovante pour optimiser la recherche d’articles scientifiques. Face à la surcharge informationnelle et aux limites des moteurs de recherche traditionnels, BibliZap mise sur l’analyse des réseaux de citations : en exploitant une base de données massive, il permet d’explorer les liens entre les publications, offrant une méthode plus intuitive et efficace qu’une simple recherche sur PubMed. 
+
+🌐 [app.biblizap.org](http://app.biblizap.org)
