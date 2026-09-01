@@ -1,5 +1,6 @@
 ---
-title: "Découvrir la vie à Lille"
+title: Découvrir la vie à Lille
+date: ''
 ---
 
 Lille, métropole européenne dynamique, se distingue par son énergie étudiante, son ambiance chaleureuse et son riche patrimoine.
@@ -9,21 +10,15 @@ La ville offre une qualité de vie remarquable, combinant le dynamisme d'une gra
 
 Sa scène culturelle est particulièrement riche, avec des musées de premier plan (le Palais des Beaux-Arts, le musée de l'hospice comtesse ou encore la Piscine de Roubaix à une vingtaine de minutes du centre en métro), et une gastronomie de renommée mondiale (vous ne pourrez plus vous passer du célèbre welsh et de la carbonade flamande dans les estaminets typiques de la région).
 
+Au-delà de la métropole, les Hauts-de-France vous réservent des découvertes captivantes. Laissez-vous séduire par le charme intemporel des places d'Arras, l'effervescence culturelle de la région lensoise avec le Louvre-Lens, ou encore l'air de la Côte d’Opale et des plages de Dunkerque. Cette région est riche d'un patrimoine industriel et culturel fort ainsi que de paysages contrastés.
+
 Dotée d'un excellent réseau de transports et d'infrastructures modernes, la ville de Lille séduit par la diversité de ses quartiers, son engagement fort en faveur de l'innovation et de la santé ainsi que par la convivialité légendaire de ses habitants.
 
 C'est un environnement équilibré, stimulant et attractif, idéal pour s'épanouir, étudier et travailler dans le secteur hospitalier ou en administration publique.
 
 # Logement
 
-Il n'existe pas d'internat physique pour l'accueil et le logement des internes associé au CHU de Lille.
-Vous êtes invités à trouver un logement personnel lors de votre internat.
-Nous vous conseillons de vous y prendre le plus tôt possible car la demande de logements est très forte.
-
-Il existe dans la subdivision trois internats-logements :
-
-- au CH de Cambrai/Valenciennes (à voir s'il existe encore ou si possible d'y accéder)
-- au CH de Boulogne-sur-Mer
-- au CH de Dunkerque (pareil que cambrai valenciennes)
+Il n’existe pas d’internat physique pour l’accueil et le logement des internes associés au CHU de Lille. Vous êtes invités à trouver un logement personnel lors de votre internat. Nous vous conseillons de vous y prendre le plus tôt possible car la demande de logements est très forte dans la ville de Lille.
 
 # Se déplacer
 
@@ -45,7 +40,8 @@ Des opérateurs privés proposent également ce service en complément du servic
 L'ensemble de la métropole ainsi que de nombreuses villes alentours sont accessibles par les transports en commun : bus, métro ou tramway.
 Le site Ilevia regroupe les informations sur l'ensemble des services (incluant également le V'Lille).
 
-```{r}
+```plain
+{r}
 #| fig-cap: Réseau de transport de Lille et ses alentours
 
 knitr::include_graphics("resources/guide_transport.jpg")
@@ -73,6 +69,6 @@ Pour le calcul des indemnités kilométriques, on peut déclarer au maximum 40 k
 
 # Activité sportive
 
-Votre inscription en tant qu'étudiant à la faculté de Lille vous permet de bénéficier d'une offre variée d'activités sportives ou de bien-être.
+Votre inscription en tant qu’étudiant à la faculté de Lille vous permet de bénéficier d’une offre variée d’activités sportives ou de bien-être, n’hésitez pas à vous renseigner sur le lien ci-dessous, de nombreux sports sont proposés.
 
 [Le sport à l'Université de Lille](https://sport.univ-lille.fr/)
