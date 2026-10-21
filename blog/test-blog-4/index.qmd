@@ -6,7 +6,7 @@ description: Une après-midi enrichissante !
 categories:
   - JCISP
 image: ''
-slug: JCISP
+slug: Journée de Communication des Internes en Santé Publique 2026
 ---
 
 La Journée de communication des internes de Santé Publique des Hauts-de-France a eu lieu mardi 16 juin et a été encore une fois une belle réussite !
