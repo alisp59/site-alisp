@@ -2,7 +2,7 @@
 title: JCISP 2026
 author: ALISP
 date: 2026-06-18
-description: Une après-midi enrichissante !
+description: Retour sur une après-midi enrichissante !
 categories:
   - JCISP
 image: ''
