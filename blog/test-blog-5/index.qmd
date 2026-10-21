@@ -6,7 +6,7 @@ description: Le 02 juillet 2026 à 19h
 categories:
   - Apéro-Info
 image: Visuel Apero Info 2 Juillet 2026.png
-slug: Apéro Info
+slug: Apéro Info - Santé Publique à Lille
 ---
 
 [APÉRO-INFO SANTÉ PUBLIQUE]
