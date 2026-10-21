@@ -2,7 +2,7 @@
 title: Soirée de présentation de l'internat de médecine en Santé Publique - janvier 2026
 author: ALISP
 date: 2026-01-30
-description: Description
+description: Retrouvez ce replay du CLISP !
 categories:
   - Promotion de la spécialité
 image: pasted-image-1792569058750.png
