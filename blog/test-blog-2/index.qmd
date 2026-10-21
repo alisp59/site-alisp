@@ -2,7 +2,7 @@
 title: Parcours de médecins de santé publique
 author: ALISP
 date: 2026-10-21
-description: Description
+description: Retrouvez cette vidéo du CLISP !
 categories:
   - Parcours
 image: pasted-image-1792569286104.png
