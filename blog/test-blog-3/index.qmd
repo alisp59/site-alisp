@@ -5,7 +5,7 @@ date: 2026-07-02
 description: Retour sur le Congrès National des Internes de Santé Publique 2026 à Rennes
 categories:
   - Congrès
-image: ''
+image: pasted-image-1792569302623.png
 slug: Congrès National des Internes de Santé Publique 2026 à Rennes
 ---
 
