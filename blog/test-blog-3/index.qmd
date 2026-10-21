@@ -1,14 +1,18 @@
 ---
-title: test article 3
-author: XXX
-date: 2025-11-15
-slug: test-blog-3
+title: CNISP 2026 à Rennes
+author: ALISP
+date: 2026-07-02
+description: Retour sur le Congrès National des Internes de Santé Publique 2026 à Rennes
 categories:
-  - catégorie A
-  - catégorie B
-  - catégorie C
-description: Description
-image: guide_transport.jpg
+  - Congrès
+image: ''
+slug: CNISP
 ---
 
-{{< lipsum 1 >}}
+Du 29 juin au 1er juillet, plus d'une centaine d'internes en santé publique et de professionnel·les se sont réunis à Rennes autour du thème « Santé publique : acteur·ices des transformations ».
+
+Au programme : présentations riches et ateliers immersifs, pour s'approprier les enjeux de l'alimentation durable, de l'économie de la santé, de la santé environnement et des stratégies de transformation.
+
+Merci aux intervenants, au CLISP, à Santé Publique Ouest, ainsi qu'à l'équipe organisatrice et aux internes qui ont rendu ce congrès possible.
+
+Rendez-vous l'année prochaine !
