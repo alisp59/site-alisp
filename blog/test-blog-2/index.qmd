@@ -1,12 +1,11 @@
 ---
-title: test article 2
-author: YYY
-date: 2025-11-01
+title: Parcours de médecins de santé publique
+author: ALISP
+date: 2026-10-21
 description: Description
 categories:
-  - catégorie A
-  - catégorie C
-image: guide.jpg
+  - Parcours
+image: ''
 slug: test-blog-2
 ---
 
