@@ -1,0 +1,16 @@
+---
+title: Congrès MeetISP 2026
+author: ALISP
+date: 2026-10-17
+description: Le séminaire national résidentiel Meet ISP s'est déroulé à Biscarrosse du 12 au 16 octobre 2026.
+categories:
+  - Congrès
+image: pasted-image-1792570678101.png
+slug: Congrès MeetISP 2026
+---
+
+Organisé par l'Université de Bordeaux et l'ARS Nouvelle-Aquitaine, sous la coordination du CUESP, cet événement a permis aux internes en phase socle de valider leurs modules d'enseignement (économie, administration et politiques de santé) et de rencontrer des professionnel·les du secteur.
+
+Tous les détails et actualités sont disponibles sur le site officiel Meet ISP.
+
+[https://meet-isp.fr/](https://meet-isp.fr/)
