@@ -5,7 +5,7 @@ date: 2026-10-21
 description: Description
 categories:
   - Parcours
-image: ''
+image: pasted-image-1792569286104.png
 slug: Parcours de médecins de santé publique - Ep. 1
 ---
 
