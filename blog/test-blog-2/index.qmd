@@ -6,29 +6,9 @@ description: Description
 categories:
   - Parcours
 image: ''
-slug: test-blog-2
+slug: Parcours de médecins de santé publique - Ep. 1
 ---
 
-# Excepteur in incididunt
+Bonjour à tous, le Collège de liaison des Internes en Santé Publique nous propose une série de vidéos retraçant le parcours de plusieurs médecins de santé publique, retrouvez le premier épisode au sujet de Dr Marie Vasseur, médecin à l’ARS Bourgogne-Franche Comté.
 
-Occaecat ut irure anim in eu in est labore elit.
-Lorem labore aliquip aute reprehenderit ea est labore voluptate eiusmod.
-Nulla culpa cillum irure non proident culpa nostrud nisi duis.
-Et dolore reprehenderit nostrud do magna elit duis deserunt tempor.
-Ut nulla ut consequat aute velit officia sit non cupidatat.
-
-## Ex magna ad
-
-Sunt amet excepteur exercitation anim minim aliqua elit sint veniam.
-Ex nulla voluptate occaecat do ipsum adipisicing laboris aute reprehenderit.
-Cillum duis ex nulla amet est tempor eiusmod enim sit.
-Aute duis laborum aliquip id nisi dolor in tempor sit.
-Minim sint culpa aliqua sint nisi ad laboris ullamco excepteur.
-
-## Ea consequat
-
-Elit culpa ipsum incididunt exercitation qui sunt eu cupidatat sunt.
-Sint ipsum pariatur culpa ullamco amet ea quis voluptate consequat.
-Velit ipsum laborum amet magna voluptate eiusmod eu veniam in.
-Aliqua ea labore nisi ut ad sunt nostrud ut velit.
-Eu reprehenderit nisi culpa qui in irure in proident tempor.
+[https://www.youtube.com/watch?v=8vZL-MwNAgo](https://www.youtube.com/watch?v=8vZL-MwNAgo)
