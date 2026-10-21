@@ -1,36 +1,14 @@
 ---
-title: test article 1
-author: XXX
-date: 2025-10-01
-slug: test-blog-1
-categories:
-  - catégorie B
+title: Soirée de présentation de l'internat de médecine en Santé Publique - janvier 2026
+author: ALISP
+date: 2026-01-30
 description: Description
-image: sym.png
+categories:
+  - Promotion de la spécialité
+image: pasted-image-1792569058750.png
+slug: Soirée de présentation de l'internat de médecine de Santé Publique - janvier 2026
 ---
 
-# Excepteur in incididunt
+Bonjour à tous, le Collège de Liaison des Internes en Santé Publique a publié ce jour le replay de leur soirée de présentation de l'internat de médecine de santé publique, n'hésitez pas à y jeter un coup d'œil ! 
 
-Occaecat ut irure anim in eu in est labore elit.
-Lorem labore aliquip aute reprehenderit ea est labore voluptate eiusmod.
-Nulla culpa cillum irure non proident culpa nostrud nisi duis.
-Et dolore reprehenderit nostrud do magna elit duis deserunt tempor.
-Ut nulla ut consequat aute velit officia sit non cupidatat.
-
-![](../../_resources/images/apero-info.jpg)
-
-# Ex magna ad
-
-Sunt amet excepteur exercitation anim minim aliqua elit sint veniam.
-Ex nulla voluptate occaecat do ipsum adipisicing laboris aute reprehenderit.
-Cillum duis ex nulla amet est tempor eiusmod enim sit.
-Aute duis laborum aliquip id nisi dolor in tempor sit.
-Minim sint culpa aliqua sint nisi ad laboris ullamco excepteur.
-
-# Ea consequat
-
-Elit culpa ipsum incididunt exercitation qui sunt eu cupidatat sunt.
-Sint ipsum pariatur culpa ullamco amet ea quis voluptate consequat.
-Velit ipsum laborum amet magna voluptate eiusmod eu veniam in.
-Aliqua ea labore nisi ut ad sunt nostrud ut velit.
-Eu reprehenderit nisi culpa qui in irure in proident tempor.
+[https://www.youtube.com/watch?v=78lAfhN-OHs](https://www.youtube.com/watch?v=78lAfhN-OHs)
