@@ -1,10 +1,7 @@
-.quarto/
+**/.quarto/
 /.quarto/
-/_site/
-.Rproj.user
 **/*.quarto_ipynb
-/.posit/
-/_tmp/
-/.claude/
+/_site/
 /_archive/
 node_modules/
+/.claude/
