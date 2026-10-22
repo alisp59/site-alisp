@@ -7,8 +7,8 @@ project:
     - "**/*.md"
     - "!*.md"
 
-execute:
-  freeze: auto
+shortcodes:
+  - _lua/bureau-cards.lua
 
 lang: fr
 
@@ -68,8 +68,7 @@ website:
       </span>
     right: |
       <span>
-        Site conçu avec {{< iconify fa6-brands r-project title='R' >}} et
-        [{{< iconify simple-icons quarto title='Quarto' >}}](https://quarto.org/)
+        Site conçu avec [{{< iconify simple-icons quarto title='Quarto' >}}](https://quarto.org/)
       </span>
       <br>
       <span>[{{< var repo.text >}}]({{< var repo.href >}})</span>

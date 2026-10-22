@@ -20,12 +20,6 @@ format:
       margin-width: 0px
 ---
 
-```{r}
-#| label: source-helpers
-
-source(here::here("_resources/helpers.R"))
-```
-
 ::: {.index-logo .column-screen}
 ```{=html}
 <div class="index-logo-libelle">
@@ -41,11 +35,26 @@ source(here::here("_resources/helpers.R"))
 <div class="index-logo-alisp-social">
   <div class="index-logo-alisp"><p>AL<span class="strong-i">i</span>SP</p></div>
   <div class="index-logo-social">
-    `r social_icon(id = "mail", icon = "envelope", title = "Email", set = "fa6-solid", external = FALSE)`
-    `r social_icon(id = "insta", icon = "instagram", title = "Instagram")`
-    `r social_icon(id = "twitter", icon = "x-twitter", title = "X")`
-    `r social_icon(id = "facebook", icon = "facebook", title = "Facebook")`
-    `r social_icon(id = "linkedin", icon = "linkedin", title = "LinkedIn")`
+    <a href="{{< var social.mail.href >}}" title="Email" aria-label="Email">
+      <iconify-icon icon="fa6-solid:envelope" width="1.5em" height="1.5em" aria-hidden="true">
+      </iconify-icon>
+    </a>
+    <a href="{{< var social.insta.href >}}" title="Instagram" aria-label="Instagram" target="_blank" rel="noopener">
+      <iconify-icon icon="fa6-brands:instagram" width="1.5em" height="1.5em" aria-hidden="true">
+      </iconify-icon>
+    </a>
+    <a href="{{< var social.twitter.href >}}" title="X" aria-label="X" target="_blank" rel="noopener">
+      <iconify-icon icon="fa6-brands:x-twitter" width="1.5em" height="1.5em" aria-hidden="true">
+      </iconify-icon>
+    </a>
+    <a href="{{< var social.facebook.href >}}" title="Facebook" aria-label="Facebook" target="_blank" rel="noopener">
+      <iconify-icon icon="fa6-brands:facebook" width="1.5em" height="1.5em" aria-hidden="true">
+      </iconify-icon>
+    </a>
+    <a href="{{< var social.linkedin.href >}}" title="LinkedIn" aria-label="LinkedIn" target="_blank" rel="noopener">
+      <iconify-icon icon="fa6-brands:linkedin" width="1.5em" height="1.5em" aria-hidden="true">
+      </iconify-icon>
+    </a>
   </div>
 </div>
 ```

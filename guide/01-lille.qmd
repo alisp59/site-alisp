@@ -44,11 +44,7 @@ Des opérateurs privés proposent également ce service en complément du servic
 L'ensemble de la métropole ainsi que de nombreuses villes alentours sont accessibles par les transports en commun : bus, métro ou tramway.
 Le site Ilevia regroupe les informations sur l'ensemble des services (incluant également le V'Lille).
 
-```{r}
-#| fig-cap: Réseau de transport de Lille et ses alentours
-
-knitr::include_graphics(here::here("guide/_resources/guide-transport.jpg"))
-```
+![Réseau de transport de Lille et ses alentours](_resources/guide-transport.jpg){width=800}
 
 Une prise en charge partielle des frais de transport en commun par le CHU est possible mais il est nécessaire de le demander avant le 05 du mois en cours à l'adresse mail du pagrh de rattachement du bâtiment (bureau PAGRH dans chaque bâtiment/pôle).
 

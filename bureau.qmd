@@ -6,18 +6,7 @@ body-classes: bureau
 ::: {.column-screen}
 # Qui sommes-nous ?
 
-::::: {.bureau-grid}
-```{r}
-#| label: bureau-card
-#| output: asis
-
-source(here::here("_resources/helpers.R"))
-
-yaml::read_yaml(here::here("_resources", "bureau.yml"))$bureau |>
-  purrr::map_chr(~ bureau_card(.$photo, .$nom, .$fonction, .$desc)) |>
-  cat(sep = "\n\n")
-```
-:::::
+{{< bureau-cards >}}
 
 ::::: {.page-content}
 ::::::: {.column width="40%"}

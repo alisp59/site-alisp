@@ -4,14 +4,6 @@ version: 0.9.0
 quarto-required: ">=1.7.0"
 contributes:
   formats:
-    common:
-      knitr:
-        opts_chunk:
-          comment: "#>"
-          collapse: true
-          echo: false
-          message: false
-          warning: false
     html:
       toc: false
       smooth-scroll: true
