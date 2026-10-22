@@ -34,7 +34,7 @@ margin-footer: |
     target="_blank"
     rel="noopener noreferrer">
     <img
-      src="/_resources/images/clisp_nl.png"
+      src="/_resources/img/clisp-newsletter.png"
       alt="Newsletters du CLiSP"
       loading="lazy"
       style="margin-top:1.5rem;">

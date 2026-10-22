@@ -5,7 +5,7 @@ date: 2026-06-18
 description: Retour sur une après-midi enrichissante !
 categories:
   - JCISP
-image: /_resources/images/alisp.png
+image: /_resources/img/logo-alisp-vignette.png
 slug: JCISP 2026
 ---
 

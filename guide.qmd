@@ -2,8 +2,6 @@
 title: Guide du néo-interne
 toc: true
 toc-title: " "
-# date: last-modified
-# published-title: "dernière mise à jour"
 sidebar: guide
 format:
   hebstr-template-html:
@@ -16,6 +14,8 @@ format:
 ::: callout-important
 # premières pages pour exemple, à complétér
 :::
+
+![](/guide/_resources/guide-affiche.jpg)
 
 # Présentation
 

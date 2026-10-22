@@ -39,8 +39,8 @@ collections:
       - name: membres
         label: Membres du bureau
         file: _resources/bureau.yml
-        media_folder: _resources/images/bureau
-        public_folder: /_resources/images/bureau
+        media_folder: _resources/img/bureau
+        public_folder: /_resources/img/bureau
         fields:
           - name: bureau
             label: Membres
@@ -49,8 +49,8 @@ collections:
               - name: photo
                 label: Photo
                 widget: image
-                media_folder: _resources/images/bureau
-                public_folder: /_resources/images/bureau
+                media_folder: _resources/img/bureau
+                public_folder: /_resources/img/bureau
               - name: nom
                 label: Nom
                 widget: string
@@ -111,8 +111,8 @@ collections:
     icon: description
     label_singular: Page
     folder: guide
-    media_folder: /guide/resources
-    public_folder: /guide/resources
+    media_folder: guide/_resources
+    public_folder: /guide/_resources
     create: true
     extension: qmd
     frontmatter_delimiter: "---"

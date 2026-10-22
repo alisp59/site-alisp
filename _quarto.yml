@@ -21,7 +21,7 @@ website:
   description: "Association Lilloise des Internes de Santé Publique"
   open-graph: true
   twitter-card: true
-  favicon: _resources/images/sym.svg
+  favicon: _resources/img/logo-lille.svg
   announcement:
     icon: exclamation-circle-fill
     content: "Site en cours de construction. Pour toute demande, contactez-nous par mail : [contact@alisp.fr](mailto:contact@alisp.fr)"
@@ -30,7 +30,7 @@ website:
     dismissable: true
   navbar:
     pinned: false
-    logo: _resources/images/logo-navbar.svg
+    logo: _resources/img/logo-alisp-navbar.svg
     title: false
     right:
       - text: "bureau"
