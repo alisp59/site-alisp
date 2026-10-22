@@ -6,7 +6,7 @@ description: Retour sur le Congrès National des Internes de Santé Publique 202
 categories:
   - Congrès
 image: pasted-image-1792569302623.png
-slug: Congrès National des Internes de Santé Publique 2026 à Rennes
+slug: CNISP 2026 à Rennes
 ---
 
 Du 29 juin au 1er juillet, plus d'une centaine d'internes en santé publique et de professionnel·les se sont réunis à Rennes autour du thème « Santé publique : acteur·ices des transformations ».

@@ -1,0 +1,16 @@
+---
+title: Parcours de médecins de santé publique
+author: ALISP
+date: 2026-09-01
+description: Retrouvez cette vidéo du CLISP !
+categories:
+  - Parcours
+image: pasted-image-1792569286104.png
+slug: Parcours de médecins de santé publique
+---
+
+Le Collège de Liaison des Internes en Santé Publique nous propose une série de vidéos retraçant le parcours de plusieurs médecins de santé publique.
+
+Retrouvez le premier épisode au sujet de Dr Marie Vasseur, médecin à l'ARS Bourgogne-Franche Comté.
+
+[https://www.youtube.com/watch?v=8vZL-MwNAgo](https://www.youtube.com/watch?v=8vZL-MwNAgo)

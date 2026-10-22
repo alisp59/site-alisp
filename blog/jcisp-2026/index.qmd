@@ -5,15 +5,16 @@ date: 2026-06-18
 description: Retour sur une après-midi enrichissante !
 categories:
   - JCISP
-image: ''
-slug: Journée de Communication des Internes en Santé Publique 2026
+image: /_resources/images/alisp.png
+slug: JCISP 2026
 ---
 
 La Journée de communication des internes de Santé Publique des Hauts-de-France a eu lieu mardi 16 juin et a été encore une fois une belle réussite !
 
 Au programme : des présentations passionnantes sur des thèmes aussi variés que l'information médicale, la santé cardio-vasculaire, la préparation sanitaire, la pharmacovigilance et l'addictologie.
 
-Les discussions ont mis en lumière des approches innovantes pour améliorer la qualité des soins, renforcer la pertinence des données et optimiser la préparation sanitaire en France. Elles ont aussi rappelé l’importance fondamentale des registres de morbi-mortalité pour la recherche.
+Les discussions ont mis en lumière des approches innovantes pour améliorer la qualité des soins, renforcer la pertinence des données et optimiser la préparation sanitaire en France.
+Elles ont aussi rappelé l'importance fondamentale des registres de morbi-mortalité pour la recherche.
 
 Une journée qui a confirmé, une fois de plus, la diversité des travaux menés dans le domaine de la santé publique.
 
