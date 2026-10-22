@@ -1,4 +1,4 @@
-/.quarto/
+.quarto/
 /_site/
 .Rproj.user
 **/*.quarto_ipynb
@@ -6,3 +6,5 @@
 /_tmp/
 /.luarc.json
 /.claude/
+/_archive/
+node_modules/
