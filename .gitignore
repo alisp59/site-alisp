@@ -5,7 +5,6 @@
 **/*.quarto_ipynb
 /.posit/
 /_tmp/
-/.luarc.json
 /.claude/
 /_archive/
 node_modules/
