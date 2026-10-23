@@ -15,6 +15,10 @@ backend:
 media_folder: _resources/sveltia
 public_folder: /_resources/sveltia
 
+media_libraries:
+  all:
+    slugify_filename: true
+
 collections:
 
   - name: todo
