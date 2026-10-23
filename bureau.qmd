@@ -1,6 +1,7 @@
 ---
 title: "Bureau"
 body-classes: bureau
+anchor-sections: false
 ---
 
 ::: {.column-screen}
