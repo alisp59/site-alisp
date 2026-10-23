@@ -18,6 +18,19 @@ local function in_project(path)
   return project_dir .. "/" .. path
 end
 
+local function protect_paths(text)
+  local skipped = 0
+  local out = text:gsub("(\n[ \t]*%-?[ \t]*photo:[ \t]*)([^\n]*)", function(key, value)
+    local trimmed = value:match("^(.-)[ \t]*$")
+    if trimmed == "" or trimmed:find('[`"\\]') then
+      skipped = skipped + 1
+      return key .. value
+    end
+    return key .. '"`' .. trimmed .. '`"'
+  end)
+  return out, skipped
+end
+
 ---@return pandoc.MetaList|nil
 local function read_members(path)
   local fh = io.open(path)
@@ -27,7 +40,11 @@ local function read_members(path)
   end
   local text = fh:read("a")
   fh:close()
-  local ok, doc = pcall(pandoc.read, "---\n" .. text .. "\n---\n", "markdown")
+  local protected, skipped = protect_paths(text)
+  if skipped > 0 then
+    warn(skipped .. " photo path(s) left unprotected (empty or quoted value), the Markdown reader may alter them")
+  end
+  local ok, doc = pcall(pandoc.read, "---\n" .. protected .. "\n---\n", "markdown")
   if not ok then
     warn("cannot parse " .. path .. ": " .. tostring(doc))
     return nil
@@ -41,6 +58,12 @@ local function read_members(path)
   return members
 end
 
+local ESCAPES = { ["&"] = "&amp;", ["<"] = "&lt;", [">"] = "&gt;", ['"'] = "&quot;" }
+
+local function escape(text)
+  return (text:gsub('[&<>"]', ESCAPES))
+end
+
 ---@param member pandoc.MetaValue
 local function card(member, index)
   if pandoc.utils.type(member) ~= "table" then
@@ -49,20 +72,29 @@ local function card(member, index)
   end
   ---@cast member pandoc.MetaMap
   local value = {}
+  local problems = {}
   for _, field in ipairs(FIELDS) do
     if member[field] == nil then
-      warn("entry " .. index .. ": missing '" .. field .. "', card skipped")
-      return nil
+      problems[#problems + 1] = "missing '" .. field .. "'"
+    else
+      local text = pandoc.utils.stringify(member[field])
+      if text:match("^%s*$") then
+        problems[#problems + 1] = "empty '" .. field .. "'"
+      else
+        value[field] = escape(text)
+      end
     end
-    value[field] = pandoc.utils.stringify(member[field])
   end
-  local nom_nbsp = value.nom:gsub("%s", "&nbsp;")
+  if #problems > 0 then
+    warn("entry " .. index .. ": " .. table.concat(problems, ", ") .. ", card skipped")
+    return nil
+  end
   return table.concat({
     '<div class="bureau-card">',
-    '<img src="' .. value.photo .. '" alt="' .. value.nom .. '" class="bureau-photo">',
+    '<img src="' .. value.photo .. '" alt="" class="bureau-photo">',
     '<div class="bureau-info">',
     '<h2 class="bureau-nom">',
-    nom_nbsp,
+    value.nom,
     "</h2>",
     '<p class="bureau-fonction">',
     value.fonction,
@@ -77,7 +109,8 @@ end
 
 return {
   ["bureau-cards"] = function()
-    local members = read_members(in_project(DATA))
+    local path = in_project(DATA)
+    local members = read_members(path)
     if members == nil then
       return {}
     end
@@ -89,7 +122,7 @@ return {
       end
     end
     if #cards == 0 then
-      warn("no card rendered from " .. DATA)
+      warn("no card rendered from " .. path)
       return {}
     end
     return pandoc.Div({ pandoc.RawBlock("html", table.concat(cards, "\n")) }, pandoc.Attr("", { "bureau-grid" }))
