@@ -174,10 +174,43 @@ body:has(#listing-blog-posts) #title-block-header {
     height: auto;
   }
 
-  .quarto-listing-category-title,
+  .quarto-listing-category-title {
+    margin-left: 0;
+    margin-bottom: 0;
+    border-bottom: none;
+    color: color-mix(in srgb, var(--body), var(--body-back) 30%);
+    font-family: $font-family-monospace, ui-monospace, monospace;
+    font-size: 1.1rem;
+    letter-spacing: 0.02em;
+    text-transform: uppercase;
+  }
+
   .quarto-listing-category {
     margin-left: 0;
-    text-align: center;
+    padding-top: 0;
+
+    .category {
+      padding: 0.2rem 0 0.2rem 0.85rem;
+      color: color-mix(in srgb, var(--body), var(--body-back) 30%);
+      border-left: 1px solid color-mix(in srgb, var(--primary), white 80%);
+      font-family: $font-family-monospace, ui-monospace, monospace;
+      font-size: 0.9rem;
+      cursor: pointer;
+      transition:
+        color 0.2s ease,
+        border-color 0.2s ease;
+
+      &:hover {
+        color: var(--body);
+        font-weight: 600;
+      }
+
+      &.active {
+        color: var(--body);
+        border-left-color: var(--primary);
+        font-weight: 600;
+      }
+    }
   }
 
   nav[role="doc-toc"] {
@@ -626,12 +659,8 @@ nav.quarto-title-breadcrumbs {
     aspect-ratio: 1.5;
     background-color: var(--primary);
     mask-image: url("/_resources/img/logo-lille.svg");
-    mask-image: url("/_resources/img/logo-lille.svg");
-    mask-size: contain;
     mask-size: contain;
     mask-repeat: no-repeat;
-    mask-repeat: no-repeat;
-    mask-position: center;
     mask-position: center;
   }
 
@@ -918,6 +947,7 @@ body.bureau {
   align-items: center;
   padding: 2rem 1rem;
   background-color: var(--body-surface);
+  border: 1px solid color-mix(in srgb, var(--primary), white 80%);
   border-radius: 10px;
 
   .bureau-photo {
@@ -926,7 +956,6 @@ body.bureau {
     border-radius: 10px;
     object-fit: cover;
     object-position: center top;
-    border: 2px solid color-mix(in srgb, var(--primary), white 80%);
     margin-bottom: 1rem;
   }
 
