@@ -1,5 +1,5 @@
 ---
-title: Guide du néo-interne
+title: ""
 toc: true
 toc-title: " "
 sidebar: guide
@@ -10,10 +10,6 @@ format:
       body-width: 1200px
       margin-width: 350px
 ---
-
-::: callout-important
-# premières pages pour exemple, à complétér
-:::
 
 ![](/guide/_resources/guide-affiche.jpg)
 
