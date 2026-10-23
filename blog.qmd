@@ -37,6 +37,6 @@ margin-footer: |
       src="/_resources/img/clisp-newsletter.png"
       alt="Newsletters du CLiSP"
       loading="lazy"
-      style="margin-top:1.5rem;">
+      style="margin-top:1.5rem;border-radius:12px">
   </a>
 ---
