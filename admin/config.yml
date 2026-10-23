@@ -21,21 +21,6 @@ media_libraries:
 
 collections:
 
-  - name: todo
-    label: TODO
-    icon: checklist
-    files:
-      - name: todo
-        label: TODO
-        file: TODO.md
-        extension: md
-        fields:
-          - name: body
-            label: Contenu
-            widget: markdown
-
-  - divider: true
-
   - name: bureau
     label: Bureau
     icon: groups

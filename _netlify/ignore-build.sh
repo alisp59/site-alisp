@@ -4,7 +4,7 @@
 # Exit 0 => Netlify skips the build. Exit 1 => Netlify builds.
 #
 # Skip the build when a push touches only repo-internal files that do not affect
-# the rendered site (e.g. TODO.md). The commit is still pushed to the repo; only
+# the rendered site (e.g. README.md). The commit is still pushed to the repo; only
 # the Netlify deploy is cancelled. The decision defaults to "build"; only a
 # confident "nothing but ignored files changed" flips it to "skip", and the exit
 # code is always normalised to 0 or 1 (never a raw git error code).
@@ -13,7 +13,6 @@ set -uo pipefail
 
 # Paths that never affect the published site. Add more here as needed.
 ignored_paths=(
-  ":!TODO.md"
   ":!README.md"
 )
 
